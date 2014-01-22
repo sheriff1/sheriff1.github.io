@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face
+{
+font-family: fonstreet;
+src: url('____.ttf'),
+     url('____.eot'); /* IE9+ */
+}
+
+html
+{
+	width:100%;
+	height:100%;
+	overflow-y:auto;
+	overflow-x:hidden;
+	background-color: #ffffff;
+}
+
+body
+{
+	margin: auto;
+	width:100%;
+	height:100%;
+}
+
+.pad{
+  padding-top: 30px;
+}
+#about{
+  background-color: rgba(0, 0, 0, 0.8); 
+  display: none;
+}
+#work{
+  background-color: rgba(17, 102, 255, 0.8);
+}
+#social{
+  background-color: rgba(255, 238, 34, 0.8); 
+}
+#contact{
+  background-color: rgba(85, 255, 34, 0.8);
+}
+
+.newboxes
+{
+ display: none;
+ padding-top: 105px;
+ padding-left: 10px; 
+ margin-top: -100px;
+ height: 300px;
+ margin-left: auto ;
+ margin-right: auto ;
+ overflow: auto;
+}
+
+#men1
+{
+      background:url(../images/bag6.jpg) center;
+}
+
+#men2
+{
+      background:url(../images/bag10.jpg) center;
+}
+#men3
+{
+      background:url(../images/bag4.jpg) center;
+}
+#men4
+{
+      background:url(../images/bag3.jpg) center;
+}
+
+.menuItems
+{
+ color: #000000;
+ font-size:250%;
+ font-family: 'Nobile', sans-serif;
+ text-shadow:3px 3px #000000; 
+ margin: auto;
+ position:absolute;
+ text-align: center;
+ left: 0;
+ right:0;
+}
+.menuItems a
+{
+  text-decoration:none;
+  color:#ffffff;
+}
+
+header
+{
+ color: #000000;
+ font-size:400%;
+ font-family: 'Rock Salt', sans-serif;
+ margin: auto;
+ text-align:center;
+}
+header a
+{
+  text-decoration:none;
+  color:#000000;
+}
+
+footer
+{
+  background-color:#eeeeee;
+  height:20px;
+  display: block;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}

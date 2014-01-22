@@ -1,1 +1,88 @@
-Hello, world
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="utf-8">
+   <title>Sheriff Jolaoso</title>
+        <link rel="stylesheet" type="text/css" href="css/style8.css" />
+        <link href="css/index.css" rel="stylesheet" type="text/css" />
+        <link href='http://fonts.googleapis.com/css?family=Rock+Salt|Nobile|Patua+One' rel='stylesheet' type='text/css'>
+         <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+         <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+         <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+ </head>
+ 
+ <body> 
+      <header>
+          <a href="#"> Sheriff Man dot Com </a>
+      </header>
+
+<!---------------------------------------------------------------------------->
+         <div class="view-eighth" id="men1">
+            <h3 class= "menuItems"><a href="javascript:showonlyone('about');"><div class="pad">About Me</div> </a></h3>
+            <div class="mask1">
+            </div>
+            
+            <div class="newboxes about" id="about">CONTENT</div>
+         </div>
+           
+<!---------------------------------------------------------------------------->
+         <div class="view-eighth" id="men2">
+            <h3 class= "menuItems"><a href="javascript:showonlyone('work');"><div class="pad">Projects</div> </a></h3>
+                <div class="mask2">
+                </div>
+            <div class="newboxes" id="work">CONTENT</div>
+         </div>
+<!---------------------------------------------------------------------------->
+         <div class="view-eighth" id="men3">
+            <h3 class= "menuItems"><a href="javascript:showonlyone('social');"><div class="pad">Academics</div> </a></h3>
+            <div class="mask3">
+            </div>
+            <div class="newboxes" id="social">CONTENT</div>
+         </div>
+<!---------------------------------------------------------------------------->
+        <div class="view-eighth" id="men4">
+            <h3 class= "menuItems"><a href="javascript:showonlyone('contact');"><div class="pad">Social</div> </a></h3>
+            <div class="mask4">
+            </div>
+            <div class="newboxes" id="contact">CONTENT</div>
+         </div>
+<!---------------------------------------------------------------------------->        
+
+<footer>Sheriff Jolaoso (C) 2014</footer>
+
+<!--only one div showing at a time JS-->
+<script type="text/javascript">
+
+var tempIndex = -1;
+
+function showonlyone(topic) {
+
+     $('.newboxes').each(function(index) {
+          if ($(this).attr("id") == topic) {
+
+               $(this).slideToggle("slow");
+
+               if (document.body && (tempIndex!=index)){
+                    tempIndex=index;
+               }
+               else
+               {
+                    document.body.background = "";
+                    tempIndex = -1;
+               }
+
+          }
+          else {
+
+               $(this).hide(600);
+
+          }      
+     });
+}
+
+</script>
+        
+</div>
+ 
+ </body>
+ </html>
