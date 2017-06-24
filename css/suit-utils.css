@@ -1,4 +1,4 @@
-//  Inspired by Nicholas Gallagher's suit-utils
+/*  Inspired by Nicholas Gallagher's suit-utils
 //  https://github.com/necolas/suit-utils/blob/master/space.css
 //
 //  Used to adjust the default spacing between components
@@ -19,9 +19,7 @@
 //  s = small (0.5em)
 //  m = medium (1em)
 //  l = large (2em)
-//
-
-// All
+*/
 
 .u-pad-an { padding: 0 !important; }
 .u-pad-as { padding: 0.5em !important; }
@@ -33,8 +31,6 @@
 .u-space-am { margin: 1em !important; }
 .u-space-al { margin: 2em !important; }
 
-// Vertical
-
 .u-pad-vn { padding-top: 0 !important; padding-bottom: 0 !important; }
 .u-pad-vs { padding-top: 0.5em !important; padding-bottom: 0.5em !important; }
 .u-pad-vm { padding-top: 1em !important; padding-bottom: 1em !important; }
@@ -44,8 +40,6 @@
 .u-space-vs { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }
 .u-space-vm { margin-top: 1em !important; margin-bottom: 1em !important; }
 .u-space-vl { margin-top: 2em !important; margin-bottom: 2em !important; }
-
-// Horizontal
 
 .u-pad-hn { padding-left: 0 !important; padding-right: 0 !important; }
 .u-pad-hs { padding-left: 0.5em !important; padding-right: 0.5em !important; }
@@ -57,8 +51,6 @@
 .u-space-hm { margin-left: 1em !important; margin-right: 1em !important; }
 .u-space-hl { margin-left: 2em !important; margin-right: 2em !important; }
 
-// Top
-
 .u-pad-tn { padding-top: 0 !important; }
 .u-pad-ts { padding-top: 0.5em !important; }
 .u-pad-tm { padding-top: 1em !important; }
@@ -68,8 +60,6 @@
 .u-space-ts { margin-top: 0.5em !important; }
 .u-space-tm { margin-top: 1em !important; }
 .u-space-tl { margin-top: 2em !important; }
-
-// Bottom
 
 .u-pad-bn { padding-bottom: 0 !important; }
 .u-pad-bs { padding-bottom: 0.5em !important; }
@@ -81,8 +71,6 @@
 .u-space-bm { margin-bottom: 1em !important; }
 .u-space-bl { margin-bottom: 2em !important; }
 
-// Left
-
 .u-pad-ln { padding-left: 0 !important; }
 .u-pad-ls { padding-left: 0.5em !important; }
 .u-pad-lm { padding-left: 1em !important; }
@@ -92,8 +80,6 @@
 .u-space-ls { margin-left: 0.5em !important; }
 .u-space-lm { margin-left: 1em !important; }
 .u-space-ll { margin-left: 2em !important; }
-
-// Right
 
 .u-pad-rn { padding-right: 0 !important; }
 .u-pad-rs { padding-right: 0.5em !important; }
