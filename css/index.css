@@ -3,12 +3,12 @@
 
 /*HEADER REFERENCE: https://codepen.io/team/css-tricks/pen/YqaKYR*/
 header{
-  background-color: #fff;
-  color: #000;
+  background-color: #F5F7FA;
+  color: #252525;
 }
 
 #header-content{
-  border-bottom: 1px solid #d6d6d6;
+  border-bottom: 1px solid #ECF0F1;
 }
 
 #header-name{
@@ -33,12 +33,16 @@ header{
   color: inherit;
   display: block;
 }
+
+#logo{
+  display: inline-block;
+}
 /*HEADER REFERENCE: https://codepen.io/team/css-tricks/pen/YqaKYR*/
 
 /*FOOTER REFERENCE: https://css-tricks.com/couple-takes-sticky-footer*/
 footer{
-  background-color: #d6d6d6;
-  color: #000;
+  background-color: #252525;
+  color: #F5F7FA;
   height: 50px;
 }
 #main-content{
@@ -51,15 +55,18 @@ footer{
 }
 
 #main-hero{
-  background-color: aqua;
+  background-color: #236d9e;
+  color: #F5F7FA;
 }
 
 #project-featurette{
-  background-color: #40e141;
+  background-color: #F5F7FA;
+  color: #252525;
 }
 
 #blog-featurette{
-  background-color: #d0e061;
+  background-color: #2ec96e;
+  color: #252525;
 }
 
 /*MEDIUM BREAKPOINT - 767px from semantic.min.css*/
