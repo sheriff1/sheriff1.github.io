@@ -38,6 +38,22 @@ footer{
 }
 /*FOOTER REFERENCE: https://css-tricks.com/couple-takes-sticky-footer*/
 
+.content-space{
+  height: 400px;
+}
+
+#main-hero{
+  background-color: aqua;
+}
+
+#project-featurette{
+  background-color: #40e141;
+}
+
+#blog-featurette{
+  background-color: #d0e061;
+}
+
 /*MEDIUM BREAKPOINT*/
 @media all and (max-width: 800px) {
 
