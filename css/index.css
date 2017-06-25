@@ -14,7 +14,6 @@ header{
 #header-name{
   font-family: 'Montserrat', sans-serif;
 }
-
 .navigation {
   list-style: none;
   margin: 0; 
@@ -61,6 +60,13 @@ footer{
 #main-hero{
   background-color: #236d9e;
   color: #F5F7FA;
+  position: relative;
+}
+#main-hero-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #project-featurette{
