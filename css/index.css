@@ -63,9 +63,10 @@ footer{
 }
 
 #main-hero{
-  background-color: #236d9e;
-  color: #F5F7FA;
+  background-color: #fffff;
+  color: #252525;
   position: relative;
+  border-bottom: 1px solid #252525;
 }
 #main-hero-content{
   position: absolute;
@@ -80,8 +81,9 @@ footer{
 }
 
 #blog-featurette{
-  background-color: #2ec96e;
+  background-color: #ffffff;
   color: #252525;
+  border-left: 1px solid #252525;
 }
 
 /*MEDIUM BREAKPOINT - 767px from semantic.min.css*/
@@ -99,6 +101,11 @@ footer{
   }
   #footer-social{
     text-align: center;
+  }
+
+  #blog-featurette{
+    border-top: 1px solid #252525;
+    border-left: 0px;
   }
 }
 
