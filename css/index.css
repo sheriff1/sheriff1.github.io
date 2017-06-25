@@ -3,8 +3,16 @@
 
 /*HEADER REFERENCE: https://codepen.io/team/css-tricks/pen/YqaKYR*/
 header{
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
+}
+
+#header-content{
+  border-bottom: 1px solid #d6d6d6;
+}
+
+#header-name{
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navigation {
