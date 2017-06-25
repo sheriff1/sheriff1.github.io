@@ -97,6 +97,9 @@ footer{
   #header-menu-large{
     display: none;
   }
+  #footer-social{
+    text-align: center;
+  }
 }
 
 /*SMALL BREAKPOINT*/
