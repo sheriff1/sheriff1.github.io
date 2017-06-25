@@ -43,10 +43,14 @@ header{
 footer{
   background-color: #252525;
   color: #F5F7FA;
-  height: 50px;
+  height: 70px;
 }
 #main-content{
-  min-height: calc(100vh - 70px);
+  min-height: calc(100vh - 60px);
+}
+#footer-social a{
+  text-decoration: none;
+  color: inherit;
 }
 /*FOOTER REFERENCE: https://css-tricks.com/couple-takes-sticky-footer*/
 
