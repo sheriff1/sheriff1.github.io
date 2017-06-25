@@ -1,11 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
+
+/*HEADER REFERENCE: https://codepen.io/team/css-tricks/pen/YqaKYR*/
 header{
   background-color: #000;
   color: #fff;
 }
-
-/*HEADER REFERENCE: https://codepen.io/team/css-tricks/pen/YqaKYR*/
 
 .navigation {
   list-style: none;
@@ -22,6 +22,28 @@ header{
 }
 
 .navigation a {
-  text-decoration: none;
+  color: inherit;
   display: block;
+}
+/*HEADER REFERENCE: https://codepen.io/team/css-tricks/pen/YqaKYR*/
+
+/*FOOTER REFERENCE: https://css-tricks.com/couple-takes-sticky-footer*/
+footer{
+  background-color: #d6d6d6;
+  color: #000;
+  height: 50px;
+}
+#main-content{
+  min-height: calc(100vh - 70px);
+}
+/*FOOTER REFERENCE: https://css-tricks.com/couple-takes-sticky-footer*/
+
+/*MEDIUM BREAKPOINT*/
+@media all and (max-width: 800px) {
+
+}
+
+/*SMALL BREAKPOINT*/
+@media all and (max-width: 600px) {
+
 }
