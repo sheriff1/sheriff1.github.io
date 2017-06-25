@@ -86,6 +86,41 @@ footer{
   border-left: 1px solid #252525;
 }
 
+/*--- WORK SECTION ---*/
+
+#appf-work-button{
+
+}
+#vtec-work-button{
+  white-space: nowrap;
+  text-align: center; margin: 1em 0;
+}
+#vtec-work-button > img{    
+  width: 340px;
+  height: 65px;
+}
+.vtec-work-button-helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#gadc-work-button{
+
+}
+.work-button{
+  padding: 0.5em 0;
+  text-align: center;
+}
+.work-logo{
+  vertical-align: middle;
+  margin-right: 1em;
+  height: 90px;
+  width: auto;
+}
+
+/*--- WORK SECTION ---*/
+
 /*MEDIUM BREAKPOINT - 767px from semantic.min.css*/
 @media all and (max-width: 767px) {
   #header-name{
