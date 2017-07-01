@@ -88,9 +88,6 @@ footer{
 
 /*--- WORK SECTION ---*/
 
-#appf-work-button{
-
-}
 #vtec-work-button{
   white-space: nowrap;
   text-align: center; margin: 1em 0;
@@ -105,9 +102,6 @@ footer{
     vertical-align: middle;
 }
 
-#gadc-work-button{
-
-}
 .work-button{
   padding: 0.5em 0;
   text-align: center;
@@ -119,6 +113,20 @@ footer{
   width: auto;
 }
 
+#appf-work-content{
+  background-color: #00afdb;
+  color: white;
+}
+
+#gadc-work-content{
+  background-color: #eb1e3e;
+  color: white;
+}
+
+#vtec-work-content{
+  background-color: #650104;
+  color: white;
+}
 /*--- WORK SECTION ---*/
 
 /*MEDIUM BREAKPOINT - 767px from semantic.min.css*/
