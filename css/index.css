@@ -116,16 +116,19 @@ footer{
 #appf-work-content{
   background-color: #00afdb;
   color: white;
+  display: none;
 }
 
 #gadc-work-content{
   background-color: #eb1e3e;
   color: white;
+  display: none;
 }
 
 #vtec-work-content{
   background-color: #650104;
   color: white;
+  display: none;
 }
 /*--- WORK SECTION ---*/
 
