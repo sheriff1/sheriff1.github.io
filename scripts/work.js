@@ -11,7 +11,7 @@ $( document ).ready(function() {
 		$("#vtec-work-content").hide();
 		$("#appf-work-content").hide();
 		$("#work-profile-hero").slideUp();
-		$("#main-content").css('background-color','#eb1e3e');
+		$("#main-content").css('background-color','#e21929');
 	});
 	$("#appf-work-button").click(function (){
 		$("#appf-work-content").show().css('display', 'flex');
@@ -19,6 +19,5 @@ $( document ).ready(function() {
 		$("#vtec-work-content").hide();
 		$("#work-profile-hero").slideUp();
 		$("#main-content").css('background-color','#00afdb');
-		console.log("Heh");
 	});
 });

@@ -3,7 +3,6 @@
 
 /*HEADER REFERENCE: https://codepen.io/team/css-tricks/pen/YqaKYR*/
 header{
-  background-color: #F5F7FA;
   color: #252525;
 }
 
@@ -11,9 +10,6 @@ header{
   border-bottom: 1px solid #252525;
 }
 
-#header-name{
-  font-family: 'Montserrat', sans-serif;
-}
 #header-name a{
   text-decoration: none;
   color: inherit;
@@ -47,10 +43,17 @@ header{
 footer{
   background-color: #252525;
   color: #F5F7FA;
-  height: 70px;
+}
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
 }
 #main-content{
-  min-height: calc(100vh - 60px);
+  flex: 1 0 auto;
+  margin-top: 1em;
 }
 #footer-social a{
   text-decoration: none;
@@ -60,30 +63,24 @@ footer{
 
 .content-space{
   height: 400px;
+  padding: 0 1rem;
 }
 
 #main-hero{
-  background-color: #fffff;
+  background-color: #F5F7FA;
   color: #252525;
   position: relative;
   border-bottom: 1px solid #252525;
 }
 
 #project-featurette{
-  background-color: #F5F7FA;
   color: #252525;
-}
-
-#blog-featurette{
-  background-color: #ffffff;
-  color: #252525;
-  border-left: 1px solid #252525;
 }
 
 /*--- WORK SECTION ---*/
 
 #work-button-container{
-  max-width: 930px;
+  max-width: 620px;
   margin: 0 auto;
 }
 
@@ -94,7 +91,7 @@ footer{
 }
 
 #gadc-work-content{
-  background-color: #eb1e3e;
+  background-color: #e21929;
   color: white;
   display: none;
 }
@@ -104,6 +101,7 @@ footer{
   color: white;
   display: none;
 }
+
 /*--- WORK SECTION ---*/
 
 /*MEDIUM BREAKPOINT - 767px from semantic.min.css*/
