@@ -69,10 +69,7 @@ footer{
   border-bottom: 1px solid #252525;
 }
 #main-hero-content{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
 }
 
 #project-featurette{
