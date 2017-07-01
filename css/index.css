@@ -3,11 +3,11 @@
 
 /*HEADER REFERENCE: https://codepen.io/team/css-tricks/pen/YqaKYR*/
 header{
-  color: #252525;
+  color: #282e31;
 }
 
 #header-content{
-  border-bottom: 1px solid #252525;
+  border-bottom: 1px solid #282e31;
 }
 
 #header-name a{
@@ -41,7 +41,7 @@ header{
 
 /*FOOTER REFERENCE: https://css-tricks.com/couple-takes-sticky-footer*/
 footer{
-  background-color: #252525;
+  background-color: #282e31;
   color: #F5F7FA;
 }
 html, body {
@@ -73,13 +73,13 @@ body {
 
 #main-hero{
   background-color: #F5F7FA;
-  color: #252525;
+  color: #282e31;
   position: relative;
-  border-bottom: 1px solid #252525;
+  border-bottom: 1px solid #282e31;
 }
 
 #project-featurette{
-  color: #252525;
+  color: #282e31;
 }
 
 /*--- WORK SECTION ---*/
@@ -127,7 +127,7 @@ body {
   }
 
   #blog-featurette{
-    border-top: 1px solid #252525;
+    border-top: 1px solid #282e31;
     border-left: 0px;
   }
   h1,h2,h3{
