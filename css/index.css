@@ -68,9 +68,6 @@ footer{
   position: relative;
   border-bottom: 1px solid #252525;
 }
-#main-hero-content{
-
-}
 
 #project-featurette{
   background-color: #F5F7FA;
@@ -85,30 +82,9 @@ footer{
 
 /*--- WORK SECTION ---*/
 
-#vtec-work-button{
-  white-space: nowrap;
-  text-align: center; 
-  padding: 1em 0;
-}
-#vtec-work-button > img{    
-  width: 340px;
-  height: 65px;
-}
-.vtec-work-button-helper {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-}
-
-.work-button{
-  padding: 0.5em 0;
-  text-align: center;
-}
-.work-logo{
-  vertical-align: middle;
-  margin-right: 1em;
-  height: 90px;
-  width: auto;
+#work-button-container{
+  max-width: 930px;
+  margin: 0 auto;
 }
 
 #appf-work-content{
