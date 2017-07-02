@@ -77,10 +77,14 @@ body {
 }
 
 #main-hero{
-  background-color: #F5F7FA;
+  background: #F5F7FA; /* Old browsers */
+  background: -webkit-linear-gradient(#F5F7FA 47%, #ffffff 99%);
+  background: -o-linear-gradient(#F5F7FA 47%, #ffffff 99%);
+  background: linear-gradient(#F5F7FA 47%, #ffffff 99%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F5F7FA', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
   color: #282e31;
   position: relative;
-  border-bottom: 1px solid #282e31;
 }
 
 #project-featurette{
@@ -110,11 +114,14 @@ body {
   color: white;
   display: none;
 }
-
+.work-button{
+  border: 1px solid #F5F7FA;
+  background-color: #F5F7FA;
+}
 /*--- WORK SECTION ---*/
 
-/*MEDIUM BREAKPOINT - 767px from semantic.min.css*/
-@media all and (max-width: 767px) {
+/*MEDIUM BREAKPOINT - 768px (from bootstrap) */
+@media all and (max-width: 768px) {
   #header-name{
     text-align: center;
     font-size: 1.5em;
@@ -125,14 +132,20 @@ body {
   #footer-social{
     text-align: center;
   }
-
-  #blog-featurette{
-    border-top: 1px solid #282e31;
-    border-left: 0px;
+  .work-button-image > img{
+    max-height: 100px;
+  }
+  .work-button-image{
+    margin: 0;
   }
 }
 
 /*SMALL BREAKPOINT*/
 @media all and (max-width: 600px) {
 
+}
+
+.vcenter {
+    display: flex;
+    align-items: center;
 }
