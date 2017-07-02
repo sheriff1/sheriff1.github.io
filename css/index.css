@@ -3,7 +3,13 @@
 
 /*HEADER REFERENCE: https://codepen.io/team/css-tricks/pen/YqaKYR*/
 header{
-  color: #282e31;
+  background-color: #282e31;
+  color: #F5F7FA;
+  border-bottom: 1px solid #282e31;
+}
+
+h1:first-child,h2:first-child,h3:first-child,h4:first-child,h5:first-child,h6:first-child,p:first-child{
+  margin: 0;
 }
 
 #header-content{
@@ -53,7 +59,6 @@ body {
 }
 #main-content{
   flex: 1 0 auto;
-  margin-top: 1em;
 }
 #footer-social a{
   text-decoration: none;
@@ -85,7 +90,6 @@ body {
 /*--- WORK SECTION ---*/
 
 #work-button-container{
-  max-width: 620px;
   margin: 0 auto;
 }
 
@@ -113,11 +117,7 @@ body {
 @media all and (max-width: 767px) {
   #header-name{
     text-align: center;
-    padding: 1em 0 0 0 !important;
     font-size: 1.5em;
-  }
-  #header-name > p{
-    padding: 0.5em !important;
   }
   #header-menu-large{
     display: none;
@@ -129,9 +129,6 @@ body {
   #blog-featurette{
     border-top: 1px solid #282e31;
     border-left: 0px;
-  }
-  h1,h2,h3{
-    font-size: 1.5rem;
   }
 }
 
