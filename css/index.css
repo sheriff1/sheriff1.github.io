@@ -1,6 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800');
+
+body{
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
 /*HEADER REFERENCE: https://codepen.io/team/css-tricks/pen/YqaKYR*/
 header{
   background-color: #282e31;
@@ -10,6 +15,10 @@ header{
 
 h1:first-child,h2:first-child,h3:first-child,h4:first-child,h5:first-child,h6:first-child,p:first-child{
   margin: 0;
+}
+
+h1{
+  font-weight: normal;
 }
 
 #header-content{
@@ -72,7 +81,6 @@ body {
 }
 
 #wireframe-home-img{
-  max-width: 320px;
   margin: 0 auto;
 }
 
@@ -117,6 +125,7 @@ body {
 .work-button{
   border: 1px solid #F5F7FA;
   background-color: #F5F7FA;
+  cursor: pointer;
 }
 /*--- WORK SECTION ---*/
 
