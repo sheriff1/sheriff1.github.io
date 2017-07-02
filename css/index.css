@@ -136,6 +136,14 @@ body {
 .work-button-image > img{
   max-height: 100px;
 }
+.work-content-block{
+  padding: 1em 0;
+} 
+
+.white{
+  color: #F5F7FA;
+  text-decoration: underline;
+}
 /*--- WORK SECTION ---*/
 
 /*MEDIUM BREAKPOINT - 768px (from bootstrap) */
