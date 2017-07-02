@@ -149,11 +149,6 @@ div > .work-button{
   padding: 1em 0;
 } 
 
-#vtec-work-button{
-  border-left: 1px solid #fff;
-  border-right: 1px solid #fff;
-}
-
 .white{
   color: #F5F7FA;
   text-decoration: underline;
@@ -181,12 +176,6 @@ div > .work-button{
   }
   .work-button-image{
     margin: 0;
-  }
-  #vtec-work-button{
-    border-left: 0px;
-    border-right: 0px;
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #fff;
   }
 }
 
