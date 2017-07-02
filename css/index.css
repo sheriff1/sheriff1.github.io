@@ -127,6 +127,12 @@ body {
   background-color: #F5F7FA;
   cursor: pointer;
 }
+
+#work-navigation{
+  margin: 0;
+  padding: 0;
+}
+
 /*--- WORK SECTION ---*/
 
 /*MEDIUM BREAKPOINT - 768px (from bootstrap) */
@@ -142,7 +148,7 @@ body {
     text-align: center;
   }
   .work-button-image > img{
-    max-height: 100px;
+    max-height: 40px;
   }
   .work-button-image{
     margin: 0;
