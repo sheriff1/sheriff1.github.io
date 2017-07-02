@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800');
 
 body{
+  overflow-x: hidden;
   font-family: 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 /*HEADER REFERENCE: https://codepen.io/team/css-tricks/pen/YqaKYR*/
@@ -48,6 +49,11 @@ h1{
 .navigation a {
   color: inherit;
   display: block;
+}
+
+.navigation-selected{
+  color: #282e31 !important;
+  background-color: #F5F7FA !important;
 }
 
 #logo{
