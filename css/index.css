@@ -117,10 +117,19 @@ body {
   color: white;
   display: none;
 }
+
+div > .work-button{
+  height: 100%;
+  width: 100%;
+}
+
 .work-button{
-  border: 1px solid #F5F7FA;
+  border: 2px solid #F5F7FA;
   background-color: #F5F7FA;
-  cursor: pointer;
+}
+
+.wbcc{
+  padding: 0;
 }
 
 #work-navigation{
@@ -142,7 +151,7 @@ body {
 /*--- WORK SECTION ---*/
 
 /*MEDIUM BREAKPOINT - 768px (from bootstrap) */
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   #header-name{
     text-align: center;
     font-size: 1.5em;
