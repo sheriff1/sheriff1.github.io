@@ -9,9 +9,9 @@ $( document ).ready(function() {
 		$("#vtec-work-button .work-button-image").css('filter','opacity(1)');
 		$("#vtec-work-button .work-button-label").css('color','inherit');
 
-		$("#appf-work-button .work-button-image").css('filter','opacity(10%)');
+		$("#appf-work-button .work-button-image").css('filter','opacity(15%)');
 		$("#appf-work-button .work-button-label").css('color','#e6e6e6');
-		$("#gadc-work-button .work-button-image").css('filter','opacity(10%)');
+		$("#gadc-work-button .work-button-image").css('filter','opacity(15%)');
 		$("#gadc-work-button .work-button-label").css('color','#e6e6e6');
 	});
 	$("#gadc-work-button").click(function (){
@@ -24,9 +24,9 @@ $( document ).ready(function() {
 		$("#gadc-work-button .work-button-image").css('filter','opacity(1)');
 		$("#gadc-work-button .work-button-label").css('color','inherit');
 
-		$("#vtec-work-button .work-button-image").css('filter','opacity(10%)');
+		$("#vtec-work-button .work-button-image").css('filter','opacity(15%)');
 		$("#vtec-work-button .work-button-label").css('color','#e6e6e6');
-		$("#appf-work-button .work-button-image").css('filter','opacity(10%)');
+		$("#appf-work-button .work-button-image").css('filter','opacity(15%)');
 		$("#appf-work-button .work-button-label").css('color','#e6e6e6');
 	});
 	$("#appf-work-button").click(function (){
@@ -39,9 +39,9 @@ $( document ).ready(function() {
 		$("#appf-work-button .work-button-image").css('filter','opacity(1)');
 		$("#appf-work-button .work-button-label").css('color','inherit');
 
-		$("#vtec-work-button .work-button-image").css('filter','opacity(10%)');
+		$("#vtec-work-button .work-button-image").css('filter','opacity(15%)');
 		$("#vtec-work-button .work-button-label").css('color','#e6e6e6');
-		$("#gadc-work-button .work-button-image").css('filter','opacity(10%)');
+		$("#gadc-work-button .work-button-image").css('filter','opacity(15%)');
 		$("#gadc-work-button .work-button-label").css('color','#e6e6e6');
 	});
 });
