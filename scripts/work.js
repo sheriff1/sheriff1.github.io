@@ -13,6 +13,10 @@ $( document ).ready(function() {
 		$("#appf-work-button .work-button-label").css('color','#e6e6e6');
 		$("#gadc-work-button .work-button-image").css('filter','opacity(15%)');
 		$("#gadc-work-button .work-button-label").css('color','#e6e6e6');
+
+		$("#vtec-work-button").addClass('work-navigation-selected');
+		$("#gadc-work-button").removeClass('work-navigation-selected');
+		$("#appf-work-button").removeClass('work-navigation-selected');
 	});
 	$("#gadc-work-button").click(function (){
 		$("#gadc-work-content").show();
@@ -28,6 +32,10 @@ $( document ).ready(function() {
 		$("#vtec-work-button .work-button-label").css('color','#e6e6e6');
 		$("#appf-work-button .work-button-image").css('filter','opacity(15%)');
 		$("#appf-work-button .work-button-label").css('color','#e6e6e6');
+
+		$("#gadc-work-button").addClass('work-navigation-selected');
+		$("#appf-work-button").removeClass('work-navigation-selected');
+		$("#vtec-work-button").removeClass('work-navigation-selected');
 	});
 	$("#appf-work-button").click(function (){
 		$("#appf-work-content").show();
@@ -43,5 +51,9 @@ $( document ).ready(function() {
 		$("#vtec-work-button .work-button-label").css('color','#e6e6e6');
 		$("#gadc-work-button .work-button-image").css('filter','opacity(15%)');
 		$("#gadc-work-button .work-button-label").css('color','#e6e6e6');
+
+		$("#appf-work-button").addClass('work-navigation-selected');
+		$("#gadc-work-button").removeClass('work-navigation-selected');
+		$("#vtec-work-button").removeClass('work-navigation-selected');
 	});
 });
