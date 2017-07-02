@@ -133,6 +133,9 @@ body {
   padding: 0;
 }
 
+.work-button-image > img{
+  max-height: 100px;
+}
 /*--- WORK SECTION ---*/
 
 /*MEDIUM BREAKPOINT - 768px (from bootstrap) */
