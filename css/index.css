@@ -140,8 +140,8 @@ p,a,ul,li{
   color: #F5F7FA;
 }
 
-#yutz{
-  margin-top: 120px;
+#yutz{ /*has to be manually adjusted based on amount of content. not the best method...*/
+  margin: 5% 0;
 }
 /*--- WORK SECTION ---*/
 
@@ -205,7 +205,7 @@ div > .work-button{
 
 @media all and (max-width: 991px) {
   #yutz{
-    margin-top: 0px;
+    margin: 0;
   }
 }
 
