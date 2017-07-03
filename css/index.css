@@ -93,6 +93,7 @@ p,a,ul,li{
 
 #wireframe-home-img, #process-home-img{
   margin: 0 auto;
+  max-width: 400px;
 }
 
 #main-hero{
@@ -137,6 +138,10 @@ p,a,ul,li{
 #contact-featurette{
   background-color: #282e31;
   color: #F5F7FA;
+}
+
+#yutz{
+  margin-top: 120px;
 }
 /*--- WORK SECTION ---*/
 
@@ -198,6 +203,12 @@ div > .work-button{
 }
 /*--- WORK SECTION ---*/
 
+@media all and (max-width: 991px) {
+  #yutz{
+    margin-top: 0px;
+  }
+}
+
 /*MEDIUM BREAKPOINT - 768px (from bootstrap) */
 @media all and (max-width: 767px) {
   #main-hero-big-text{
@@ -225,11 +236,6 @@ div > .work-button{
   #project-featurette{
     top: 0;
   }
-}
-
-/*SMALL BREAKPOINT*/
-@media all and (max-width: 600px) {
-
 }
 
 .vcenter {
