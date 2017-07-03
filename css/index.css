@@ -99,6 +99,14 @@ p,a,ul,li{
   color: #282e31;
   position: relative;
   min-height: 400px;
+  background-color: aquamarine;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 65%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+}
+
+#main-hero-content{
+  position: relative;
+  top: -40px;
 }
 
 #project-featurette{
