@@ -100,7 +100,8 @@ p,a,ul,li{
   position: relative;
   min-height: 400px;
   background-color: aquamarine;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 65%, 0% 100%);
+  /*Created in: http://bennettfeely.com/clippy/*/
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
 }
 
@@ -111,12 +112,31 @@ p,a,ul,li{
 
 #project-featurette{
   color: #282e31;
+  position: relative;
+  top: 20px;
 }
 
 #main-hero-big-text{
   font-size: 6em;
 }
 
+#process-featurette{
+  background-color: #2267FF;
+  min-height: 400px;
+  -webkit-clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
+}
+
+#process-featurette-content{
+  color: #F5F7FA;
+  position: relative;
+  top: 120px;
+}
+
+#contact-featurette{
+  background-color: #282e31;
+  color: #F5F7FA;
+}
 /*--- WORK SECTION ---*/
 
 #work-button-container{
@@ -125,19 +145,19 @@ p,a,ul,li{
 
 #appf-work-content{
   background-color: #00afdb;
-  color: white;
+  color: #F5F7FA;
   display: none;
 }
 
 #gadc-work-content{
   background-color: #e21929;
-  color: white;
+  color: #F5F7FA;
   display: none;
 }
 
 #vtec-work-content{
   background-color: #650104;
-  color: white;
+  color: #F5F7FA;
   display: none;
 }
 
@@ -200,6 +220,9 @@ div > .work-button{
   }
   .work-button-image{
     margin: 0;
+  }
+  #project-featurette{
+    top: 0;
   }
 }
 
