@@ -130,24 +130,8 @@ p,a,ul,li{
 #process-featurette-content{
   color: #F5F7FA;
   position: relative;
-  top: 120px;
-  padding-bottom: 120px !important;
-}
-#process-item-1{
-  border-bottom: 1px solid #F5F7FA;
-  border-right: 1px solid #F5F7FA;
-} 
-#process-item-2{
-  border-left: 1px solid #F5F7FA;
-  border-bottom: 1px solid #F5F7FA;
-} 
-#process-item-3{
-  border-right: 1px solid #F5F7FA;
-  border-top: 1px solid #F5F7FA;
-} 
-#process-item-4{
-  border-top: 1px solid #F5F7FA;
-  border-left: 1px solid #F5F7FA;
+  top: 80px;
+  padding-bottom: 80px !important;
 }
 
 #contact-featurette{
@@ -241,8 +225,6 @@ div > .work-button{
   #project-featurette{
     top: 0;
   }
-  #process-item-1,#process-item-2,#process-item-3,#process-item-4{border: 0;}
-  #process-featurette-content h2{padding-top: 0.5em;}
 }
 
 /*SMALL BREAKPOINT*/
