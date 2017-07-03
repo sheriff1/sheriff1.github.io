@@ -93,7 +93,7 @@ p,a,ul,li{
 
 #wireframe-home-img, #process-home-img{
   margin: 0 auto;
-  max-width: 400px;
+  
 }
 
 #main-hero{
@@ -204,6 +204,9 @@ div > .work-button{
 /*--- WORK SECTION ---*/
 
 @media all and (max-width: 991px) {
+  #wireframe-home-img, #process-home-img{
+    max-width: 420px;
+  }
   #yutz{
     margin: 0;
   }
@@ -235,6 +238,9 @@ div > .work-button{
   }
   #project-featurette{
     top: 0;
+  }
+  #wireframe-home-img, #process-home-img{
+    max-width: 360px;
   }
 }
 
