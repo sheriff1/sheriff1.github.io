@@ -149,20 +149,7 @@ p,a,ul,li{
   margin: 0 auto;
 }
 
-#appf-work-content{
-  background-color: #00afdb;
-  color: #F5F7FA;
-  display: none;
-}
-
-#gadc-work-content{
-  background-color: #e21929;
-  color: #F5F7FA;
-  display: none;
-}
-
-#vtec-work-content{
-  background-color: #650104;
+#appf-work-content, #gadc-work-content, #vtec-work-content{
   color: #F5F7FA;
   display: none;
 }
@@ -202,6 +189,17 @@ div > .work-button{
   font-weight: bold;
 }
 /*--- WORK SECTION ---*/
+
+/*--- SIDE PROJECTS SECTION ---*/
+
+#fitb-work-content, #mint-work-content{
+  color: #F5F7FA;
+  display: none;
+}
+#mint-work-content{
+  color: #000000;
+}
+/*--- SIDE PROJECTS SECTION ---*/
 
 @media all and (max-width: 991px) {
   #wireframe-home-img, #process-home-img{
