@@ -30,7 +30,7 @@
       </div>
       <div id="header-menu-large" class="u-pad-an col-md-6 col-lg-6 col-sm-6">
         <ul class="navigation">
-          {% if page.tags == "work" or "side-projects" %}
+          {% if page.tags == "work" or page.tags == "side-projects" %}
           <li><a href="/work" class="navigation-selected u-pad-am">Work</a></li>
           {% else %}
           <li><a href="/work" class="u-pad-am">Work</a></li>
