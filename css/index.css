@@ -225,14 +225,20 @@ div > .work-button{
 .left-as{
   border-top: 4px solid #F5F7FA;
   border-bottom: 4px solid #F5F7FA;
-  border-right: 2px solid #F5F7FA;
+  border-right: 4px solid #F5F7FA;
   border-left: 0px;
 }
 .right-as{
   border-top: 4px solid #F5F7FA;
   border-bottom: 4px solid #F5F7FA;
-  border-left: 2px solid #F5F7FA;
+  border-left: 4px solid #F5F7FA;
   border-right: 0px;
+}
+.top-as{
+  border-bottom: 4px solid #f5f7fa;
+}
+.bottom-as{
+  border-top: 4px solid #f5f7fa;
 }
 /*--- SIDE PROJECTS SECTION ---*/
 
