@@ -201,7 +201,7 @@ div > .work-button{
 }
 
 .anatomy-section{
-  background-color: #e6e6e6;
+  background-color: #F5F7FA;
   color: #282e31;
   height: 100px;
   border: 0px;
@@ -213,7 +213,7 @@ div > .work-button{
   padding: 20px;
   margin: 10px;
   border-radius: 5px;
-  background-color: #F5F7FA;
+  background-color: #ffffff;
 }
 .anatomy-header{
   color: #282e31;
@@ -223,22 +223,22 @@ div > .work-button{
   max-width: 55px;
 }
 .left-as{
-  border-top: 4px solid #F5F7FA;
-  border-bottom: 4px solid #F5F7FA;
-  border-right: 4px solid #F5F7FA;
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  border-right: 4px solid #ffffff;
   border-left: 0px;
 }
 .right-as{
-  border-top: 4px solid #F5F7FA;
-  border-bottom: 4px solid #F5F7FA;
-  border-left: 4px solid #F5F7FA;
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  border-left: 4px solid #ffffff;
   border-right: 0px;
 }
 .top-as{
-  border-bottom: 4px solid #f5f7fa;
+  border-bottom: 4px solid #ffffff;
 }
 .bottom-as{
-  border-top: 4px solid #f5f7fa;
+  border-top: 4px solid #ffffff;
 }
 /*--- SIDE PROJECTS SECTION ---*/
 
