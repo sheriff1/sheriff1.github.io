@@ -199,6 +199,41 @@ div > .work-button{
 #mint-work-content{
   color: #000000;
 }
+
+.anatomy-section{
+  background-color: #e6e6e6;
+  color: #282e31;
+  height: 100px;
+  border: 0px;
+}
+.anatomy-section > p{
+  margin: 0 auto;
+}
+.anatomy-container {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #F5F7FA;
+}
+.anatomy-header{
+  color: #282e31;
+  display: inline;
+}
+.anatomy-header-image{
+  max-width: 55px;
+}
+.left-as{
+  border-top: 4px solid #F5F7FA;
+  border-bottom: 4px solid #F5F7FA;
+  border-right: 2px solid #F5F7FA;
+  border-left: 0px;
+}
+.right-as{
+  border-top: 4px solid #F5F7FA;
+  border-bottom: 4px solid #F5F7FA;
+  border-left: 2px solid #F5F7FA;
+  border-right: 0px;
+}
 /*--- SIDE PROJECTS SECTION ---*/
 
 @media all and (max-width: 991px) {
