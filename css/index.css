@@ -209,6 +209,10 @@ div > .work-button{
 .anatomy-section > p{
   margin: 0 auto;
 }
+.acc{
+  margin: 0 auto;
+  max-width: 1200px;
+}
 .anatomy-container {
   padding: 20px;
   margin: 10px;
