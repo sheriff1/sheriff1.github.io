@@ -5,32 +5,32 @@
 
 body{
   overflow-x: hidden;
-  font-family: 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 /*HEADER REFERENCE: https://codepen.io/team/css-tricks/pen/YqaKYR*/
 header{
-  background-color: #282e31;
-  color: #F5F7FA;
-  border-bottom: 1px solid #eaeaea;
+  background-color: #ffffff;
+  color: #282e31;
+  border-bottom: 1px solid #ececec;
 }
 
-h1:first-child,h2:first-child,h3:first-child,h4:first-child,h5:first-child,h6:first-child,p:first-child{
+h1,h2:first-child,h3:first-child,h4:first-child,h5:first-child,h6:first-child,p{
   margin: 0;
 }
 
 h1,h2{
-  font-weight: normal;
+  font-weight: 600;
+  font-family: 'Hind Siliguri', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
-#header-content{
-  border-bottom: 1px solid #282e31;
+p,a,ul,li{
+  font-family: 'Lora', serif;
 }
 
 #header-name a{
+  font-weight: 600;
+  font-family: 'Hind Siliguri', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   text-decoration: none;
   color: inherit;
-  font-weight: 700;
-  font-family: 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
 .navigation {
@@ -53,9 +53,11 @@ h1,h2{
 }
 
 .navigation-selected{
-  color: #282e31 !important;
+/*  color: #282e31 !important;
   background-color: #F5F7FA !important;
-}
+*/
+  font-weight: bold;
+  }
 
 #logo{
   display: inline-block;
@@ -75,15 +77,14 @@ body {
   flex-direction: column;
   font-size: 16px;
 }
-p,a,ul,li{
-  font-family: 'Source Sans Pro', sans-serif;
-}
 #main-content{
   flex: 1 0 auto;
+  padding: 0% 10%;
 }
 #footer-social a{
   text-decoration: none;
   color: inherit;
+  font-size: 12px;
 }
 /*FOOTER REFERENCE: https://css-tricks.com/couple-takes-sticky-footer*/
 
@@ -100,7 +101,8 @@ p,a,ul,li{
   color: #282e31;
   position: relative;
   min-height: 400px;
-  background-color: aquamarine;
+  /*background-color: aquamarine;*/
+  background-color: #e7e7e7;
   /*Created in: http://bennettfeely.com/clippy/*/
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
@@ -121,25 +123,25 @@ p,a,ul,li{
   font-size: 6em;
 }
 
-#process-featurette{
+/*#process-featurette{
   background-color: #2267FF;
   min-height: 400px;
   -webkit-clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
-}
+}*/
 
-#process-featurette-content{
+/*#process-featurette-content{
   color: #F5F7FA;
   position: relative;
   top: 80px;
   padding-bottom: 80px !important;
-}
-
+}*/
+/*
 #contact-featurette{
   background-color: #282e31;
   color: #F5F7FA;
 }
-
+*/
 #yutz{ /*has to be manually adjusted based on amount of content. not the best method...*/
   margin: 5% 0;
 }
