@@ -7,10 +7,13 @@
   <!--CSS-->
   <link rel="stylesheet" href="/css/suit-utils.css" type="text/css" />
   <link rel="stylesheet" href="/css/normalize.css" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri:400,600|Lora" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri:400,600|Lato" rel="stylesheet">
   <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css" />
+  <!-- REMOVE /css/bootstrap.min.css above to make way for Bootstrap 4 CDN below-->
+<!--   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script> -->
   <link rel="stylesheet" href="/css/index.css" type="text/css" />
   <!--CSS-->
   <!--JS-->
@@ -25,16 +28,26 @@
   <header>
     <div id="header-content row">
       <div id="header-name" class="u-pad-bn col-md-6 col-lg-6 col-sm-6">
-        <p class="u-pad-vm"><a href="/">Sheriff Jolaoso</a></p>
+        <p class="name-spacing"><a href="/">Sheriff Jolaoso</a></p>
+      </div>
+      <div id="header-menu-small" class="u-text-center">
+        <ul class="navigation navigation-small u-pad-an">
+          {% if page.tags == "work" or page.tags == "side-projects" %}
+          <li><a href="/work" class="navigation-selected link-spacing">Work</a></li>
+          {% else %}
+          <li><a href="/work" class="link-spacing">Work</a></li>
+          {% endif %}
+          <li><a href="mailto:sheriff.jolaoso@gmail.com" class="link-spacing">Email Me</a></li>
+        </ul>
       </div>
       <div id="header-menu-large" class="u-pad-an col-md-6 col-lg-6 col-sm-6">
-        <ul class="navigation">
+        <ul class="navigation navigation-large">
           {% if page.tags == "work" or page.tags == "side-projects" %}
-          <li><a href="/work" class="navigation-selected u-pad-am">Work</a></li>
+          <li><a href="/work" class="navigation-selected link-spacing">Work</a></li>
           {% else %}
-          <li><a href="/work" class="u-pad-am">Work</a></li>
+          <li><a href="/work" class="link-spacing">Work</a></li>
           {% endif %}
-          <li><a href="mailto:sheriff.jolaoso@gmail.com" class="u-pad-am">Email Me</a></li>
+          <li><a href="mailto:sheriff.jolaoso@gmail.com" class="link-spacing">Email Me</a></li>
         </ul>
       </div>
     </div>

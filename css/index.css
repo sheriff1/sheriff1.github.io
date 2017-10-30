@@ -23,7 +23,7 @@ h1,h2{
 }
 
 p,a,ul,li{
-  font-family: 'Lora', serif;
+  font-family: 'Lato', serif;
 }
 
 #header-name a{
@@ -32,21 +32,35 @@ p,a,ul,li{
   text-decoration: none;
   color: inherit;
 }
+#header-menu-small{
+  display: none;
+}
 
-.navigation {
-  list-style: none;
-  margin: 0; 
-    
+.navigation-small {
+  display: inline-flex;
+}
+
+.navigation-large {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  
   -webkit-flex-flow: row wrap;
   justify-content: flex-end;
 }
 
+.name-spacing{
+  padding-top: 1em;
+}
+.link-spacing{
+  padding: 1em;
+}
+
+.navigation{
+  list-style: none;
+  margin: 0;
+}
 .navigation a {
   color: inherit;
   display: block;
@@ -270,6 +284,15 @@ div > .work-button{
   }
   #header-menu-large{
     display: none;
+  }
+  #header-menu-small{
+    display: inherit;
+  }
+  .name-spacing{
+    padding-top: 0.5em;
+  }
+  .link-spacing{
+    padding: 0.25em 0.75em 0.75em 0.75em;
   }
   #footer-social{
     text-align: center;
