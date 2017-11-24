@@ -30,11 +30,6 @@ p,a,ul,li{
   font-family: 'Adamina', serif;
   font-size: 1em;
 }
-
-li{
-  margin-bottom: 1em;
-}
-
 #header-name a{
   font-weight: 600;
   font-family: 'Hind Siliguri', 'Helvetica Neue', Arial, Helvetica, sans-serif;
@@ -212,6 +207,10 @@ div > .work-button{
 
 .work-navigation-selected{
   font-weight: bold;
+}
+
+.work-content-block > ul > li{
+  margin-bottom: 1em;
 }
 /*--- WORK SECTION ---*/
 
