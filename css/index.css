@@ -17,7 +17,7 @@ h1,h2:first-child,h3:first-child,h4:first-child,h5:first-child,h6:first-child,p{
   margin: 0;
 }
 
-h1,h2{
+h1,h2,h3,h4{
   font-weight: 400;
   font-family: 'Hind Siliguri', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
@@ -28,7 +28,7 @@ h1{
 
 p,a,ul,li{
   font-family: 'Adamina', serif;
-  font-size: 1em;
+  font-size: 14px;
 }
 #header-name a{
   font-weight: 600;
@@ -97,7 +97,7 @@ body {
 }
 #main-content{
   flex: 1 0 auto;
-  padding: 0% 10%;
+  padding: 0% 5%;
 }
 #footer-social a{
   text-decoration: none;
