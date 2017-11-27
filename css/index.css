@@ -291,6 +291,9 @@ div > .work-button{
 .single-border-right{
   border-right: 1px solid lightgrey;
 }
+#inline-cards-img{
+  display: none;
+}
 
 /*MEDIUM BREAKPOINT - 768px (from bootstrap) */
 @media all and (max-width: 767px) {
@@ -299,21 +302,6 @@ div > .work-button{
   }
   #main-hero-second-text{
     font-size: 1.5em;
-  }
-  #header-name{
-    text-align: center;
-    font-size: 1.5em;
-  }
-  #header-menu-large{
-    display: none;
-  }
-  #header-menu-small{
-    display: inline-block;
-    text-align: center;
-  }
-  .name-spacing{
-    padding-top: 0.5em;
-    padding-left: 0em;
   }
   .link-spacing{
     padding: 0.25em 0.75em 0.75em 0.75em;
@@ -336,6 +324,27 @@ div > .work-button{
   #main-content{
     padding: 0% 5%;
   }
+  #header-menu-large{
+    padding: .5em 1em;
+  }
+}
+/*SMALL BREAKPOINT - 576px (from bootstrap) */
+@media all and (max-width: 575px) {
+  #header-name{
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .name-spacing{
+    padding-top: 0.5em;
+    padding-left: 0em;
+  }
+  #header-menu-large{
+    display: none;
+  }
+  #header-menu-small{
+    display: inline-block;
+    text-align: center;
+  }
   .single-border-left{
     border-left: 0px;
   }
@@ -347,6 +356,16 @@ div > .work-button{
   }
   .side-header{
     text-align: left;
+  }
+}
+/*random BREAKPOINT - 991 (for cards img) */
+@media all and (max-width: 991px) { 
+  #inline-cards-img{
+    display: inherit;
+    text-align: center;
+  }
+  #grid-cards-img{
+    display: none;
   }
 }
 
