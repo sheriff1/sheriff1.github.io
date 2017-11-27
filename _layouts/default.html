@@ -26,11 +26,11 @@
 
 <body> 
   <header>
-    <div id="header-content row">
-      <div id="header-name" class="u-pad-bn col-md-6 col-lg-6 col-sm-6">
+    <div id="header-content" class="row">
+      <div id="header-name" class="col-md-6 col-lg-6 col-sm-6">
         <p class="name-spacing"><a href="/">Sheriff Jolaoso</a></p>
       </div>
-      <div id="header-menu-small" class="u-text-center">
+      <div id="header-menu-small" class="col-md-6 col-lg-6 col-sm-6">
         <ul class="navigation navigation-small u-pad-an">
           {% if page.tags == "work" or page.tags == "side-projects" %}
           <li><a href="/work" class="navigation-selected link-spacing">Work</a></li>
@@ -40,7 +40,7 @@
           <li><a href="mailto:sheriff.jolaoso@gmail.com" class="link-spacing">Email Me</a></li>
         </ul>
       </div>
-      <div id="header-menu-large" class="u-pad-an col-md-6 col-lg-6 col-sm-6">
+      <div id="header-menu-large" class="col-md-6 col-lg-6 col-sm-6">
         <ul class="navigation navigation-large">
           {% if page.tags == "work" or page.tags == "side-projects" %}
           <li><a href="/work" class="navigation-selected link-spacing">Work</a></li>

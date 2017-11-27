@@ -52,7 +52,13 @@ p,a,ul,li{
 
 .name-spacing{
   padding-top: 1em;
+  padding-left: 1em;
 }
+
+#header-menu-large{
+  padding-right: 1em;
+}
+
 .link-spacing{
   padding: 1em;
 }
@@ -302,10 +308,12 @@ div > .work-button{
     display: none;
   }
   #header-menu-small{
-    display: inherit;
+    display: inline-block;
+    text-align: center;
   }
   .name-spacing{
     padding-top: 0.5em;
+    padding-left: 0em;
   }
   .link-spacing{
     padding: 0.25em 0.75em 0.75em 0.75em;
@@ -324,9 +332,6 @@ div > .work-button{
   }
   #wireframe-home-img, #process-home-img{
     max-width: 360px;
-  }
-  h1{
-    font-size: 2em;
   }
   #main-content{
     padding: 0% 5%;
