@@ -13,10 +13,6 @@ header{
   border-bottom: 1px solid #ececec;
 }
 
-h1,h2:first-child,h3:first-child,h4:first-child,h5:first-child,h6:first-child,p{
-  margin: 0;
-}
-
 h1,h2,h3,h4{
   font-weight: 400;
   font-family: 'Hind Siliguri', 'Helvetica Neue', Arial, Helvetica, sans-serif;
@@ -111,7 +107,9 @@ body {
 .content-space{
   /*padding: 0 1rem;*/
 }
-
+.side-header{
+  text-align: right;
+}
 #wireframe-home-img, #process-home-img{
   margin: 0 auto;
   
@@ -338,6 +336,12 @@ div > .work-button{
   }
   .single-border-right{
     border-right: 0px;
+  }
+  .case-study-header{
+    text-align: center;
+  }
+  .side-header{
+    text-align: left;
   }
 }
 
