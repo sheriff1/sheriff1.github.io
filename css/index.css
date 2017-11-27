@@ -281,6 +281,13 @@ div > .work-button{
   }
 }
 
+.single-border-left{
+  border-left: 1px solid lightgrey;
+}
+.single-border-right{
+  border-right: 1px solid lightgrey;
+}
+
 /*MEDIUM BREAKPOINT - 768px (from bootstrap) */
 @media all and (max-width: 767px) {
   #main-hero-big-text{
@@ -325,6 +332,12 @@ div > .work-button{
   }
   #main-content{
     padding: 0% 5%;
+  }
+  .single-border-left{
+    border-left: 0px;
+  }
+  .single-border-right{
+    border-right: 0px;
   }
 }
 
