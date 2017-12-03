@@ -246,6 +246,7 @@ div > .work-button{
 .super-padding{
   padding: 7.5% 0;
 }
+
 /*--- WORK SECTION ---*/
 
 /*--- SIDE PROJECTS SECTION ---*/
@@ -394,6 +395,9 @@ div > .work-button{
   }
   #sheriff-photo{
     max-width: 250px;
+  }
+  #vt-logo-in-menu{
+    padding-top: 0.25em;
   }
 }
 /*random BREAKPOINT - 991 (for cards img) */
