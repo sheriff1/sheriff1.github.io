@@ -1,4 +1,7 @@
 $( document ).ready(function() {
+
+    $('.match-height').matchHeight();
+
 	$("#vtec-work-button").click(function (){
 		$("#vtec-work-content").show();
 		$("#gadc-work-content").hide();

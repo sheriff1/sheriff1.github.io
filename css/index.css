@@ -103,6 +103,10 @@ body {
   flex: 1 0 auto;
   padding: 0% 5%;
 }
+#main-content-narrow{
+  flex: 1 0 auto;
+  padding: 0% 15%;
+}
 #footer-social a{
   text-decoration: none;
   color: inherit;
@@ -169,6 +173,7 @@ body {
 #yutz{ /*has to be manually adjusted based on amount of content. not the best method...*/
   margin: 5% 0;
 }
+
 /*--- WORK SECTION ---*/
 
 #work-button-container{
@@ -217,6 +222,29 @@ div > .work-button{
 
 .work-content-block > ul > li{
   margin-bottom: 1em;
+}
+
+.big-num-header{
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+  background-color: #8c1d40;
+  padding: 3% 0;
+}
+
+.small-num-header{
+  font-size: 1.25em;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  background-color: #8c1d40;
+  padding: 3% 0;
+}
+.task-ambient-cards{
+  border: 1px solid #dcdcdc;
+}
+.super-padding{
+  padding: 7.5% 0;
 }
 /*--- WORK SECTION ---*/
 
@@ -324,6 +352,10 @@ div > .work-button{
   #main-content{
     padding: 0% 5%;
   }
+
+  #main-content-narrow{
+    padding: 0% 10%;
+  }
   #header-menu-large{
     padding: .5em 1em;
   }
@@ -356,6 +388,12 @@ div > .work-button{
   }
   .side-header{
     text-align: left;
+  }
+  #vt-case-study-logo{
+    max-width: 200px;
+  }
+  #sheriff-photo{
+    max-width: 250px;
   }
 }
 /*random BREAKPOINT - 991 (for cards img) */
