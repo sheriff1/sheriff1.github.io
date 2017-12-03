@@ -246,7 +246,11 @@ div > .work-button{
 .super-padding{
   padding: 7.5% 0;
 }
-
+#vt-logo-in-menu{
+  width: 75%;
+  max-width: 85px;
+  max-height: 100%
+}
 /*--- WORK SECTION ---*/
 
 /*--- SIDE PROJECTS SECTION ---*/
@@ -353,7 +357,6 @@ div > .work-button{
   #main-content{
     padding: 0% 5%;
   }
-
   #main-content-narrow{
     padding: 0% 10%;
   }
@@ -390,14 +393,14 @@ div > .work-button{
   .side-header{
     text-align: left;
   }
-  #vt-case-study-logo{
-    max-width: 200px;
+  #vt-case-study-logo, #appf-case-study-logo{
+    max-width: 100px;
   }
   #sheriff-photo{
     max-width: 250px;
   }
   #vt-logo-in-menu{
-    padding-top: 0.25em;
+    max-width: 7.5%;
   }
 }
 /*random BREAKPOINT - 991 (for cards img) */
