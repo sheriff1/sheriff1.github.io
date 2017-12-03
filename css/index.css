@@ -25,6 +25,7 @@ h1{
 p,a,ul,li{
   font-family: 'Adamina', serif;
   font-size: 14px;
+  line-height: 1.75em;
 }
 #header-name a{
   font-weight: 600;
