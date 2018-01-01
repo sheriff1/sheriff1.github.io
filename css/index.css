@@ -188,6 +188,7 @@ body {
 div > .work-button{
   height: 100%;
   width: 100%;
+  cursor: pointer;
 }
 
 .work-button{
