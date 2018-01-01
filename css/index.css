@@ -253,7 +253,7 @@ div > .work-button{
   padding: 7.5% 0;
 }
 #vt-logo-in-menu{
-  width: 75%;
+  width: 85%;
   max-width: 85px;
   max-height: 100%
 }
@@ -369,6 +369,10 @@ div > .work-button{
   #header-menu-large{
     padding: .5em 1em;
   }
+  #vt-logo-in-menu{
+    padding-top: 2px;
+    width: 35px;
+  }
 }
 /*SMALL BREAKPOINT - 576px (from bootstrap) */
 @media all and (max-width: 575px) {
@@ -410,7 +414,11 @@ div > .work-button{
     max-width: 250px;
   }
   #vt-logo-in-menu{
-    max-width: 7.5%;
+    padding-top: 2px;
+    width: 35px;
+  }
+  #appf-logo-in-menu{
+    width: 42px;
   }
 }
 /*random BREAKPOINT - 991 (for cards img) */
