@@ -196,6 +196,10 @@ div > .work-button{
   border-radius: 0;
 }
 
+.work-button-label{
+  margin-bottom: 0;
+}
+
 .wbcc{
   padding: 0;
 }
