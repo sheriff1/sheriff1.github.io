@@ -372,6 +372,10 @@ div > .work-button{
 }
 /*SMALL BREAKPOINT - 576px (from bootstrap) */
 @media all and (max-width: 575px) {
+  .uncenter-small{
+    text-align: left;
+  }
+
   #header-name{
     text-align: center;
     font-size: 1.5em;
