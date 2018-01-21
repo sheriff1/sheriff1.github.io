@@ -38,6 +38,10 @@ p,a,ul,li{
   display: none;
 }
 
+.big-header{
+  font-weight: 700;
+}
+
 .navigation-small {
   display: inline-flex;
 }
