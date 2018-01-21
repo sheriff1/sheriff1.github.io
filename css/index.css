@@ -1,12 +1,13 @@
 @charset "UTF-8";
-/* CSS Document */
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800');
+/************************************************************************
+GLOBAL
+************************************************************************/
 
 body{
   overflow-x: hidden;
 }
-/*HEADER REFERENCE: https://codepen.io/team/css-tricks/pen/YqaKYR*/
+
 header{
   background-color: #ffffff;
   color: #282e31;
@@ -24,414 +25,138 @@ h1{
   font-weight: 700;
 }
 
-p,a,ul,li{
-  font-family: 'Source Sans Pro', serif;
+p,a,ul,li, span{
+  font-family: 'Nunito Sans', serif;
   font-size: 16px;
   line-height: 1.75em;
 }
-#header-name a{
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}
+
+/************************************************************************
+UTILITIES
+************************************************************************/
+.vcenter {
+    display: flex;
+    align-items: center;
+}
+
+.under-shadow{
+  box-shadow: 0px 2px 3px #0000001a;
+}
+
+.full-height-of-screen{
+  height: 100vh;
+}
+
+/************************************************************************
+HEADER
+
+HEADER REFERENCE: https://codepen.io/team/css-tricks/pen/YqaKYR
+************************************************************************/
+
+.header-name{
   font-weight: 600;
   font-family: 'Hind Siliguri', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  text-decoration: none;
   color: inherit;
-}
-#header-menu-small{
-  display: none;
-}
-/*
-.big-header{
-  font-weight: 700;
-}*/
-
-.navigation-small {
-  display: inline-flex;
-}
-
-.navigation-large {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  justify-content: flex-end;
-}
-
-.name-spacing{
-  padding-top: 1em;
-  padding-left: 1em;
-}
-
-#header-menu-large{
-  padding-right: 1em;
-}
-
-.link-spacing{
-  padding: 1em;
 }
 
 .navigation{
-  list-style: none;
-  margin: 0;
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
 }
-.navigation a {
+
+.navigation-item{
+  padding: 0 1em;
   color: inherit;
-  display: block;
 }
 
-.navigation-selected{
-/*  color: #282e31 !important;
-  background-color: #F5F7FA !important;
-*/
-  font-weight: bold;
-  }
-.container-fluid{
-  padding: 0;
-}
-#logo{
-  display: inline-block;
-}
-/*HEADER REFERENCE: https://codepen.io/team/css-tricks/pen/YqaKYR*/
 
-/*FOOTER REFERENCE: https://css-tricks.com/couple-takes-sticky-footer*/
+/************************************************************************
+FOOTER
+
+FOOTER REFERENCE: https://css-tricks.com/couple-takes-sticky-footer
+************************************************************************/
+
 footer{
   background-color: #282e31;
   color: #F5F7FA;
 }
-html, body {
-  height: 100%;
-}
-body {
-  display: flex;
-  flex-direction: column;
-  font-size: 16px;
-}
-.main-content{
-  flex: 1 0 auto;
-  padding: 0% 5%;
-}
-#footer-social a{
+
+.footer-social-icons{
   text-decoration: none;
   color: inherit;
   font-size: 12px;
 }
-/*FOOTER REFERENCE: https://css-tricks.com/couple-takes-sticky-footer*/
 
-.content-space{
-  /*padding: 0 1rem;*/
-}
+/************************************************************************
+HOME PAGE
+************************************************************************/
 .side-header{
   text-align: right;
 }
-#wireframe-home-img, #process-home-img{
-  margin: 0 auto;
-  
+
+.work-button{
+  padding: 0;
 }
-
-#main-hero{
-  color: #282e31;
-  position: relative;
-  min-height: 400px;
-  /*background-color: aquamarine;*/
-  background-color: #e7e7e7;
-  /*Created in: http://bennettfeely.com/clippy/*/
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
-}
-
-#main-hero-content{
-  position: relative;
-  top: -40px;
-}
-
-#project-featurette{
-  color: #282e31;
-  position: relative;
-  top: 20px;
-}
-
-#main-hero-big-text{
-  font-size: 6em;
-}
-
-/*#process-featurette{
-  background-color: #2267FF;
-  min-height: 400px;
-  -webkit-clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
-  clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
-}*/
-
-/*#process-featurette-content{
-  color: #F5F7FA;
-  position: relative;
-  top: 80px;
-  padding-bottom: 80px !important;
-}*/
-/*
-#contact-featurette{
-  background-color: #282e31;
-  color: #F5F7FA;
-}
-*/
-#yutz{ /*has to be manually adjusted based on amount of content. not the best method...*/
-  margin: 5% 0;
-}
-
-/*--- WORK SECTION ---*/
-
-#work-button-container{
-  margin: 0 auto;
-}
-
-#appf-work-content, #gadc-work-content, #vtec-work-content{
-  display: none;
-}
-
-div > .work-button{
-  height: 100%;
-  width: 100%;
+.unstyled-button{
+  border: 0;
+  padding: 0;
+  margin: 0;
   cursor: pointer;
 }
 
-.work-button{
-  border: 0px;
-  background-color: #F5F7FA;
-  border-radius: 0;
-}
 
-.work-button-label{
-  margin-bottom: 0;
-}
+/************************************************************************
+WORK PAGES
+************************************************************************/
 
-.wbcc{
-  padding: 0;
-}
-
-#work-navigation{
-  margin: 0;
-  padding: 0;
-}
-
-.work-button-image > img{
-  max-height: 100px;
-}
-.work-content-block{
-  padding: 1em 0;
-} 
-
-.white{
-  color: #F5F7FA;
-  text-decoration: underline;
-}
-
-.work-navigation-selected{
-  font-weight: bold;
-}
-
-.work-content-block > ul > li{
-  margin-bottom: 1em;
-}
-
-.big-num-header{
-  text-align: center;
-  font-weight: 600;
-  color: #fff;
-  background-color: #8c1d40;
-  padding: 3% 0;
-}
-
-.small-num-header{
-  font-size: 1.25em;
-  font-weight: 600;
-  text-align: center;
-  color: #fff;
-  background-color: #8c1d40;
-  padding: 3% 0;
-}
-.task-ambient-cards{
-  box-shadow: 0px 2px 2px rgba(0,0,0,0.18);
-}
-.super-padding{
-  padding: 7.5% 0;
-}
-#vt-logo-in-menu{
-  width: 85%;
-  max-width: 85px;
-  max-height: 100%
-}
-/*--- WORK SECTION ---*/
-
-/*--- SIDE PROJECTS SECTION ---*/
-
-#fitb-work-content, #mint-work-content{
-  color: #F5F7FA;
-  display: none;
-}
-#mint-work-content{
-  color: #000000;
-}
-
-.anatomy-section{
-  background-color: #F5F7FA;
-  color: #282e31;
-  height: 100px;
-  border: 0px;
-}
-.anatomy-section > p{
-  margin: 0 auto;
-}
-.acc{
-  margin: 0 auto;
-  max-width: 1200px;
-}
-.anatomy-container {
-  padding: 20px;
-  margin: 10px;
-  border-radius: 5px;
-  background-color: #ffffff;
-}
-.anatomy-header{
-  color: #282e31;
-  display: inline;
-}
-.anatomy-header-image{
-  max-width: 55px;
-}
-.left-as{
-  border-top: 4px solid #ffffff;
-  border-bottom: 4px solid #ffffff;
-  border-right: 4px solid #ffffff;
-  border-left: 0px;
-}
-.right-as{
-  border-top: 4px solid #ffffff;
-  border-bottom: 4px solid #ffffff;
-  border-left: 4px solid #ffffff;
-  border-right: 0px;
-}
-.top-as{
-  border-bottom: 4px solid #ffffff;
-}
-.bottom-as{
-  border-top: 4px solid #ffffff;
-}
-/*--- SIDE PROJECTS SECTION ---*/
-
-@media all and (max-width: 991px) {
-  #wireframe-home-img, #process-home-img{
-    max-width: 420px;
-  }
-  #yutz{
-    margin: 0;
-  }
-}
-
-.single-border-left{
-  border-left: 1px solid lightgrey;
-}
-.single-border-right{
-  border-right: 1px solid lightgrey;
-}
-#inline-cards-img{
-  display: none;
-}
-
-/*MEDIUM BREAKPOINT - 768px (from bootstrap) */
-@media all and (max-width: 767px) {
-  #main-hero-big-text{
-    font-size: 3em;
-  }
-  #main-hero-second-text{
-    font-size: 1.5em;
-  }
-  .link-spacing{
-    padding: 0.25em 0.75em 0.75em 0.75em;
-  }
-  #footer-social{
-    text-align: center;
-  }
-  .work-button-image > img{
-    max-height: 40px;
-  }
-  .work-button-image{
-    margin: 0;
-  }
-  #project-featurette{
-    top: 0;
-  }
-  #wireframe-home-img, #process-home-img{
-    max-width: 360px;
-  }
-  .main-content{
-    padding: 0% 5%;
-  }
-  #header-menu-large{
-    padding: .5em 1em;
-  }
-  #vt-logo-in-menu{
-    padding-top: 2px;
-    width: 35px;
-  }
-}
-/*SMALL BREAKPOINT - 576px (from bootstrap) */
-@media all and (max-width: 575px) {
-  .uncenter-small{
-    text-align: left;
-  }
-
-  #header-name{
-    text-align: center;
-    font-size: 1.5em;
-  }
-  .name-spacing{
-    padding-top: 0.5em;
-    padding-left: 0em;
-  }
-  #header-menu-large{
-    display: none;
-  }
-  #header-menu-small{
-    display: inline-block;
-    text-align: center;
-  }
-  .single-border-left{
-    border-left: 0px;
-  }
-  .single-border-right{
-    border-right: 0px;
-  }
-  .case-study-header{
-    text-align: center;
-  }
-  .side-header{
-    text-align: left;
-  }
-  #vt-case-study-logo, #appf-case-study-logo{
-    max-width: 100px;
-  }
-  #sheriff-photo{
-    max-width: 250px;
-  }
-  #vt-logo-in-menu{
-    padding-top: 2px;
-    width: 35px;
-  }
-  #appf-logo-in-menu{
-    width: 42px;
-  }
-}
-/*random BREAKPOINT - 991 (for cards img) */
+/************************************************************************
+BIG-MEDIUM BREAKPOINT FIXES - 991px
+************************************************************************/
 @media all and (max-width: 991px) { 
-  #inline-cards-img{
-    display: inherit;
-    text-align: center;
-  }
-  #grid-cards-img{
-    display: none;
-  }
+
 }
 
-.vcenter {
-    display: flex;
-    align-items: center;
+/************************************************************************
+MEDIUM BREAKPOINT FIXES - 768px (from bootstrap)
+************************************************************************/
+@media all and (max-width: 767px) {
+
+  h1{
+    font-size: 2em; 
+  }
+
+}
+
+/************************************************************************
+SMALL BREAKPOINT FIXES - 576px (from bootstrap)
+************************************************************************/
+@media all and (max-width: 575px) {
+
+  h1{
+    font-size: 1.5em; 
+  }
+
+  .header-name{
+    font-size: 1.5em;
+    padding: 0;
+  }
+
+  .navigation{
+    flex-direction: column;
+  }
+
 }

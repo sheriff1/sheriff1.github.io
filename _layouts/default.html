@@ -7,7 +7,7 @@
   <!--CSS-->
   <link rel="stylesheet" href="/css/suit-utils.css" type="text/css" />
   <link rel="stylesheet" href="/css/normalize.css" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri:400,600|Adamina" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri:400,600" rel="stylesheet">
   <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
@@ -16,50 +16,53 @@
   <!--JS-->
   <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
   <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-  <script src="/scripts/work.js"></script>
-  <script src="/scripts/side-projects.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
   <!--JS-->
 </head>
 
-<body> 
+<body class="site"> 
+  <!--
   <header>
-    <div id="header-content" class="row">
-      <div id="header-name" class="col-md-6 col-lg-6 col-sm-6">
-        <p class="name-spacing"><a href="/">Sheriff Jolaoso</a></p>
+    <div class="under-shadow navigation u-pad-vs">
+      <div class="header-name">
+        <a class="navigation-item" href="/">Sheriff Jolaoso</a>
       </div>
-      <div id="header-menu-small" class="col-md-6 col-lg-6 col-sm-6">
-        <ul class="navigation navigation-small u-pad-an">
-          <li><a href="/assets/sheriff-jolaoso-resume.pdf" target="_blank" class="link-spacing">Resumé</a></li>
-          <li><a href="mailto:sheriff.jolaoso@gmail.com" class="link-spacing">Email Me</a></li>
-        </ul>
-      </div>
-      <div id="header-menu-large" class="col-md-6 col-lg-6 col-sm-6">
-        <ul class="navigation navigation-large">
-          {% if page.tags == "work" or page.tags == "side-projects" %}
-          <li><a href="/work" class="navigation-selected link-spacing">Work</a></li>
-          {% else %}
-          <li><a href="/work" class="link-spacing">Work</a></li>
-          {% endif %}
-          <li><a href="/assets/sheriff-jolaoso-resume.pdf" target="_blank" class="link-spacing">Resumé</a></li>
-          <li><a href="mailto:sheriff.jolaoso@gmail.com" class="link-spacing">Email Me</a></li>
-        </ul>
+      <div>
+        <a class="navigation-item" href="/assets/sheriff-jolaoso-resume.pdf" target="_blank">Resumé</a>
+        <a class="navigation-item" href="mailto:sheriff.jolaoso@gmail.com">Email Me</a>
       </div>
     </div>
   </header>
-
-  {{content}}
-
+  -->
+  <div class="site-content">
+    {{content}}
+  </div>
   <footer>
+  <div class="navigation">
     <div>
-      <div id="footer-social">
-        <div class="u-pad-am">
-          <a href="https://www.linkedin.com/in/sjolaoso/"><i class="fa fa-3x fa-linkedin-square" aria-hidden="true"></i></a>
-          <a href="https://twitter.com/shrffj"><i class="fa fa-3x fa-twitter-square u-space-ls" aria-hidden="true"></i></a>
-          <a href="mailto:sheriff.jolaoso@gmail.com"><i class="fa fa-3x fa-envelope-square u-space-ls" aria-hidden="true"></i></a>
-        </div>
+      <div class="u-pad-am">
+          <a class="footer-social-icons" href="https://www.linkedin.com/in/sjolaoso/"><i class="fa fa-3x fa-linkedin-square" aria-hidden="true"></i></a>
+          <a class="footer-social-icons" href="https://twitter.com/shrffj"><i class="fa fa-3x fa-twitter-square u-space-ls" aria-hidden="true"></i></a>
+          <a class="footer-social-icons" href="mailto:sheriff.jolaoso@gmail.com"><i class="fa fa-3x fa-envelope-square u-space-ls" aria-hidden="true"></i></a>
       </div>
     </div>
+    <div>
+      <p class="u-space-bn navigation-item">Sheriff | Credits</p>
+    </div>
+  </div>
+
+<!--     <div class="row">
+      <div class="col-sm-6 col-md-6 col-lg-6">
+        <div class="u-pad-am">
+          <a class="footer-social-icons" href="https://www.linkedin.com/in/sjolaoso/"><i class="fa fa-3x fa-linkedin-square" aria-hidden="true"></i></a>
+          <a class="footer-social-icons" href="https://twitter.com/shrffj"><i class="fa fa-3x fa-twitter-square u-space-ls" aria-hidden="true"></i></a>
+          <a class="footer-social-icons" href="mailto:sheriff.jolaoso@gmail.com"><i class="fa fa-3x fa-envelope-square u-space-ls" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-6">
+        <p class="u-space-bn u-space-rm">Sheriff | Credits</p>
+      </div>
+    </div> -->
   </footer>
 </body>
 </html>
