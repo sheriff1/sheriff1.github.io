@@ -16,6 +16,7 @@ header{
 h1,h2,h3,h4{
   font-weight: 400;
   font-family: 'Hind Siliguri', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  letter-spacing: -1px;
 }
 
 h1{
