@@ -21,11 +21,12 @@ h1,h2,h3,h4{
 
 h1{
   font-size: 3em;
+  font-weight: 700;
 }
 
 p,a,ul,li{
-  font-family: 'Adamina', serif;
-  font-size: 14px;
+  font-family: 'Source Sans Pro', serif;
+  font-size: 16px;
   line-height: 1.75em;
 }
 #header-name a{
@@ -37,10 +38,10 @@ p,a,ul,li{
 #header-menu-small{
   display: none;
 }
-
+/*
 .big-header{
   font-weight: 700;
-}
+}*/
 
 .navigation-small {
   display: inline-flex;
@@ -105,13 +106,9 @@ body {
   flex-direction: column;
   font-size: 16px;
 }
-#main-content{
+.main-content{
   flex: 1 0 auto;
   padding: 0% 5%;
-}
-#main-content-narrow{
-  flex: 1 0 auto;
-  padding: 0% 15%;
 }
 #footer-social a{
   text-decoration: none;
@@ -197,7 +194,7 @@ div > .work-button{
 }
 
 .work-button{
-  border: 2px solid #ffffff;
+  border: 0px;
   background-color: #F5F7FA;
   border-radius: 0;
 }
@@ -365,11 +362,8 @@ div > .work-button{
   #wireframe-home-img, #process-home-img{
     max-width: 360px;
   }
-  #main-content{
+  .main-content{
     padding: 0% 5%;
-  }
-  #main-content-narrow{
-    padding: 0% 10%;
   }
   #header-menu-large{
     padding: .5em 1em;
