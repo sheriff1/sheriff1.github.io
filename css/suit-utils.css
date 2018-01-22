@@ -103,3 +103,32 @@
 
 .u-width-full{width: 100%;}
 .u-width-half{width: 50%;}
+
+.u-bold{font-weight: bold;}
+
+/************************************************************************
+BIG-MEDIUM BREAKPOINT FIXES - 991px
+************************************************************************/
+@media all and (max-width: 991px) { 
+	.u-large-hidden{
+		display: none;
+	}
+}
+
+/************************************************************************
+MEDIUM BREAKPOINT FIXES - 768px (from bootstrap)
+************************************************************************/
+@media all and (max-width: 767px) {
+	.u-medium-hidden{
+		display: none;
+	}
+}
+
+/************************************************************************
+SMALL BREAKPOINT FIXES - 576px (from bootstrap)
+************************************************************************/
+@media all and (max-width: 575px) {
+	.u-small-hidden{
+		display: none;
+	}
+}

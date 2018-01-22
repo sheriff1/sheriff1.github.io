@@ -21,48 +21,36 @@
 </head>
 
 <body class="site"> 
-  <!--
+  {% if page.tags == 'work'%}
   <header>
     <div class="under-shadow navigation u-pad-vs">
-      <div class="header-name">
-        <a class="navigation-item" href="/">Sheriff Jolaoso</a>
-      </div>
+      <a class="navigation-item" href="/"><div class="header-name">
+        Sheriff Jolaoso
+      </div></a>
       <div>
         <a class="navigation-item" href="/assets/sheriff-jolaoso-resume.pdf" target="_blank">Resumé</a>
         <a class="navigation-item" href="mailto:sheriff.jolaoso@gmail.com">Email Me</a>
       </div>
     </div>
   </header>
-  -->
+  {% endif %}
+  
   <div class="site-content">
     {{content}}
   </div>
   <footer>
-  <div class="navigation">
-    <div>
-      <div class="u-pad-am">
-          <a class="footer-social-icons" href="https://www.linkedin.com/in/sjolaoso/"><i class="fa fa-3x fa-linkedin-square" aria-hidden="true"></i></a>
-          <a class="footer-social-icons" href="https://twitter.com/shrffj"><i class="fa fa-3x fa-twitter-square u-space-ls" aria-hidden="true"></i></a>
-          <a class="footer-social-icons" href="mailto:sheriff.jolaoso@gmail.com"><i class="fa fa-3x fa-envelope-square u-space-ls" aria-hidden="true"></i></a>
-      </div>
-    </div>
-    <div>
-      <p class="u-space-bn navigation-item">Sheriff | Credits</p>
-    </div>
-  </div>
-
-<!--     <div class="row">
-      <div class="col-sm-6 col-md-6 col-lg-6">
+    <div class="navigation">
+      <div>
         <div class="u-pad-am">
-          <a class="footer-social-icons" href="https://www.linkedin.com/in/sjolaoso/"><i class="fa fa-3x fa-linkedin-square" aria-hidden="true"></i></a>
-          <a class="footer-social-icons" href="https://twitter.com/shrffj"><i class="fa fa-3x fa-twitter-square u-space-ls" aria-hidden="true"></i></a>
-          <a class="footer-social-icons" href="mailto:sheriff.jolaoso@gmail.com"><i class="fa fa-3x fa-envelope-square u-space-ls" aria-hidden="true"></i></a>
+            <a class="footer-social-icons" href="https://www.linkedin.com/in/sjolaoso/"><i class="fa fa-3x fa-linkedin-square" aria-hidden="true"></i></a>
+            <a class="footer-social-icons" href="https://twitter.com/shrffj"><i class="fa fa-3x fa-twitter-square u-space-ls" aria-hidden="true"></i></a>
+            <a class="footer-social-icons" href="mailto:sheriff.jolaoso@gmail.com"><i class="fa fa-3x fa-envelope-square u-space-ls" aria-hidden="true"></i></a>
         </div>
       </div>
-      <div class="col-sm-6 col-md-6 col-lg-6">
-        <p class="u-space-bn u-space-rm">Sheriff | Credits</p>
+      <div>
+        <p class="u-space-bn navigation-item">Sheriff | Credits</p>
       </div>
-    </div> -->
+    </div>
   </footer>
 </body>
 </html>

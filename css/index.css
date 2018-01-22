@@ -15,18 +15,17 @@ header{
 }
 
 h1,h2,h3,h4{
-  font-weight: 400;
   font-family: 'Hind Siliguri', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   letter-spacing: -1px;
+  font-weight: bold;
 }
 
 h1{
   font-size: 3em;
-  font-weight: 700;
 }
 
 p,a,ul,li, span{
-  font-family: 'Nunito Sans', serif;
+  font-family: 'Roboto', serif;
   font-size: 16px;
   line-height: 1.75em;
 }
@@ -104,13 +103,7 @@ footer{
 /************************************************************************
 HOME PAGE
 ************************************************************************/
-.side-header{
-  text-align: right;
-}
 
-.work-button{
-  padding: 0;
-}
 .unstyled-button{
   border: 0;
   padding: 0;
@@ -120,8 +113,76 @@ HOME PAGE
 
 
 /************************************************************************
-WORK PAGES
+WORK PAGES - BOTH
 ************************************************************************/
+.header-hero-logo{
+  max-width: 50%;
+  max-height: 80%;
+  padding: 4em 0;
+  animation-duration: 1.5s;
+  animation-name: fade-in;
+}
+
+@keyframes fade-in{
+    0% {
+        opacity:0;
+        transform:  translate(0px,40px)  ;
+    }
+    50% {
+        opacity:0.7;
+        transform:  translate(0px,-3px)  ;
+    }
+    100% {
+        opacity:1;
+        transform:  translate(0px,0px)  ;
+    }
+}
+
+.header-flexbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-1{background-color:#f5f5dc ; color: #222222;}
+.background-2{background-color:#735bd1; color: #ffffff;}
+.background-3{background-color:aliceblue; color: #222222;}
+.background-4{}
+.background-5{}
+
+
+.just-a-test{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
+
+/************************************************************************
+WORK PAGES - APPFOLIO
+************************************************************************/
+.appfolio-header-flexbox{
+  background-color: #0F99FF;
+  animation-duration: 1.5s;
+}
+.appfolio-case-study-hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+/************************************************************************
+WORK PAGES - V.TECH
+************************************************************************/
+.vt-header-flexbox{
+  background-color: #892142;
+}
+
+
 
 /************************************************************************
 BIG-MEDIUM BREAKPOINT FIXES - 991px
@@ -158,5 +219,12 @@ SMALL BREAKPOINT FIXES - 576px (from bootstrap)
   .navigation{
     flex-direction: column;
   }
+}
 
+/************************************************************************
+TO BE CLASSIFIED
+************************************************************************/
+.blog{
+  background-color: #303030;
+  color: #f3f3f3;
 }
