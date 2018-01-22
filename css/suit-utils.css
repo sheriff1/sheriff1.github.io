@@ -106,6 +106,9 @@
 
 .u-bold{font-weight: bold;}
 
+.u-border-top{border-top: 1px solid lightgrey;}
+.u-border-bottom{border-top: 1px solid lightgrey;}
+
 /************************************************************************
 BIG-MEDIUM BREAKPOINT FIXES - 991px
 ************************************************************************/

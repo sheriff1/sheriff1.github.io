@@ -213,18 +213,17 @@ TO BE CLASSIFIED
   color: #f3f3f3;
 }
 
-.just-a-test{
+/*.just-a-test{
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-}
+}*/
 
 .this-row-needs-help{
   margin-right: -1em;
   margin-left: -1em;
 }
-
 
 .background-1{background-color:#f5f5dc ; color: #222222;}
 .background-2{background-color:#735bd1; color: #ffffff;}
