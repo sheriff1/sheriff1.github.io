@@ -144,22 +144,6 @@ WORK PAGES - BOTH
   justify-content: center;
 }
 
-.background-1{background-color:#f5f5dc ; color: #222222;}
-.background-2{background-color:#735bd1; color: #ffffff;}
-.background-3{background-color:aliceblue; color: #222222;}
-.background-4{}
-.background-5{}
-
-
-.just-a-test{
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-
-
 /************************************************************************
 WORK PAGES - APPFOLIO
 ************************************************************************/
@@ -228,3 +212,22 @@ TO BE CLASSIFIED
   background-color: #303030;
   color: #f3f3f3;
 }
+
+.just-a-test{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.this-row-needs-help{
+  margin-right: -1em;
+  margin-left: -1em;
+}
+
+
+.background-1{background-color:#f5f5dc ; color: #222222;}
+.background-2{background-color:#735bd1; color: #ffffff;}
+.background-3{background-color:aliceblue; color: #222222;}
+.background-4{}
+.background-5{}
