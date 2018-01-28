@@ -213,7 +213,6 @@ BIG-MEDIUM BREAKPOINT FIXES - 991px
   .home-project-card-taskambient{
     padding: 3em;
   }
-
   .messin-with-taskambient-container{
     padding: 0;
     overflow: hidden;
@@ -273,15 +272,15 @@ SMALL BREAKPOINT FIXES - 576px (from bootstrap)
   .home-work-link{
     text-align: left;
   }
+  .home-project-card-appfolio, .home-project-card-taskambient{
+    padding: 2em 1em;
+    margin: 2em 1em;
+  }
 }
 
 /************************************************************************
 TO BE CLASSIFIED
 ************************************************************************/
-.blog{
-  background-color: #303030;
-  color: #f3f3f3;
-}
 
 /*.just-a-test{
   height: 100vh;
@@ -289,9 +288,3 @@ TO BE CLASSIFIED
   flex-direction: column;
   justify-content: flex-start;
 }*/
-
-.background-1{background-color:#f5f5dc ; color: #222222;}
-.background-2{background-color:#735bd1; color: #ffffff;}
-.background-3{background-color:aliceblue; color: #222222;}
-.background-4{}
-.background-5{}
