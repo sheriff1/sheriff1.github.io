@@ -202,7 +202,7 @@ WORK PAGES - V.TECH
   overflow: hidden;
 }
 .messin-with-taskambient-image{
-  max-height: 500px;
+  max-height: 400px;
 }
 
 /************************************************************************
@@ -210,17 +210,7 @@ BIG-MEDIUM BREAKPOINT FIXES - 991px
 ************************************************************************/
 @media all and (max-width: 991px) { 
 
-  .home-project-card-taskambient{
-    padding: 3em;
-  }
-  .messin-with-taskambient-container{
-    padding: 0;
-    overflow: hidden;
-  }
-  .messin-with-taskambient-image{
-    max-width: 100%;
-    height: auto;
-  }
+
 }
 
 /************************************************************************
@@ -230,7 +220,6 @@ MEDIUM BREAKPOINT FIXES - 768px (from bootstrap)
   .messin-with-iphone-image{
     max-height: 100%; 
   }
-
   .home-project-card-appfolio{
     overflow: hidden;
     max-height: 690px;
@@ -243,6 +232,17 @@ MEDIUM BREAKPOINT FIXES - 768px (from bootstrap)
   }
   .home-work-link{
     text-align: center;
+  }
+  .home-project-card-taskambient{
+    padding: 3em;
+  }
+  .messin-with-taskambient-container{
+    padding: 0;
+    overflow: hidden;
+  }
+  .messin-with-taskambient-image{
+    max-width: 100%;
+    height: auto;
   }
 }
 
