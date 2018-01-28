@@ -26,8 +26,7 @@ h1{
 
 p,a,ul,li, span{
   font-family: 'Roboto', serif;
-  font-size: 16px;
-  line-height: 1.75em;
+  font-size: 14px;
 }
 
 .site {
@@ -40,6 +39,16 @@ p,a,ul,li, span{
   flex: 1;
 }
 
+.hero{
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  ALIGN-ITEMS: center;
+}
+.hero-header{
+  font-size: 5em;
+}
+
 /************************************************************************
 UTILITIES
 ************************************************************************/
@@ -49,7 +58,7 @@ UTILITIES
 }
 
 .under-shadow{
-  box-shadow: 0px 2px 3px #0000001a;
+  box-shadow: 0px 1px 2px #0000001a;
 }
 
 .full-height-of-screen{
