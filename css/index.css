@@ -25,7 +25,7 @@ h1{
 }
 
 p,a,ul,li, span{
-  font-family: 'Roboto', serif;
+  font-family: 'Lato', serif;
   font-size: 14px;
 }
 
@@ -43,7 +43,7 @@ p,a,ul,li, span{
   display: flex;
   justify-content: center;
   height: 80vh;
-  ALIGN-ITEMS: center;
+  align-items: center;
 }
 .hero-header{
   font-size: 5em;
@@ -113,13 +113,31 @@ footer{
 HOME PAGE
 ************************************************************************/
 
-.unstyled-button{
+.unstyled-button{/*DEAD*/
   border: 0;
   padding: 0;
   margin: 0;
   cursor: pointer;
 }
 
+.home-project-card-appfolio{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 3em;
+  padding: 3em;
+  background-color: aliceblue;
+}
+
+.home-project-card-taskambient{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 3em;
+  padding: 3em 0 3em 3em;
+  background-color: aliceblue;
+}
 
 /************************************************************************
 WORK PAGES - BOTH
@@ -176,23 +194,57 @@ WORK PAGES - V.TECH
 }
 
 
+.messin-with-iphone-image{
+    max-height: 700px; 
+}
+.messin-with-taskambient-container{
+  padding: 0;
+  overflow: hidden;
+}
+.messin-with-taskambient-image{
+  max-height: 500px;
+}
 
 /************************************************************************
 BIG-MEDIUM BREAKPOINT FIXES - 991px
 ************************************************************************/
 @media all and (max-width: 991px) { 
 
+  .home-project-card-taskambient{
+    padding: 3em;
+  }
+
+  .messin-with-taskambient-container{
+    padding: 0;
+    overflow: hidden;
+  }
+  .messin-with-taskambient-image{
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 /************************************************************************
 MEDIUM BREAKPOINT FIXES - 768px (from bootstrap)
 ************************************************************************/
 @media all and (max-width: 767px) {
+  .messin-with-iphone-image{
+    max-height: 100%; 
+  }
 
+  .home-project-card-appfolio{
+    overflow: hidden;
+    max-height: 690px;
+  }
   h1{
     font-size: 2em; 
   }
-
+  .hero-header{
+    font-size: 3em;
+  }
+  .home-work-link{
+    text-align: center;
+  }
 }
 
 /************************************************************************
@@ -203,6 +255,9 @@ SMALL BREAKPOINT FIXES - 576px (from bootstrap)
   h1{
     font-size: 1.5em; 
   }
+  .hero-header{
+    font-size: 2em;
+  }
 
   .header-name{
     font-size: 1.5em;
@@ -211,6 +266,12 @@ SMALL BREAKPOINT FIXES - 576px (from bootstrap)
 
   .navigation{
     flex-direction: column;
+  }
+  .messin-with-taskambient-image, .messin-with-iphone-image{
+    display: none;
+  }
+  .home-work-link{
+    text-align: left;
   }
 }
 
@@ -228,11 +289,6 @@ TO BE CLASSIFIED
   flex-direction: column;
   justify-content: flex-start;
 }*/
-
-.this-row-needs-help{
-  margin-right: -1em;
-  margin-left: -1em;
-}
 
 .background-1{background-color:#f5f5dc ; color: #222222;}
 .background-2{background-color:#735bd1; color: #ffffff;}
