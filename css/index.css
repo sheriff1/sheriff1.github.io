@@ -169,14 +169,16 @@ WORK PAGES - BOTH
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 2em;
 }
 
 /************************************************************************
 WORK PAGES - APPFOLIO
 ************************************************************************/
 .appfolio-header-flexbox{
-  background-color: #0F99FF;
+  background-color: #007ad4;
   animation-duration: 1.5s;
+  color: white;
 }
 .appfolio-case-study-hero{
   display: flex;
@@ -210,6 +212,9 @@ BIG-MEDIUM BREAKPOINT FIXES - 991px
 ************************************************************************/
 @media all and (max-width: 991px) { 
 
+  h1{
+    font-size: 2.5em; 
+  }
 
 }
 
@@ -217,15 +222,17 @@ BIG-MEDIUM BREAKPOINT FIXES - 991px
 MEDIUM BREAKPOINT FIXES - 768px (from bootstrap)
 ************************************************************************/
 @media all and (max-width: 767px) {
+
+  h1{
+    font-size: 2em; 
+  }
+
   .messin-with-iphone-image{
     max-height: 100%; 
   }
   .home-project-card-appfolio{
     overflow: hidden;
     max-height: 690px;
-  }
-  h1{
-    font-size: 2em; 
   }
   .hero-header{
     font-size: 3em;
@@ -254,6 +261,8 @@ SMALL BREAKPOINT FIXES - 576px (from bootstrap)
   h1{
     font-size: 1.5em; 
   }
+
+
   .hero-header{
     font-size: 2em;
   }
@@ -282,9 +291,3 @@ SMALL BREAKPOINT FIXES - 576px (from bootstrap)
 TO BE CLASSIFIED
 ************************************************************************/
 
-/*.just-a-test{
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}*/
