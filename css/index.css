@@ -124,7 +124,7 @@ HOME PAGE
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: 3em;
+  margin: 6em;
   padding: 3em;
   background-color: aliceblue;
 }
@@ -134,7 +134,7 @@ HOME PAGE
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  margin: 3em;
+  margin: 6em;
   padding: 3em 0 3em 3em;
   background-color: aliceblue;
 }
