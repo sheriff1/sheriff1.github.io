@@ -223,6 +223,11 @@ WORK PAGES - V.TECH
   font-weight: bold;
   font-size: 1.75em;
 }
+
+.vt-ipad-mockup{
+  padding: 2em 1em;
+}
+
 /************************************************************************
 BIG-MEDIUM BREAKPOINT FIXES - 991px
 ************************************************************************/
@@ -291,7 +296,7 @@ SMALL BREAKPOINT FIXES - 576px (from bootstrap)
   .navigation{
     flex-direction: column;
   }
-  .messin-with-taskambient-image, .messin-with-iphone-image{
+  .messin-with-taskambient-image, .messin-with-iphone-image, .vt-ipad-mockup{
     display: none;
   }
   .home-work-link{
