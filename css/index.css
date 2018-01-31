@@ -189,8 +189,18 @@ WORK PAGES - APPFOLIO
   flex-direction: column;
   justify-content: center;
 }
-
-
+.bottom-navigation-button{
+  text-decoration: none;
+  color: black;
+  background-color: aliceblue;
+  height: 180px;
+  overflow: hidden;
+}
+.bottom-navigation-button-label{
+  margin: 0;
+  position: relative;
+  top: 10px;
+}
 
 /************************************************************************
 WORK PAGES - V.TECH
