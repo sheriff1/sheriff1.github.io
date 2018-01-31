@@ -222,10 +222,16 @@ WORK PAGES - V.TECH
   letter-spacing: -1px;
   font-weight: bold;
   font-size: 1.75em;
+  text-decoration: none;
+  color: inherit;
 }
 
 .vt-ipad-mockup{
   padding: 2em 1em;
+}
+
+.messin-with-iphone-image-nav{
+    max-height: 700px; 
 }
 
 /************************************************************************
@@ -251,6 +257,7 @@ MEDIUM BREAKPOINT FIXES - 768px (from bootstrap)
   .messin-with-iphone-image{
     max-height: 100%; 
   }
+
   .home-project-card-appfolio{
     overflow: hidden;
     max-height: 690px;
