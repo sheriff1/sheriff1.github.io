@@ -26,7 +26,7 @@ h1{
 
 p,a,ul,li, span{
   font-family: 'Lato', serif;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .site {
@@ -47,6 +47,9 @@ p,a,ul,li, span{
 }
 .hero-header{
   font-size: 5em;
+}
+.hero-header-p{
+  font-size: 1.15em;
 }
 
 /************************************************************************
