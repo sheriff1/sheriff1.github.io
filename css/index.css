@@ -23,6 +23,13 @@ h1,h2,h3,h4{
 h1{
   font-size: 3em;
 }
+h2{
+  font-size: 2em;
+}
+h3{
+  font-size: 1.5em;
+}
+
 
 p,a,ul,li, span{
   font-family: 'Lato', serif;
@@ -140,7 +147,7 @@ HOME PAGE
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  margin: 6em;
+  margin: 0 6em;
   padding: 0 3em;
 }
 
@@ -259,7 +266,13 @@ BIG-MEDIUM BREAKPOINT FIXES - 991px
 @media all and (max-width: 991px) { 
 
   h1{
-    font-size: 2.5em; 
+    font-size: 2.5em;
+  }
+  h2{
+    font-size: 1.5em;
+  }
+  h3{
+    font-size: 1em;
   }
 
 }
@@ -270,8 +283,15 @@ MEDIUM BREAKPOINT FIXES - 768px (from bootstrap)
 @media all and (max-width: 767px) {
 
   h1{
-    font-size: 2em; 
+    font-size: 2em;
   }
+  h2{
+    font-size: 1.5em;
+  }
+  h3{
+    font-size: 1.25em;
+  }
+
 
   .messin-with-iphone-image{
     max-height: 100%; 
@@ -287,7 +307,7 @@ MEDIUM BREAKPOINT FIXES - 768px (from bootstrap)
   .home-work-link{
     text-align: center;
   }
-  .home-project-card-taskambient, .home-about-me-card{
+  .home-project-card-taskambient{
     padding: 3em;
   }
   .messin-with-taskambient-container{
@@ -317,10 +337,6 @@ SMALL BREAKPOINT FIXES - 576px (from bootstrap)
 ************************************************************************/
 @media all and (max-width: 575px) {
 
-  h1{
-    font-size: 1.5em; 
-  }
-
 
   .hero-header{
     font-size: 2em;
@@ -345,9 +361,13 @@ SMALL BREAKPOINT FIXES - 576px (from bootstrap)
   .home-work-link{
     text-align: left;
   }
-  .home-project-card-appfolio, .home-project-card-taskambient, .home-about-me-card{
+  .home-project-card-appfolio, .home-project-card-taskambient{
     padding: 2em 1em;
     margin: 2em 1em;
+  }
+  .home-about-me-card{
+    padding: 0em 1em;
+    margin: 0em 1em;
   }
 }
 
