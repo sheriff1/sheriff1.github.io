@@ -261,6 +261,21 @@ WORK PAGES - V.TECH
 }
 
 /************************************************************************
+WORK PAGES - APPFOLIO
+************************************************************************/
+.moneywise-header-flexbox{
+  background-color: #52C76B;
+  animation-duration: 1.5s;
+  color: white;
+  justify-content: left;
+}
+.moneywise-case-study-hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/************************************************************************
 BIG-MEDIUM BREAKPOINT FIXES - 991px
 ************************************************************************/
 @media all and (max-width: 991px) { 
