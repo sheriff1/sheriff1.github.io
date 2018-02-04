@@ -6,6 +6,7 @@ GLOBAL
 
 body{
   overflow-x: hidden;
+  color: #40464e;
 }
 
 header{
@@ -34,6 +35,10 @@ h3{
 p,a,ul,li, span{
   font-family: 'Lato', serif;
   font-size: 15px;
+}
+
+a:hover{
+  color: inherit;
 }
 
 .site {
@@ -167,7 +172,7 @@ HOME PAGE
 }
 
 /************************************************************************
-WORK PAGES - BOTH
+WORK PAGES - ALL
 ************************************************************************/
 .header-hero-logo{
   max-width: 50%;
@@ -199,6 +204,10 @@ WORK PAGES - BOTH
   padding: 2em;
 }
 
+
+.case-study-content-container { margin-top: 8em !important; margin-bottom: 8em !important; max-width: 1000px; margin-right: auto; margin-left: auto;}
+
+
 /************************************************************************
 WORK PAGES - APPFOLIO
 ************************************************************************/
@@ -214,7 +223,7 @@ WORK PAGES - APPFOLIO
 }
 .bottom-navigation-button{
   text-decoration: none;
-  color: black;
+  color: #40464e;
   background-color: aliceblue;
   height: 200px;
   overflow: hidden;
@@ -302,7 +311,7 @@ BIG-MEDIUM BREAKPOINT FIXES - 991px
   h3{
     font-size: 1.25em;
   }
-
+  .case-study-content-container { margin: 6em !important; }
 }
 
 /************************************************************************
@@ -358,13 +367,14 @@ MEDIUM BREAKPOINT FIXES - 768px (from bootstrap)
     border-right: 0;
     border-bottom: 1px solid #dee2e6;
   }
+
+  .case-study-content-container { margin: 4em !important; }
 }
 
 /************************************************************************
 SMALL BREAKPOINT FIXES - 576px (from bootstrap)
 ************************************************************************/
 @media all and (max-width: 575px) {
-
 
   .hero-header{
     font-size: 2em;
@@ -397,6 +407,8 @@ SMALL BREAKPOINT FIXES - 576px (from bootstrap)
     padding: 0em 1em;
     margin: 0em 1em;
   }
+
+  .case-study-content-container { margin: 2em !important; }
 }
 
 /************************************************************************
