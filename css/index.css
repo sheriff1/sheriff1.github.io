@@ -262,13 +262,6 @@ WORK PAGES - V.TECH
   padding: 2em 1em;
 }
 
-.vt-case-study-stat-left{
-  border-left: 1px solid #dee2e6;
-}
-.vt-case-study-stat-right{
-  border-right: 1px solid #dee2e6;
-}
-
 .messin-with-iphone-image-nav{
     max-height: 700px; 
 }
@@ -373,13 +366,11 @@ MEDIUM BREAKPOINT FIXES - 768px (from bootstrap)
   .vt-case-study-stat-left{
     padding-top: 1em;
     border-left: 0;
-    border-top: 1px solid #dee2e6;
   }
 
   .vt-case-study-stat-right{
     margin-bottom: 1em;
     border-right: 0;
-    border-bottom: 1px solid #dee2e6;
   }
 
   .case-study-content-container { margin: 4em !important; }
