@@ -54,9 +54,13 @@ p,a,ul,li, span{
 }
 .hero-header{
   font-size: 5em;
+  animation-duration: 1.5s;
+  animation-name: fade-in;
 }
 .hero-header-p{
   font-size: 1.15em;
+  animation-duration: 1.5s;
+  animation-name: fade-in;
 }
 
 /************************************************************************
