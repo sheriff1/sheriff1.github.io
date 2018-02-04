@@ -233,6 +233,12 @@ WORK PAGES - APPFOLIO
   position: relative;
   top: 10px;
 }
+.appfolio-feature-header{
+  padding: 0.25em 0;
+  font-weight: normal;
+  border-bottom: 1px solid #007ad4;
+}
+
 
 /************************************************************************
 WORK PAGES - V.TECH
@@ -267,7 +273,6 @@ WORK PAGES - V.TECH
 }
 
 .taskambient-feature-header{
-  font-size: 1.5em;
   padding: 0.25em;
   font-weight: normal;
   border-bottom: 1px solid #892142;
@@ -298,7 +303,6 @@ WORK PAGES - MONEYWISE
 }
 
 .moneywise-feature-header{
-  font-size: 1.5em;
   padding: 0.25em;
   font-weight: normal;
   border-bottom: 1px solid #52c86a;
