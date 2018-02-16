@@ -93,11 +93,11 @@ HEADER REFERENCE: https://codepen.io/team/css-tricks/pen/YqaKYR
 .header-name{
   font-weight: 600;
   font-family: 'Hind Siliguri', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  color: inherit;
+  color: #40464e;
 }
 
 .navigation{
-  display: flex; 
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -107,7 +107,7 @@ HEADER REFERENCE: https://codepen.io/team/css-tricks/pen/YqaKYR
 
 .navigation-item{
   padding: 0 1em;
-  color: inherit;
+  color: #40464e;
 }
 
 
@@ -161,7 +161,7 @@ HOME PAGE
 }
 
 .messin-with-iphone-image{
-    max-height: 700px; 
+    max-height: 700px;
 }
 .messin-with-taskambient-container{
   padding: 0;
@@ -269,7 +269,7 @@ WORK PAGES - V.TECH
 }
 
 .messin-with-iphone-image-nav{
-    max-height: 700px; 
+    max-height: 700px;
 }
 
 .taskambient-feature-header{
@@ -311,7 +311,7 @@ WORK PAGES - MONEYWISE
 /************************************************************************
 BIG-MEDIUM BREAKPOINT FIXES - 991px
 ************************************************************************/
-@media all and (max-width: 991px) { 
+@media all and (max-width: 991px) {
 
   h1{
     font-size: 2.5em;
@@ -342,7 +342,7 @@ MEDIUM BREAKPOINT FIXES - 768px (from bootstrap)
 
 
   .messin-with-iphone-image{
-    max-height: 100%; 
+    max-height: 100%;
   }
 
   .home-project-card-appfolio{
@@ -423,4 +423,3 @@ SMALL BREAKPOINT FIXES - 576px (from bootstrap)
 /************************************************************************
 TO BE CLASSIFIED
 ************************************************************************/
-
