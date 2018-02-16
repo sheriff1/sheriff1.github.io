@@ -14,6 +14,7 @@ tags: blog
         {{ post.title }}
       </a>
       - <time datetime="{{ post.date | date: "%m-%d-%y" }}">{{ post.date | date_to_long_string }}</time>
+      <img src="{{ site.baseurl }}/assets/{{ post.image }}" alt="">
     </li>
   {% endfor %}
 </ul>
