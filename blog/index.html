@@ -7,8 +7,10 @@ tags: blog
 <div class="row u-space-al">
   {% for post in site.posts %}
     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12 u-text-center border u-pad-as">
-      <img class="img-fluid u-space-bs" src="{{ site.baseurl }}/assets/{{ post.image }}" alt="{{post.image-description}}">
       <a href="{{ post.url }}">
+        
+      <img class="img-fluid u-space-bs" src="{{ site.baseurl }}/assets/{{ post.image }}" alt="{{post.image-description}}">
+
         {{ post.title }}
       </a>
     </div>
