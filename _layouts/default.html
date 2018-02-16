@@ -31,7 +31,7 @@
 </head>
 
 <body class="site">
-  {% if page.tags == 'work' or page.tags == 'blog'%}
+  {% if page.tags == 'work' or page.tags == 'blog' or page.path contains '_posts'%}
   <header>
     <div class="under-shadow navigation u-pad-vs">
       <a class="navigation-item" href="/"><div class="header-name">
