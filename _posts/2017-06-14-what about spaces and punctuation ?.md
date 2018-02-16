@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "postname"
+title: "What About Spaces and Punctuation?"
 date: 2017-06-14
 ---
 

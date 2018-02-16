@@ -25,13 +25,13 @@
   <!--CSS-->
   <!--JS-->
   <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
-  <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script><!-- 
+  <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script><!--
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script> -->
   <!--JS-->
 </head>
 
-<body class="site"> 
-  {% if page.tags == 'work'%}
+<body class="site">
+  {% if page.tags == 'work' or page.tags == 'blog'%}
   <header>
     <div class="under-shadow navigation u-pad-vs">
       <a class="navigation-item" href="/"><div class="header-name">
@@ -44,7 +44,7 @@
     </div>
   </header>
   {% endif %}
-  
+
   <div class="site-content">
     {{content}}
   </div>
