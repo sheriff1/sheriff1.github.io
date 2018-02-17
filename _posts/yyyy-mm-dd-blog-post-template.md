@@ -16,6 +16,8 @@
 
 [//]: # (published: true)
 [//]: # (can be true or false. if true, the post will show up on the blog index page, if not, it won't.)
+
+[//]: # here's a markdown cheatsheet for formatting posts: https://kramdown.gettalong.org/quickref.html
 ---
 
 And the content of the blog post goes here in all it's Markdown glory.
