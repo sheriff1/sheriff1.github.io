@@ -4,22 +4,26 @@ title: Sheriff Personal Website | Blog
 tags: blog
 ---
 
+<div class="u-space-al u-text-center">
+  <h1 class="hero-header">Blog</h1>
+  <p class="hero-header-p u-space-bs">This is my blog. Behold.</p>
+</div>
+
+<hr class="u-space-hl">
+
 <div class="row u-space-al">
-  <div class="u-pad-bl">
-    <h1 class="hero-header">Blog</h1>
-    <p class="hero-header-p u-space-bs">This is my blog. Behold.</p>
-  </div>
+  {% for post in site.posts %}
+    {% if post.title != "Credits" %}
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <div class="u-text-center border u-pad-as">
+          <a href="{{ post.url }}">
 
-  <div>
-    {% for post in site.posts %}
-      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12 u-text-center border u-pad-as">
-        <a href="{{ post.url }}">
+          <img class="img-fluid u-space-bs" src="{{ site.baseurl }}/assets/blog/{{ post.image }}" alt="{{post.image-description}}">
 
-        <img class="img-fluid u-space-bs" src="{{ site.baseurl }}/assets/{{ post.image }}" alt="{{post.image-description}}">
-
-          {{ post.title }}
-        </a>
+            {{ post.title }}
+          </a>
+        </div>
       </div>
-    {% endfor %}
-  </div>
+    {% endif %}
+  {% endfor %}
 </div>

@@ -11,7 +11,7 @@ body{
 
 header{
   background-color: #ffffff;
-  color: #282e31;
+  color: #40464e;
   border-bottom: 1px solid #ececec;
 }
 
@@ -107,7 +107,7 @@ HEADER REFERENCE: https://codepen.io/team/css-tricks/pen/YqaKYR
 
 .navigation-item{
   padding: 0 1em;
-  color: #40464e;
+  color: inherit;
 }
 
 
