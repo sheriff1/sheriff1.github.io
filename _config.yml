@@ -1,3 +1,5 @@
 name: Sheriff Jolaoso
 markdown: kramdown
 permalink: /blog/:title
+sass:
+  style: compact 

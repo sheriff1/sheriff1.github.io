@@ -4,40 +4,41 @@
 GLOBAL
 ************************************************************************/
 
-body{
+body {
   overflow-x: hidden;
   color: #40464e;
 }
 
-header{
+header {
   background-color: #ffffff;
   color: #40464e;
   border-bottom: 1px solid #ececec;
 }
 
-h1,h2,h3,h4{
+h1, h2, h3, h4 {
   font-family: 'Hind Siliguri', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   letter-spacing: -1px;
   font-weight: bold;
 }
 
-h1{
+h1 {
   font-size: 3em;
 }
-h2{
+
+h2 {
   font-size: 2em;
 }
-h3{
+
+h3 {
   font-size: 1.5em;
 }
 
-
-p,a,ul,li, span{
+p, a, ul, li, span {
   font-family: 'Lato', serif;
   font-size: 15px;
 }
 
-a:hover{
+a:hover {
   color: inherit;
 }
 
@@ -51,87 +52,98 @@ a:hover{
   flex: 1;
 }
 
-.fade-in{
+.fade-in {
   opacity: 0;
-  -webkit-animation:fade-in;
-  -moz-animation:fade-in;
-  animation:fade-in;
-  -webkit-animation-duration:1.5s;
-  -moz-animation-duration:1.5s;
-  animation-duration:1.5s;
-  -webkit-animation-fill-mode:forwards;
-  -moz-animation-fill-mode:forwards;
-  animation-fill-mode:forwards;
+  -webkit-animation: fade-in;
+  -moz-animation: fade-in;
+  animation: fade-in;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
-@keyframes fade-in{
-    0% {
-        opacity:0;
-        transform:  translate(0px,40px)  ;
-    }
-    50% {
-        opacity:0.7;
-        transform:  translate(0px,-3px)  ;
-    }
-    100% {
-        opacity:1;
-        transform:  translate(0px,0px)  ;
-    }
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translate(0px, 40px);
+  }
+
+  50% {
+    opacity: 0.7;
+    transform: translate(0px, -3px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
 }
 
-.hero{
+
+.hero {
   display: flex;
   justify-content: center;
   height: 80vh;
   align-items: center;
 }
-.hero-header{
+
+.hero-header {
   font-size: 5em;
   animation-duration: 1.5s;
   animation-name: fade-in;
 }
-.hero-header-p1,.hero-header-p2,.hero-header-p3,.hero-header-p4,.hero-header-p5{
+
+.hero-header-p1, .hero-header-p2, .hero-header-p3, .hero-header-p4, .hero-header-p5 {
   font-size: 1.15em;
 }
 
-.hero-header-p1{
+.hero-header-p1 {
   -webkit-animation-delay: 1.6s;
   -moz-animation-delay: 1.6s;
   animation-delay: 1.6s;
 }
-.hero-header-p2{
+
+.hero-header-p2 {
   -webkit-animation-delay: 2.0s;
   -moz-animation-delay: 2.0s;
   animation-delay: 2.0s;
 }
-.hero-header-p3{
+
+.hero-header-p3 {
   -webkit-animation-delay: 2.4s;
   -moz-animation-delay: 2.4s;
   animation-delay: 2.4s;
 }
-.hero-header-p4{
+
+.hero-header-p4 {
   -webkit-animation-delay: 2.8s;
   -moz-animation-delay: 2.8s;
   animation-delay: 2.8s;
 }
-.hero-header-p5{
+
+.hero-header-p5 {
   -webkit-animation-delay: 3.2s;
   -moz-animation-delay: 3.2s;
   animation-delay: 3.2s;
 }
+
 /************************************************************************
 UTILITIES
 ************************************************************************/
+
 .vcenter {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-.under-shadow{
+.under-shadow {
   box-shadow: 0px 1px 2px #0000001a;
 }
 
-.full-height-of-screen{
+.full-height-of-screen {
   height: 100vh;
 }
 
@@ -141,13 +153,13 @@ HEADER
 HEADER REFERENCE: https://codepen.io/team/css-tricks/pen/YqaKYR
 ************************************************************************/
 
-.header-name{
+.header-name {
   font-weight: 600;
   font-family: 'Hind Siliguri', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   color: #40464e;
 }
 
-.navigation{
+.navigation {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -156,11 +168,10 @@ HEADER REFERENCE: https://codepen.io/team/css-tricks/pen/YqaKYR
   align-content: center;
 }
 
-.navigation-item{
+.navigation-item {
   padding: 0 1em;
   color: inherit;
 }
-
 
 /************************************************************************
 FOOTER
@@ -168,12 +179,12 @@ FOOTER
 FOOTER REFERENCE: https://css-tricks.com/couple-takes-sticky-footer
 ************************************************************************/
 
-footer{
+footer {
   background-color: #282e31;
   color: #F5F7FA;
 }
 
-.footer-social-icons{
+.footer-social-icons {
   text-decoration: none;
   color: inherit;
   font-size: 12px;
@@ -183,7 +194,7 @@ footer{
 HOME PAGE
 ************************************************************************/
 
-.home-project-card-appfolio{
+.home-project-card-appfolio {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -192,7 +203,7 @@ HOME PAGE
   background-color: aliceblue;
 }
 
-.home-project-card-taskambient{
+.home-project-card-taskambient {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -202,7 +213,7 @@ HOME PAGE
   background-color: aliceblue;
 }
 
-.home-about-me-card{
+.home-about-me-card {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -211,86 +222,98 @@ HOME PAGE
   padding: 0 3em 2em;
 }
 
-.messin-with-iphone-image{
-    max-height: 700px;
+.messin-with-iphone-image {
+  max-height: 700px;
 }
-.messin-with-taskambient-container{
+
+.messin-with-taskambient-container {
   padding: 0;
   overflow: hidden;
 }
-.messin-with-taskambient-image{
+
+.messin-with-taskambient-image {
   max-height: 400px;
 }
 
 /************************************************************************
 WORK PAGES - ALL
 ************************************************************************/
-.header-hero-logo{
+
+.header-hero-logo {
   max-width: 50%;
   max-height: 80%;
   padding: 4em 0;
   animation-name: fade-in;
 }
 
-.header-flexbox{
+.header-flexbox {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 2em;
 }
 
-
-.case-study-content-container { margin-top: 8em !important; margin-bottom: 8em !important; max-width: 1000px; margin-right: auto; margin-left: auto;}
-
+.case-study-content-container {
+  margin-top: 8em !important;
+  margin-bottom: 8em !important;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 /************************************************************************
 WORK PAGES - APPFOLIO
 ************************************************************************/
-.appfolio-header-flexbox{
+
+.appfolio-header-flexbox {
   background-color: #007ad4;
   animation-duration: 1.5s;
   color: white;
 }
-.appfolio-case-study-hero{
+
+.appfolio-case-study-hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.bottom-navigation-button{
+
+.bottom-navigation-button {
   text-decoration: none;
   color: #40464e;
   background-color: aliceblue;
   height: 200px;
   overflow: hidden;
 }
-.bottom-navigation-button-label{
+
+.bottom-navigation-button-label {
   margin: 0;
   position: relative;
   top: 10px;
 }
-.appfolio-feature-header{
+
+.appfolio-feature-header {
   padding: 0.25em 0;
   font-weight: normal;
   border-bottom: 1px solid #007ad4;
 }
 
-
 /************************************************************************
 WORK PAGES - V.TECH
 ************************************************************************/
-.vt-header-flexbox{
+
+.vt-header-flexbox {
   background-color: #892142;
   animation-duration: 1.5s;
   color: white;
 }
 
-.vt-case-study-hero{
+.vt-case-study-hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.vt-case-study-big-numbers{
+.vt-case-study-big-numbers {
   font-family: 'Hind Siliguri', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   letter-spacing: -1px;
   font-weight: bold;
@@ -299,15 +322,15 @@ WORK PAGES - V.TECH
   color: inherit;
 }
 
-.vt-ipad-mockup{
+.vt-ipad-mockup {
   padding: 2em 1em;
 }
 
-.messin-with-iphone-image-nav{
-    max-height: 700px;
+.messin-with-iphone-image-nav {
+  max-height: 700px;
 }
 
-.taskambient-feature-header{
+.taskambient-feature-header {
   padding: 0.25em;
   font-weight: normal;
   border-bottom: 1px solid #892142;
@@ -316,34 +339,33 @@ WORK PAGES - V.TECH
 /************************************************************************
 WORK PAGES - MONEYWISE
 ************************************************************************/
-.moneywise-header-flexbox{
+
+.moneywise-header-flexbox {
   background-color: #52C76B;
   animation-duration: 1.5s;
   color: white;
   justify-content: left;
 }
-.moneywise-case-study-hero{
+
+.moneywise-case-study-hero {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.moneywise-feature-block{
-/*  border: 1px solid lightgrey;
-  -webkit-box-shadow: 0 6px 6px -6px black;
-  -moz-box-shadow: 0 6px 6px -6px black;
-  box-shadow: 0 6px 6px -6px black;*/
+
+.moneywise-feature-block {
   margin: 0.5em;
   padding: 1em;
 }
 
-.moneywise-feature-header{
+.moneywise-feature-header {
   padding: 0.25em;
   font-weight: normal;
   border-bottom: 1px solid #52c86a;
 }
 
-.border-white{
+.border-white {
   border-color: white;
 }
 
@@ -351,112 +373,105 @@ WORK PAGES - MONEYWISE
 BIG-MEDIUM BREAKPOINT FIXES - 991px
 ************************************************************************/
 @media all and (max-width: 991px) {
-
-  h1{
+  h1 {
     font-size: 2.5em;
   }
-  h2{
+  h2 {
     font-size: 1.5em;
   }
-  h3{
+  h3 {
     font-size: 1.25em;
   }
-  .case-study-content-container { margin: 6em !important; }
+  .case-study-content-container {
+    margin: 6em !important;
+  }
 }
 
 /************************************************************************
 MEDIUM BREAKPOINT FIXES - 768px (from bootstrap)
 ************************************************************************/
 @media all and (max-width: 767px) {
-
-  h1{
+  h1 {
     font-size: 2em;
   }
-  h2{
+  h2 {
     font-size: 1.5em;
   }
-  h3{
+  h3 {
     font-size: 1.25em;
   }
-
-
-  .messin-with-iphone-image{
+  .messin-with-iphone-image {
     max-height: 100%;
   }
-
-  .home-project-card-appfolio{
+  .home-project-card-appfolio {
     overflow: hidden;
     max-height: 690px;
   }
-  .hero-header{
+  .hero-header {
     font-size: 3em;
   }
-  .home-work-link{
+  .home-work-link {
     text-align: center;
   }
-  .home-project-card-taskambient{
+  .home-project-card-taskambient {
     padding: 3em;
   }
-  .messin-with-taskambient-container{
+  .messin-with-taskambient-container {
     padding: 0;
     overflow: hidden;
   }
-  .messin-with-taskambient-image{
+  .messin-with-taskambient-image {
     max-width: 100%;
     height: auto;
   }
-
-  .vt-case-study-stat-left{
+  .vt-case-study-stat-left {
     padding-top: 1em;
     border-left: 0;
   }
-
-  .vt-case-study-stat-right{
+  .vt-case-study-stat-right {
     margin-bottom: 1em;
     border-right: 0;
   }
-
-  .case-study-content-container { margin: 4em !important; }
+  .case-study-content-container {
+    margin: 4em !important;
+  }
 }
 
 /************************************************************************
 SMALL BREAKPOINT FIXES - 576px (from bootstrap)
 ************************************************************************/
 @media all and (max-width: 575px) {
-
-  .hero-header{
+  .hero-header {
     font-size: 2em;
   }
-
-  .header-hero-logo{
+  .header-hero-logo {
     max-width: 100%;
     padding: 2em 0;
   }
-
-  .header-name{
+  .header-name {
     font-size: 1.5em;
     padding: 0;
   }
-
-  .navigation{
+  .navigation {
     flex-direction: column;
   }
-  .messin-with-taskambient-image, .messin-with-iphone-image, .vt-ipad-mockup{
+  .messin-with-taskambient-image, .messin-with-iphone-image, .vt-ipad-mockup {
     display: none;
   }
-  .home-work-link{
+  .home-work-link {
     text-align: left;
   }
-  .home-project-card-appfolio, .home-project-card-taskambient{
+  .home-project-card-appfolio, .home-project-card-taskambient {
     padding: 2em 1em;
     margin: 2em 1em;
   }
-  .home-about-me-card{
+  .home-about-me-card {
     padding: 0em 1em;
     margin: 0em 1em;
   }
-
-  .case-study-content-container { margin: 2em !important; }
+  .case-study-content-container {
+    margin: 2em !important;
+  }
 }
 
 /************************************************************************
