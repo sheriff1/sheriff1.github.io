@@ -1,4 +1,16 @@
-Title: An aside for aliceblue
+---
+layout: post
+
+title: "An aside for aliceblue"
+
+date: 2018-02-16
+
+image: appfolio_button.png
+
+image-description: description of this image
+
+published: false
+---
 
 - Remade my portfolio
 	- I found myself in a "flow" when working on it this time around vs. other times
@@ -11,5 +23,3 @@ Title: An aside for aliceblue
 	- Now want to make diligent effort to not do that again
 
 - aliceblue is coincidentally a dope color
-
-======================================================================================================
