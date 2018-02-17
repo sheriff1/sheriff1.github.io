@@ -343,6 +343,10 @@ WORK PAGES - MONEYWISE
   border-bottom: 1px solid #52c86a;
 }
 
+.border-white{
+  border-color: white;
+}
+
 /************************************************************************
 BIG-MEDIUM BREAKPOINT FIXES - 991px
 ************************************************************************/
