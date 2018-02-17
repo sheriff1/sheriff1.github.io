@@ -14,7 +14,7 @@ image: appfolio_button.png
 image-description: description of this image
 [//]: # (alt tag for the blog index page image. accessibility!)
 
-published: true
+published: false
 [//]: # (can be true or false. if true, the post will show up on the blog index page, if not, it won't.)
 
 [//]: # here's a markdown cheatsheet for formatting posts: https://kramdown.gettalong.org/quickref.html
