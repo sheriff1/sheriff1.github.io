@@ -51,6 +51,34 @@ a:hover{
   flex: 1;
 }
 
+.fade-in{
+  opacity: 0;
+  -webkit-animation:fade-in;
+  -moz-animation:fade-in;
+  animation:fade-in;
+  -webkit-animation-duration:1.5s;
+  -moz-animation-duration:1.5s;
+  animation-duration:1.5s;
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+}
+
+@keyframes fade-in{
+    0% {
+        opacity:0;
+        transform:  translate(0px,40px)  ;
+    }
+    50% {
+        opacity:0.7;
+        transform:  translate(0px,-3px)  ;
+    }
+    100% {
+        opacity:1;
+        transform:  translate(0px,0px)  ;
+    }
+}
+
 .hero{
   display: flex;
   justify-content: center;
@@ -62,12 +90,35 @@ a:hover{
   animation-duration: 1.5s;
   animation-name: fade-in;
 }
-.hero-header-p{
+.hero-header-p1,.hero-header-p2,.hero-header-p3,.hero-header-p4,.hero-header-p5{
   font-size: 1.15em;
-  animation-duration: 1.5s;
-  animation-name: fade-in;
 }
 
+.hero-header-p1{
+  -webkit-animation-delay: 1.6s;
+  -moz-animation-delay: 1.6s;
+  animation-delay: 1.6s;
+}
+.hero-header-p2{
+  -webkit-animation-delay: 2.0s;
+  -moz-animation-delay: 2.0s;
+  animation-delay: 2.0s;
+}
+.hero-header-p3{
+  -webkit-animation-delay: 2.4s;
+  -moz-animation-delay: 2.4s;
+  animation-delay: 2.4s;
+}
+.hero-header-p4{
+  -webkit-animation-delay: 2.8s;
+  -moz-animation-delay: 2.8s;
+  animation-delay: 2.8s;
+}
+.hero-header-p5{
+  -webkit-animation-delay: 3.2s;
+  -moz-animation-delay: 3.2s;
+  animation-delay: 3.2s;
+}
 /************************************************************************
 UTILITIES
 ************************************************************************/
@@ -178,23 +229,7 @@ WORK PAGES - ALL
   max-width: 50%;
   max-height: 80%;
   padding: 4em 0;
-  animation-duration: 1.5s;
   animation-name: fade-in;
-}
-
-@keyframes fade-in{
-    0% {
-        opacity:0;
-        transform:  translate(0px,40px)  ;
-    }
-    50% {
-        opacity:0.7;
-        transform:  translate(0px,-3px)  ;
-    }
-    100% {
-        opacity:1;
-        transform:  translate(0px,0px)  ;
-    }
 }
 
 .header-flexbox{
