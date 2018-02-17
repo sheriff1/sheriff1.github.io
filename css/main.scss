@@ -3,7 +3,7 @@
 # only Main files contain this front matter, not partials.
 ---
 $font-black: #40464e;
+@import "normalize";
+@import "suit-utils";
 @import "index";
 @import "custom-class-posts";
-// @import "normalize";
-@import "suit-utils";

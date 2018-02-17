@@ -83,53 +83,6 @@ a:hover {
 }
 
 
-.hero {
-  display: flex;
-  justify-content: center;
-  height: 100vh;
-  align-items: center;
-}
-
-.hero-header {
-  font-size: 5em;
-  animation-duration: 1.5s;
-  animation-name: fade-in;
-}
-
-.hero-header-p1, .hero-header-p2, .hero-header-p3, .hero-header-p4, .hero-header-p5 {
-  font-size: 1.15em;
-}
-
-.hero-header-p1 {
-  -webkit-animation-delay: 1.6s;
-  -moz-animation-delay: 1.6s;
-  animation-delay: 1.6s;
-}
-
-.hero-header-p2 {
-  -webkit-animation-delay: 2.0s;
-  -moz-animation-delay: 2.0s;
-  animation-delay: 2.0s;
-}
-
-.hero-header-p3 {
-  -webkit-animation-delay: 2.4s;
-  -moz-animation-delay: 2.4s;
-  animation-delay: 2.4s;
-}
-
-.hero-header-p4 {
-  -webkit-animation-delay: 2.8s;
-  -moz-animation-delay: 2.8s;
-  animation-delay: 2.8s;
-}
-
-.hero-header-p5 {
-  -webkit-animation-delay: 3.2s;
-  -moz-animation-delay: 3.2s;
-  animation-delay: 3.2s;
-}
-
 /************************************************************************
 UTILITIES
 ************************************************************************/
@@ -193,6 +146,54 @@ footer {
 /************************************************************************
 HOME PAGE
 ************************************************************************/
+.hero {
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-header {
+  font-size: 5em;
+  margin-top: 0;
+  animation-duration: 1.0s;
+  animation-name: fade-in;
+}
+
+.hero-header-p1, .hero-header-p2, .hero-header-p3, .hero-header-p4, .hero-header-p5 {
+  font-size: 1.15em;
+}
+
+.hero-header-p1 {
+  -webkit-animation-delay: 1.1s;
+  -moz-animation-delay: 1.1s;
+  animation-delay: 1.1s;
+}
+
+.hero-header-p2 {
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+
+.hero-header-p3 {
+  -webkit-animation-delay: 1.9s;
+  -moz-animation-delay: 1.9s;
+  animation-delay: 1.9s;
+}
+
+.hero-header-p4 {
+  -webkit-animation-delay: 2.3s;
+  -moz-animation-delay: 2.3s;
+  animation-delay: 2.3s;
+}
+
+.hero-header-p5 {
+  -webkit-animation-delay: 2.7s;
+  -moz-animation-delay: 2.7s;
+  animation-delay: 2.7s;
+}
 
 .home-project-card-appfolio {
   display: flex;
