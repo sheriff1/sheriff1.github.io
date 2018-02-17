@@ -25,11 +25,13 @@
 .u-pad-as { padding: 0.5em !important; }
 .u-pad-am { padding: 1em !important; }
 .u-pad-al { padding: 2em !important; }
+.u-pad-axl { padding: 4em !important; }
 
 .u-space-an { margin: 0 !important; }
 .u-space-as { margin: 0.5em !important; }
 .u-space-am { margin: 1em !important; }
 .u-space-al { margin: 2em !important; }
+.u-space-axl { margin: 4em !important; }
 
 .u-pad-vn { padding-top: 0 !important; padding-bottom: 0 !important; }
 .u-pad-vs { padding-top: 0.5em !important; padding-bottom: 0.5em !important; }
@@ -112,7 +114,7 @@
 /************************************************************************
 BIG-MEDIUM BREAKPOINT FIXES - 991px
 ************************************************************************/
-@media all and (max-width: 991px) { 
+@media all and (max-width: 991px) {
 	.u-large-hidden{
 		display: none;
 	}
