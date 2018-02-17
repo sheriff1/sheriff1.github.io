@@ -6,19 +6,19 @@ GLOBAL
 
 body {
   overflow-x: hidden;
-  color: #40464e;
+  color: $font-black;
 }
 
 header {
   background-color: #ffffff;
-  color: #40464e;
+  color: $font-black;
   border-bottom: 1px solid #ececec;
 }
 
 h1, h2, h3, h4 {
   font-family: 'Hind Siliguri', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   letter-spacing: -1px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 h1 {
@@ -156,7 +156,7 @@ HEADER REFERENCE: https://codepen.io/team/css-tricks/pen/YqaKYR
 .header-name {
   font-weight: 600;
   font-family: 'Hind Siliguri', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  color: #40464e;
+  color: $font-black;
 }
 
 .navigation {
@@ -279,7 +279,7 @@ WORK PAGES - APPFOLIO
 
 .bottom-navigation-button {
   text-decoration: none;
-  color: #40464e;
+  color: $font-black;
   background-color: aliceblue;
   height: 200px;
   overflow: hidden;
@@ -316,7 +316,7 @@ WORK PAGES - V.TECH
 .vt-case-study-big-numbers {
   font-family: 'Hind Siliguri', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   letter-spacing: -1px;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 1.75em;
   text-decoration: none;
   color: inherit;
