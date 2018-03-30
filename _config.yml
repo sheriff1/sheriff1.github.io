@@ -5,3 +5,4 @@ sass:
   style: compact 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
