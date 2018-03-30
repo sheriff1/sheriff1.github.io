@@ -1,4 +1,5 @@
 name: Sheriff Jolaoso
+title: Sheriff Jolaoso
 markdown: kramdown
 permalink: /blog/:title
 sass:
@@ -6,3 +7,5 @@ sass:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  
+github: [metadata]
