@@ -49,6 +49,14 @@ p, a, ul, li, span {
     border-radius: 2px;
     box-shadow: -2px 2px 0px;
 }
+.button-link-list{
+  list-style-type: none;
+  padding-left: 0;
+}
+.button-link-list-item{
+  padding: 8px 0;
+}
+
 a:hover.view-case-study-btn{
   text-decoration: none
 }
