@@ -72,7 +72,7 @@ a:hover.view-case-study-btn{
 }
 
 .site-content {
-  margin-top: 42px;
+  margin-top: 60px;
   flex: 1;
 }
 
@@ -486,6 +486,9 @@ MEDIUM BREAKPOINT FIXES - 768px (from bootstrap)
 SMALL BREAKPOINT FIXES - 576px (from bootstrap)
 ************************************************************************/
 @media all and (max-width: 575px) {
+  .site-content {
+    margin-top: 75px;
+  }
   .hero-header {
     font-size: 2em;
   }
