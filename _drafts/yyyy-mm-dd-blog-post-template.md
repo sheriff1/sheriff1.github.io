@@ -6,7 +6,7 @@ title: "What About Spaces and Punctuation?"
 [//]: # (this is where you put your title. make sure your title is the same name as the file)
 
 subtitle: "Subtitulos"
-[//]: # (this is where you put your subtitle. It appears in light grey under the title currently)
+[//]: # (this is where you put your subtitle. It appears in light grey under the title currently and underneath post on blog post index listing)
 
 date: 2017-06-14
 [//]: # (date probably won't be used long-term, but just add it if you want)

@@ -1,15 +1,13 @@
 ---
 layout: post
 
-title: "User Research Runtime Error"
+title: "User research runtime error"
 
-date: 2018-02-16
+subtitle: "Basically you can't truly evaluate something until someone uses it"
 
-image: appfolio_button.png
+date: 2018-03-03
 
-image-description: description of this image
-
-published: false
+published: true
 ---
 
 - User Research Runtime Error: Basically you can't truly evaluate something until someone uses it
