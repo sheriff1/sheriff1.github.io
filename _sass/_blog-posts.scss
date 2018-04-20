@@ -1,0 +1,15 @@
+.blog-subtitle{
+  color: $font-lightgrey;
+  font-style: italic;
+}
+
+.post-content-container{
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  p, a{
+    font-size: 1.15em;
+    line-height: 1.6;
+  }
+}

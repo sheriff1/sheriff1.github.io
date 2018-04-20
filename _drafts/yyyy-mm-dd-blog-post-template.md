@@ -20,7 +20,7 @@ image-description: description of this image
 published: false
 [//]: # (can be true or false. if true, the post will show up on the blog index page, if not, it won't.)
 
-[//]: # here's a markdown cheatsheet for formatting posts: https://kramdown.gettalong.org/quickref.html
+[//]: # here's a markdown cheatsheet for formatting posts: https://kramdown.gettalong.org/quickref.html https://about.gitlab.com/2016/07/19/markdown-kramdown-tips-and-tricks/#applying-classes
 ---
 
 And the content of the blog post goes here in all it's Markdown glory.
