@@ -24,7 +24,7 @@ published: true
 ---
 
 My beef with pixel perfection is hopefully as simple as this:
-When communicating design, if an aspect of a mockup does not translate 1-to-1 to the developed version, that does not mean we should compromise on the core design. We can't let our confidence get shaken so easily.
+When communicating design, if an aspect of a mockup does not translate 1-to-1 to the developed version, that does not mean we should compromise on other aspects of the design. We shouldn't let our confidence get shaken so easily.
 
 If pixel perfection has never taken you down this avenue (pronounced dark alley), then nevermind the rest of my words. If the beef resonates with you though, do feel free to read on.
 
