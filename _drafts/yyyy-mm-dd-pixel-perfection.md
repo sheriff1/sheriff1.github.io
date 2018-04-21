@@ -24,7 +24,7 @@ published: true
 ---
 
 My beef with pixel perfection is hopefully as simple as this:
-When communicating design, if an aspect of a mockup does not translate 1-to-1 to the developed version, that does not mean we can compromise on the core design.
+When communicating design, if an aspect of a mockup does not translate 1-to-1 to the developed version, that does not mean we should compromise on the core design. We can't let our confidence get shaken so easily.
 
 Picture this: you, interface designer extraordinaire, mock up a page with realistic content, recreated gradient-ed buttons with borders, and perfect CSS grid alignment. You lob the alley- to your development team who has been alongside you as you all have been building up this play together.
 
@@ -42,10 +42,10 @@ Your mockups were crisp, they follow patterns commonly seen in your application,
 
 A focus on pixel perfection is what's going on here.
 
-Kerning in your favorite prototyping tool may not match exactly how Google Chrome has decided the kerning should look. That's life fam. Program-to-program, app-to-app, things don't always render exactly as you hope down to the miniscule-est of details. Don't let this cause you and your team to slide down the slippery slope.
+Kerning in your favorite prototyping tool may not match exactly how Google Chrome has decided the kerning should look. That's life fam. Program-to-program, app-to-app, things don't always render exactly as you hope down to the miniscule-est of details. Don't let this cause you and your team to slide down the slippery slope of questions decisions made in the design process.
 
-Conversely, I hope this doesn't lead designers to want to achieve absolute pixel perfection. It's a waste of your time to have to make a pixel-perfect case across your entire design just to assure all other pixel-"alright" considerations of your design are taken serious.
+Conversely, I hope this doesn't lead designers to want to achieve absolute pixel perfection. It's a waste of your time to have to make a pixel-perfect case across your entire design just to assure all other pixel-"fine" considerations of your design are taken serious.
 
-Do field questions of compromise in your designs, but preempting the compromise can be a painful process. Conversely, showing flippancy at the first sign of inconsistency is not beneficial either. Communicate and compromise as needed. Avoid being design pedants. 
+Do field questions of compromise in your designs, but preempting the compromise should be an unneeded process. Conversely, showing flippancy at the first sign of inconsistency is not beneficial either. Communicate and compromise as needed to avoid being design pedants.
 
-(Job posters; please remove qualifications reminiscent to "You're a fiend for pixel perfection" from your postings for designers.)
+Post-script: Job posters; please remove qualifications reminiscent to "You're a fiend for pixel perfection" from your postings for designers. Issa not helpful.
