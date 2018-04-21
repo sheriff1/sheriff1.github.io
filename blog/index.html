@@ -13,7 +13,6 @@ tags: blog
 
 <div class="u-space-hl full-height-of-screen">
   {% for post in site.posts %}
-    {% if post.title != "Credits" %}
       <div class="u-space-vl">
         <a class="blog-post-index-listing" href="{{ post.url }}">
           {{ post.title }}
@@ -23,7 +22,6 @@ tags: blog
         </p>
       </div>
       <hr/>
-    {% endif %}
   {% endfor %}
 </div>
       <!--
