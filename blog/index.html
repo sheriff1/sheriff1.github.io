@@ -13,15 +13,15 @@ tags: blog
 
 <div class="u-space-hl full-height-of-screen">
   {% for post in site.posts %}
-      <div class="u-space-vl">
-        <a class="blog-post-index-listing" href="{{ post.url }}">
-          {{ post.title }}
-        </a>
-        <p>
-          {{ post.subtitle }}
-        </p>
-      </div>
-      <hr/>
+    <div class="u-space-vl">
+      <a class="blog-post-index-listing" href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+      <p>
+        {{ post.subtitle }}
+      </p>
+    </div>
+    <hr/>
   {% endfor %}
 </div>
       <!--
