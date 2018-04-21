@@ -38,6 +38,6 @@ but should it be that way?
 
 Imagine the movie trope of the snowball rolling down the hill with nothing but momentum on its side, laying haste to anything in its way...
 
-You rarely see the clean up scene.
+You rarely see the clean up scene of the movie though.
 
-Momentum can leave a trail of destruction. A trail that we rarely look back at. if we don't look back and try to figure things out, no matter the scale.
+Momentum can leave a trail of destruction. A trail that we rarely look back at. If we don't look back and try to figure things out, no matter the scale, there can be compounded issues. Just ask the government.
