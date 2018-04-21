@@ -17,3 +17,18 @@
     padding-bottom: 2em;
   }
 }
+
+@media all and (max-width: 991px) {
+
+}
+@media all and (max-width: 767px) {
+
+  .post-content-container{
+    max-width: 550px;
+  }
+}
+@media all and (max-width: 575px) {
+  .post-content-container{
+    max-width: 350px;
+  }
+}
