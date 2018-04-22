@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: "C'mon fam"
+title: "C'mon fam - LinkedIn"
 
 subtitle: "LinkedIn recently let me know someone viewed my profile..."
 
@@ -14,13 +14,19 @@ LinkedIn recently let me know in one day 3 people viewed my profile (probably no
 
 That notification looked like this:
 
-![3 people viewed your profile](/assets/blog/3-people-viewed.png){:class="img-fluid"}
+<a data-fancybox href="/assets/blog/3-people-viewed.png">
+![3 people viewed your profile image from LinkedIn](/assets/blog/3-people-viewed.png){:class="img-fluid"}
+</a>
 
-The thing about this notification is there are 2 signifiers to take action: The "Try Premium for free" button, and the ellipse in the top-right corner. Click the ellipse in the top-right corner gives you the option to delete the notification or turn notifications like this off. The "secret" signifier is that the notification message, "3 people viewed your profile", along with the icon sprite to the left, are clickable and will lead you to the list of folks who viewed your profile (or so you think).
+The thing about this notification is there are 2 signifiers to take action: The "Try Premium for free" button, and the ellipse in the top-right corner. Clicking the ellipse in the top-right corner gives you the option to delete the notification or turn notifications like this off. 👍 for the contextual menu options.
+
+The "secret" signifier though is the notification message: "3 people viewed your profile". That, along with the icon sprite to the left, are clickable and will lead you to the list of folks who viewed your profile. 👎 for links that don't look like links.
 
 Now, in hindsight, I should have taken more seriously the primary call-to-action of "Try Premium for free" because what was on the other side of this notification was this:
 
-![who viewed your profile](/assets/blog/who-viewed.png){:class="img-fluid"}
+<a data-fancybox href="/assets/blog/who-viewed.png">
+![who viewed your profile image from LinkedIn](/assets/blog/who-viewed.png){:class="img-fluid"}
+</a>
 
 LinkedIn: C'mon fam.
 
@@ -32,4 +38,4 @@ Then you have these 4 ghostly tiles. 66% of the screen is taken up by ghosts! Ar
 
 And are these ghosts even the actual people that viewed my profile or stock photos? (I hope they're stock photos because now I'm putting my creep mode ghosts on blast...Sorry about that.)
 
-All that said... LinkedIn. C'mon fam. 
+All that said... LinkedIn: C'mon fam.
