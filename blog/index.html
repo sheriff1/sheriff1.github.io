@@ -13,18 +13,32 @@ tags: blog
 
 <div class="u-space-hl full-height-of-screen">
   {% for post in site.posts %}
+  <div class="blog-post-index-listing">
     <div class="u-space-vl">
-      <a class="blog-post-index-listing" href="{{ post.url }}">
+      <a class="blog-post-index-listing-link" href="{{ post.url }}">
         {{ post.title }}
       </a>
       <p>
         {{ post.subtitle }}
       </p>
     </div>
-    <div>
-      {{ post.tags }}
-    </div>
-    <hr/>
+    <!-- {% if post.tags.size > 0 %}
+      {% if post.tags == "Design" %}
+      <div class="blog-post-index-listing-tag design-tag">
+        {{ post.tags }}
+      </div>
+      {% elsif post.tags == "Personal" %}
+      <div class="blog-post-index-listing-tag personal-tag">
+        {{ post.tags }}
+      </div>
+      {% elsif post.tags == "Misc." %}
+      <div class="blog-post-index-listing-tag misc-tag">
+        {{ post.tags }}
+      </div>
+      {% endif %}
+    {% endif %} -->
+  </div>
+  <hr/>
   {% endfor %}
 </div>
       <!--

@@ -414,11 +414,37 @@ WORK PAGES - MONEYWISE
 
 
 /************************************************************************
-BLOG - 991px
+BLOG
 ************************************************************************/
 .blog-post-index-listing{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.blog-post-index-listing-link{
   font-size: 2em;
 }
+
+// .blog-post-index-listing-tag{
+//   padding: 2px 5px;
+//   border-radius: 3px;
+//   color: white;
+//   font-family: Hind Siliguri;
+//   font-size: 0.75em;
+//
+// }
+// .design-tag{
+//     background-color: cornflowerblue;
+// }
+// .misc-tag{
+//     background-color: green;
+// }
+// .personal-tag{
+//     background-color: red;
+// }
 
 /************************************************************************
 BIG-MEDIUM BREAKPOINT FIXES - 991px
@@ -436,7 +462,7 @@ BIG-MEDIUM BREAKPOINT FIXES - 991px
   .case-study-content-container {
     margin: 6em !important;
   }
-  .blog-post-index-listing{
+  .blog-post-index-listing-link{
     font-size: 1.5em;
   }
 }
@@ -489,7 +515,7 @@ MEDIUM BREAKPOINT FIXES - 768px (from bootstrap)
   .case-study-content-container {
     margin: 4em !important;
   }
-  .blog-post-index-listing{
+  .blog-post-index-listing-link{
     font-size: 1.5em;
   }
   .home-page-social{
@@ -535,7 +561,7 @@ SMALL BREAKPOINT FIXES - 576px (from bootstrap)
   .case-study-content-container {
     margin: 2em !important;
   }
-  .blog-post-index-listing{
+  .blog-post-index-listing-link{
     font-size: 1.25em;
   }
 }
