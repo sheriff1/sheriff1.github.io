@@ -250,13 +250,19 @@ HOME PAGE
   background-color: aliceblue;
 }
 
+.home-about-me-card-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .home-about-me-card {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  margin: 0 1em;
   padding: 0 3em 1em;
+  max-width: 1200px;
 }
 
 .messin-with-iphone-image {
@@ -485,6 +491,9 @@ MEDIUM BREAKPOINT FIXES - 768px (from bootstrap)
   }
   .blog-post-index-listing{
     font-size: 1.5em;
+  }
+  .home-page-social{
+    text-align: center;
   }
 }
 
