@@ -1,14 +1,16 @@
-{
-  "name": "The Halal Guys",
-  "address": "8919 Santa Monica Blvd, West Hollywood, CA 90069",
-  "url": "https://thehalalguys.com/locations/",
-  "latitude": "34.084805",
-  "longitude": "-118.384665",
-},
-{
-  "name": "Wingman Chicken",
-  "address": "4th Street Market 201 E 4th St, Santa Ana, CA 92701",
-  "url": "http://www.wingman-kitchen.com/",
-  "latitude": "33.748281",
-  "longitude": "-117.866213",
-}
+[
+	{
+	  "name": "The Halal Guys",
+	  "address": "8919 Santa Monica Blvd, West Hollywood, CA 90069",
+	  "url": "https://thehalalguys.com/locations/",
+	  "latitude": "34.084805",
+	  "longitude": "-118.384665",
+	},
+	{
+	  "name": "Wingman Chicken",
+	  "address": "4th Street Market 201 E 4th St, Santa Ana, CA 92701",
+	  "url": "http://www.wingman-kitchen.com/",
+	  "latitude": "33.748281",
+	  "longitude": "-117.866213",
+	}
+]
