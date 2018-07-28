@@ -2,7 +2,7 @@
 layout: post
 [//]: # (this stays "post")
 
-title: "Pixel Perfection*"
+title: "Pixel Perfection"
 [//]: # (this is where you put your title. make sure your title is the same name as the file)
 
 subtitle: "* - specifically the death of pixel perfection...kind of"
@@ -20,7 +20,6 @@ image-description:
 published: true
 [//]: # (can be true or false. if true, the post will show up on the blog index page, if not, it won't.)
 
-[//]: # here's a markdown cheatsheet for formatting posts: https://kramdown.gettalong.org/quickref.html
 ---
 
 My beef with pixel perfection is hopefully as simple as this:
