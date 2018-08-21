@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: " \"Yeah, that would be great.\""
+title: " *\"Yeah, that would be great.\"*"
 
 subtitle: "Leading answers to leading questions"
 

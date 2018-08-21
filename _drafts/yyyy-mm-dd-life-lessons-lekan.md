@@ -2,7 +2,7 @@
 layout: post
 [//]: # (this stays "post")
 
-title: "My big brother and the TV Guide"
+title: "*Life Lessons: My big brother and the TV Guide*"
 [//]: # (this is where you put your title. make sure your title is the same name as the file)
 
 subtitle: ""

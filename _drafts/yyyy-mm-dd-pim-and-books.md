@@ -2,7 +2,7 @@
 layout: post
 [//]: # (this stays "post")
 
-title: "PIM and Books"
+title: "*PIM and Books*"
 [//]: # (this is where you put your title. make sure your title is the same name as the file)
 
 subtitle: Who buys books anyways fam...

@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: "Be real, product designer"
+title: "*Be real, product designer*"
 
 date: 2018-02-16
 

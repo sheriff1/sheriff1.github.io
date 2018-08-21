@@ -2,7 +2,7 @@
 layout: post
 [//]: # (this stays "post")
 
-title: "What About Spaces and Punctuation?"
+title: "*What About Spaces and Punctuation?*"
 [//]: # (this is where you put your title. make sure your title is the same name as the file)
 
 subtitle: "Subtitulos"

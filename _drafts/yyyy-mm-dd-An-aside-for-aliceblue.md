@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: "An aside for aliceblue"
+title: "*An aside for aliceblue*"
 
 date: 2018-02-16
 

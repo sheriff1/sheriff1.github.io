@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: "User runtime error"
+title: "*User runtime error*"
 
 subtitle: "Basically you can't truly evaluate something until someone uses it"
 

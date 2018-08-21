@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: "Accountability's your friend, Sheriff"
+title: "*Accountability's your friend, Sheriff*"
 
 subtitle: This is just a list of creative activities I'd like to undertake...and now that they're on the internet, they have to happen.
 

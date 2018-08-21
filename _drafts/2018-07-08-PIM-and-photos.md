@@ -2,7 +2,7 @@
 layout: post
 [//]: # (this stays "post")
 
-title: "PIM and Photos"
+title: "*PIM and Photos*"
 [//]: # (this is where you put your title. make sure your title is the same name as the file)
 
 subtitle: How many photos do you have stored on your smartphone or in the cloud?
