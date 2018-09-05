@@ -39,3 +39,6 @@ I had no initial reaction to it then, but 10 years later, I vividly remember thi
 Mr. Toliver really teed it up in my mind, and continued to do so in our interactions during my time @ UMBC, where he was my academic advisor for my junior year and 1st semester of my senior year. 
 
 Mr. Toliver passed during my senior year. Undoubtedly the
+
+
+Link to his words: http://meyerhoffalumni.org/2015/02/fight-the-urge-to-be-average/
