@@ -23,5 +23,8 @@ published: true
 ---
 
 Bullet points
-- 
-- Opportunity cost of slowing down
+- Sometimes we compromise and lose a bit of foresight for the sake of getting something done.
+- Opportunity cost of slowing down should be deliberately considered, taking a pause is worth it
+- Tact is important as well. The momentum you may think needs to be reconsidered will affect many people, surely. Optimistically, you want to be part of setting an environment where everyone can be mindful of if the team is going in the right direction and is making good decisions. This is ideal, but is challenging.
+	- Set the environment
+	- If the environment isn't set, retrospect as a group or in pairs
