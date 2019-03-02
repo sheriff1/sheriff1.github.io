@@ -112,6 +112,9 @@ a:hover.view-case-study-btn{
   }
 }
 
+hr{
+  margin: 0;
+}
 
 /************************************************************************
 UTILITIES
@@ -126,8 +129,15 @@ UTILITIES
   box-shadow: 0px 1px 2px #0000001a;
 }
 
-.full-height-of-screen {
+.blog-post-section{
   min-height: 100vh;
+  max-height: 1vh;
+  overflow-y: auto;
+  border-left: 1px solid lightgrey;
+}
+
+.blog-hero-header{
+  letter-spacing: -4px;
 }
 
 /************************************************************************
@@ -503,6 +513,19 @@ MEDIUM BREAKPOINT FIXES - 768px (from bootstrap)
   .home-page-social{
     text-align: center;
   }
+
+  .blog-post-section{
+    min-height: 100vh;
+    max-height: 1vh;
+    overflow-y: auto;
+    border-left: 0;
+    border-top: 1px solid lightgrey;
+  }
+
+  .blog-hero-header{
+    letter-spacing: -2px;
+  }
+
 }
 
 /************************************************************************
