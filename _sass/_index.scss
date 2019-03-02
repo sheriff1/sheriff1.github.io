@@ -438,6 +438,25 @@ BLOG
   font-size: 2em;
 }
 
+.blog-post-index-listing-tag{
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border-radius: 0.5em;
+  font-weight: bold;
+  padding: 0.5em 1.5em;
+  font-size: 0.5em;
+}
+
+.tag-life{
+  background-color: #3e8ed4;
+}
+.tag-design{
+  background-color: #FF131F;
+}
+.tag-other{
+  background-color: $font-black;
+}
+
 /************************************************************************
 BIG-MEDIUM BREAKPOINT FIXES - 991px
 ************************************************************************/

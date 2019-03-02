@@ -17,7 +17,14 @@ tags: blog
       <div class="blog-post-index-listing">
         <div class="u-space-vl">
           <a class="blog-post-index-listing-link" href="{{ post.url }}">{{ post.title }}</a>
-          <p>{{ post.subtitle }}</p>
+          <p class="mb-2">{{ post.subtitle }}</p>
+          {% if post.tag == "life"%}
+          <span class="blog-post-index-listing-tag tag-life">life</span>
+          {% elsif post.tag == "design"%}
+          <span class="blog-post-index-listing-tag tag-design">design</span>
+          {% else %}
+          <span class="blog-post-index-listing-tag tag-other">other</span>
+          {% endif %}
         </div>
       </div>
       <hr/>

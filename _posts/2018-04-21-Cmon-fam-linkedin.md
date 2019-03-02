@@ -3,14 +3,16 @@ layout: post
 
 title: "C'mon fam - LinkedIn"
 
-subtitle: "LinkedIn recently let me know someone viewed my profile..."
+subtitle: "LinkedIn once let me know someone viewed my profile..."
 
 date: 2018-04-21
+
+tag: "design"
 
 published: true
 ---
 
-LinkedIn recently let me know in one day 3 people viewed my profile (probably not a big deal for most, but for me, I was like "Oh ok, I'm outchere.").
+A while back, LinkedIn let me know in one day 3 people viewed my profile (probably not a big deal for most, but for me, I was like "Oh ok, I'm outchere.").
 
 That notification looked like this:
 

@@ -20,6 +20,8 @@ image-description: --
 published: true
 [//]: # (can be true or false. if true, the post will show up on the blog index page, if not, it won't.)
 
+tag: design
+
 ---
 
 In our various lines of work, all of us have fallen into what probably felt like a "work for work's sake" situation, where sunken costs become more of the driving force to complete a project than the original purpose of the project. Similarly, we'll continue using processes and practices because "that's the way we've always done it and it works."
