@@ -5,7 +5,7 @@ layout: post
 title: "Mind the Momentum"
 [//]: # (this is where you put your title. make sure your title is the same name as the file)
 
-subtitle: "Notice your trail of destruction"
+subtitle: "Notice your trail of destruction..."
 [//]: # (this is where you put your subtitle. It appears in light grey under the title currently and underneath post on blog post index listing)
 
 date: 2019-02-23
