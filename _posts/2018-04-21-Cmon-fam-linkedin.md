@@ -41,3 +41,5 @@ Then you have these 4 ghostly tiles. 66% of the screen is taken up by ghosts! Ar
 And are these ghosts even the actual people that viewed my profile or stock photos? (I hope they're stock photos because now I'm putting my creep mode ghosts on blast...Sorry about that.)
 
 All that said... LinkedIn: C'mon fam.
+
+✌🏿

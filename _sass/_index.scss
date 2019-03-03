@@ -534,10 +534,10 @@ MEDIUM BREAKPOINT FIXES - 768px (from bootstrap)
   }
 
   .blog-post-section{
-    min-height: 100vh;
-    max-height: 1vh;
-    overflow-y: auto;
-    border-left: 0;
+    min-height: initial;
+    max-height: initial;
+    overflow-y: initial;
+    border-left: initial;
     border-top: 1px solid lightgrey;
   }
 
