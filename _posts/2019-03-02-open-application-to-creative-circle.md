@@ -30,6 +30,8 @@ I close conversations by saying “peace” still and will do into the next cent
 
 I can provide website design assistance.
 
+I'll buy your product at full-price and volunteer to help you accomplish your goals.
+
 I wanna talk about purpose, who you are, and how you’ve become who you are. I want to be around when you create, and I want you to be around when I create, digitally or physically. Let’s be great together.
 
 References upon request.
