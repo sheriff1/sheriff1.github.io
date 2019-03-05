@@ -1,12 +1,16 @@
 ---
 layout: post
-'["//"]': 
-title: Open Application to Creative Circle
-subtitle: This is my opportunity to get in on the ground floor...
-date: 2019-03-02 00:00:00 +0000
-tag: life
+
+title: "Open Application to Creative Circle"
+
+subtitle: "This is my opportunity to get in on the ground floor..."
+
+date: 2019-03-02
+
+tags: "design life"
 
 ---
+
 ## This is my unsolicited application to join/create a creative circle and/or group chat.
 
 I’m trying to network about when it’s best to use specific spices and shit like parsley and chives and creating media. I won’t post hella memes cuz I’m too slow on that, I’m more of a “why” person than a “yes” person, and I’m not into too much sensationalization.

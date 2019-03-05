@@ -7,9 +7,7 @@ subtitle: "There's a Migo who decided to champion accessibility over style..."
 
 date: 2019-03-02
 
-published: true
-
-tag: design
+tags: "design"
 
 ---
 

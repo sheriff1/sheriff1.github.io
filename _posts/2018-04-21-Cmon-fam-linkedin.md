@@ -7,9 +7,8 @@ subtitle: "LinkedIn once let me know someone viewed my profile..."
 
 date: 2018-04-21
 
-tag: "design"
+tags: "design"
 
-published: true
 ---
 
 A while back, LinkedIn let me know in one day 3 people viewed my profile (probably not a big deal for most, but for me, I was like "Oh ok, I'm outchere.").
