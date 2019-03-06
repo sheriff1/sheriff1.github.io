@@ -198,6 +198,7 @@ HOME PAGE
   height: 80vh;
   align-items: center;
   flex-direction: column;
+  padding: 86px 0;
 }
 
 .hero-header {
@@ -546,6 +547,11 @@ MEDIUM BREAKPOINT FIXES - 768px (from bootstrap)
     font-weight: bold;
   }
 
+  .picture-of-me{
+    max-width: 60%;
+    margin-bottom: 2em;
+  }
+
 }
 
 /************************************************************************
@@ -588,6 +594,10 @@ SMALL BREAKPOINT FIXES - 576px (from bootstrap)
   }
   .blog-post-index-listing-link{
     font-size: 1.25em;
+  }
+  .picture-of-me{
+    max-width: 70%;
+    margin-bottom: 2em;
   }
 }
 
