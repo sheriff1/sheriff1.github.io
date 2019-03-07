@@ -433,6 +433,12 @@ BLOG
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  border-bottom: 1px solid lightgrey;
+  padding: 2em 1em;
+}
+
+.blog-post-index-listing:last-child{
+  border-bottom: 0;
 }
 
 .blog-post-index-listing-link{

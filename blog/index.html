@@ -15,7 +15,7 @@ tags: blog
     <div class="blog-post-section px-5 py-4 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
       {% for post in site.posts %}
       <div class="blog-post-index-listing">
-        <div class="u-space-vl">
+        <div>
           <a class="blog-post-index-listing-link" href="{{ post.url }}">{{ post.title }}</a>
           <p class="mb-2">{{ post.subtitle }}</p>
 
@@ -30,10 +30,8 @@ tags: blog
           {% if post.tags contains "no-tag" %}
             <span class="blog-post-index-listing-tag tag-other">other</span>
           {% endif %}
-
         </div>
       </div>
-      <hr/>
       {% endfor %}
     </div>
 
