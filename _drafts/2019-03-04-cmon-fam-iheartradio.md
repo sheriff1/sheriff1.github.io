@@ -42,7 +42,7 @@ iHeartRadio: C’mon fam.
 
 You know what you’re doing. I’m sure you are not a sole culprit, but it’s not a pattern of my most highly-coveted applications…or any legitimate application.
 
-It’s the radio. What you want me to pay for, you can do a better job of educating me on. Give me the value proposition and help me get a sense of why I should spend $15 on this instead of sneakily trying to get me to subscribe and then have me say “oh phooey, I don’t know how to unsubscribe. Guess I’m spending this $15 a month…”
+It’s the radio. What you want me to pay for, you can do a better job of educating me on. Give me the value proposition and help me get a sense of why I should spend $15 on this instead of sneakily trying to get me to subscribe and then have me say “oh phooey, I don’t know how to unsubscribe. Guess I’m spending this $15 a month…” (Apple has tucked away subscriptions pretty deep within their settings IA...)
 
 Like look at this advertisement:
 
