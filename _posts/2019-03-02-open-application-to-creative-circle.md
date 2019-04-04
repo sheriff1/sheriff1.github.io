@@ -29,4 +29,4 @@ I wanna talk about purpose, who you are, and how you’ve become who you are. I 
 
 References upon request.
 
-✌🏿
+👍🏿✌🏿
