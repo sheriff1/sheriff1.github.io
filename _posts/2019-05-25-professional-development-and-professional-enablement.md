@@ -19,8 +19,8 @@ The key questions I had to answer for this project were:
 * Where am I going to get NBA data?
 * Will the data be formatted the way I need it to be?
 * If the data is not formatted the way I need it to be, how would I go about formatting it?
-* How will I rank them even after I get the data? 
-* What is the interface going to look like? 
+* How will I rank them even after I get the data?
+* What is the interface going to look like?
 * Does this already exist?
 
 The answer to that last question is kind of… and when I say kind of, I mean yes. That said though, don’t let the product existing stop you from building it yourself! — You may find yourself solving different sets of problems than the other products with what you build or solving the existing products’ problems even better.
@@ -39,13 +39,13 @@ I also realized that for the website, I didn't have to call upon the API ongoing
 
 Once I had a handle on how to use the API to retrieve data, the next step was getting the data out of just printing the output in the terminal, but writing it to a file or database so I could “[Touch it, bring it, pay it, watch it, Turn it, leave it, start – format it](https://genius.com/1690119)”, specifically format it... (in fact, I only had to format it, but shout out to Daft Punk and Busta Rhymes still).
 
-When learning how to retrieve the data, it was great to see the parallels with how I’ve previously used Python in how I could use NodeJS. Prior to this project, NodeJS seemed fairly ambiguous to me, but looking into more of the use cases and documentation, how to use NodeJS became clearer. It began to resonate with me the value of being able to use the same programming language on the frontend and backend.
+When learning how to retrieve the data, it was great to see the parallels with how I’ve previously used Python in how I could use NodeJS. Before this project, NodeJS seemed fairly ambiguous to me, but looking into more of the use cases and documentation, how to use NodeJS became clearer. It began to resonate with me the value of being able to use the same programming language on the frontend and backend.
 
-From there, I had to do some string composition, file I/O, and with that I had some JSON data that I could display.
+From there, I had to do some string composition, file I/O, and with that, I had some JSON data that I could display.
 
 ### Version 0 (VSCode, Github, HTML, CSS, Javascript)
 
-I had a small amount of team data available and I thought it'd be fine to start scaffolding out what the website could look like with my current data as well as get back into rhythm with version control and writing HTML.
+I had a small amount of team data available, and I thought it'd be fine to start scaffolding out what the website could look like with my current data as well as get back into rhythm with version control and writing HTML.
 
 I started by just outputting the team stats I had in a table:
 
@@ -53,11 +53,11 @@ I started by just outputting the team stats I had in a table:
 
 With that down, I was able to iterate on that code to make it more systematic and less hard-coded.
 
-In further adding additional "rank-ables" into the data set in my rank creation functions, I found a quirk in what the data actually represented. There's a "streak" field in the Standings API data, and I came to find out it was not indicative of whether it is a wins or losses streak, where by the eyeball test, Cleveland ranked highest with "10"...losses.
+In further adding additional "rank-ables" into the data set in my rank creation functions, I found a quirk in what the data represented. There's a "streak" field in the Standings API data, and I came to find out it was not indicative of whether it is a wins or losses streak (by the eyeball test, Cleveland ranked highest with "10"...losses).
 
-It also wasn't indicative of the recency of this streak; if it's all-time for the season or of the last 10 games. Ended up being the latter in this scenario, making the statistic doubly-less interesting. (I take it back!; there's a "winStreak" T/F field that tells you which direction that streak number goes).
+It also wasn't indicative of the recency of this streak; if it's all-time for the season or of the last ten games. Ended up being the latter in this scenario, making the statistic doubly-less interesting. (I take it back!; there's a "winStreak" T/F field that tells you which direction that streak number goes).
 
-Quirks like this would rear their ugly head again...
+Quirks like this would rear their ugly head again.
 
 ### Moar framework (Bootstrap)
 
@@ -69,23 +69,21 @@ Progress to this point:
 
 ### Needs some order (Trello)
 
-At this point, I realized I wasn't really moving towards my initial mockup with that I was doing.
+At this point, I realized I wasn't moving towards my initial mockup with that I was doing.
 
 This project needed some order. Once I got my hands dirty, I noticed I got to a point where I was trying to polish what would become a nearly 100-column table, and I knew that wasn't my goal anyway.
 
-That said, I employed a piece of paper to start jotting down actions to clear the path to the final result: \[written gameplan\]
+That said, I employed a piece of paper to start jotting down actions to clear the path to the final result.
 
 I then translated that into cards in Trello to get in the practices of rewarding myself. See, I was getting in touch with the "accomplish-ies"; some gross combination of the fuzzies and feeling accomplished.
 
-\[trello board v1 screenshot\]
-
 This helped me avoid the rabbit hole of trying to fix table columns in the DOM for better scrolling and put more focus on things like getting all the data rounded up and the simplified team views of the data.
 
-### ..and then I threw order away (Trello, whiteboards)
+### And then I threw order away (Trello, whiteboards)
 
 I never resorted back to Trello because one weekend, I was like “you know what, let me just break this down based on the interface I drew”:
 
-\[whiteboard image\]
+![](/assets/whiteboard-gameplan.jpg)
 
 and I realized the project was more straightforward than I anticipated and I got to work on the main view of the site:
 
