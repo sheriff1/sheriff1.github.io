@@ -2,7 +2,7 @@
 layout: post
 title: NBA Top Five In
 subtitle: The story of a project that helps NBA fans take pride in their team's year...
-date: 2019-05-25 07:00:00 +0000
+date: 2019-05-25T07:00:00.000+00:00
 image: "--"
 image-description: "--"
 tags: design
@@ -127,6 +127,6 @@ The key feedback that validated the project though was that a majority of people
 
 It’s always fun to apply your craft to something you think is compelling at any scale. I went into this project thinking it’d be fairly easy to get all this data together and make this visualization, but even with that ease in mind, I had some trepidation with getting my hands dirty and even more trepidation after my hands were dirtied and I wanted to share the site. All that said, it all ended up going fairly well and I’m glad I was able to exercise my development prowess once again and even learn new things like how to use NodeJS and getting set up with my new favorite code editor VSCode.
 
-Check out the completed version of [NBA Top Five In]() here.
+Check out the completed version of [NBA Top Five In](https://sheriffjolaoso.com/topfivin) here.
 
 👍🏿✌🏿
