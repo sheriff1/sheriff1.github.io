@@ -85,34 +85,38 @@ and I realized the project was more straightforward than I anticipated and I got
 
 \[images\]
 
-### The solid construction of expertise
+### Data strikes back (Rapid API)
 
-Imagine if Serena Williams did not have practice within her profession. Repetition of common tactics and experimentation with new techniques to improve her on-court performance is likely a key part of her getting prepared for tennis tournaments, and all of those are happening outside of competition.
+As mentioned earlier, the API I was using to get game data had a few quirks...
 
-Mirroring that idea in the workplace, of course, it may seem out of the realm of imagination to have a majority of the effort an employee does not be a direct, quantifiable output, but all I would argue for is increasing the balance between time spent developing skills and time spent producing.
+The first was overtime points. I was looking at the score returned by the API I was using and I was comparing that to the sum of the 4 quarters of points I was getting and noted for 1 game, the numbers didn’t match up. The way the API is set up is that it has an array for each quarter, and I assumed all of these arrays would have 4 items in them, but alas, there were some with 5 and 6. This spawned a new data point I could add to the site: Overtime Points, so shoutout to you Brooklyn, for you are tops in OT.
 
-### Flow
+To produce the assists, rebounds, and other per-game statistics, I actually got data for each individual game, and of course there are 1569 games in a season…at least I allowed myself to not give it an afterthought as I put the app together. Of course, there are 1230 games in a season, and the API actually had a large amount of duplicated data in it. Woe is me. To weasel out of dealing with duplicates, I had to “cleanse” the 1569 games by making a UID based on the teams that played the game and the date the game was played. This helped me get down to 1218!…
 
-Athletes who practice and tinker with new techniques can also find themselves in flow states, where the game feels like it is going slower and can identify the finest details of their performance to make quick changes.
+Clearly 1218 is also the wrong number of games, so I scanned the dataset and did some manual footwork to realize there were 12 games missing data! Completely missing all the game stats. I was like “how sway”, but luckily with those UIDs, I was able to google those games and get the necessary stats to fill that data in. 
 
-As I type this, I remember when [LeBron James hit that running off-balance floater to win the game in the Eastern Conference Finals in 2018](https://www.sbnation.com/lookit/2018/5/6/17324448/lebron-james-game-winning-floater-sportscenter-top-10) (If you don't care for the LeBron anecdote, replace it with Steph Curry and his half-court pull-up jumpers, or whatever). He was in "flow." Even if this wasn't a shot he explicitly practiced, he's had so many opportunities to tinker with his skillset outside of the actual game and have the confidence to take and make this shot.
+There were other quirks in the dataset, like the all-star games being included, but luckily there was some metadata for each game that let me filter those quirked games out and allowed the data to be compiled smoothly to generate the rankings data.
 
-Surely if I was still drawing boxes and arrows like I was at the outset of my career and didn't find time to synthesize what I've learned to better my arrow-box-drawing skills, my performance vs. my experience could be put into question. Some team members may be better at that synthesis than others, so giving those who may not be as sharp at developing their skills while producing more time to get better can be valuable in improving their performance.
+### Views (CSS, Javascript)
 
-These benefits of practice in sports can surely apply to other domains, including product development. It is not a concept we're unfamiliar with either, with the whole homework thing from our schooling days and all...
+As more data was cleaned and available to visualize, I toyed around with the look of the site until it basically matched my mock up:
 
-## Where's our practice?
+\[images of progression\]
 
-It can be challenging in the workplace to find opportunities to "practice," or be enabled to exercise new things you've learned. Of course, you can use free time to work on side projects as well as venture out on your own to enable yourself professionally, but it seems like the workplace model needs an explicit shift to incorporate professional enablement in work alongside professional development programs like trainings and seminars.
+### The release
 
-Professional enablement is an investment in teams. Incorporating professional enablement in the workplace does require "slowing down" output. Much of the process of being creative and producing something new should be experimentation though, so making space to do so amongst production work can be valuable for individual and team growth.
+I finally got it to a state where I thought it was shareable and sent it to a few friends, family, and co-workers. People gave it good reviews, which was great:
 
-Companies provide hack days, 10% time, and other activities that allow team members to work on something outside of the scope of their current work. These programs are fine, but if companies want to build talent, they should look to invest explicitly in professional enablement that has more of a natural flow in one's work, the same way practice has a natural flow for athletes, and heck, most-all other aspects of life: cooking, wellness, finances, etc.
+\[images of reviews\]
 
-## Professional enablement can be our practice.
+I got feedback on ways to improve it as well as requests to do this for other sports and individual players. 
 
-Most opportunity to do professional enablement is created without systems in place to do so at work. Even high-up professionals will advise you and your team members to "go out and prove the importance of what you want to do!"; that "visionary" advice of enabling yourself to do work. It's well-meaning, but why not put the onus on the company as well as the team member?
+The key feedback that validated the project though was that a majority of people appreciated the simplicity of the site compared to other stat sites. I think this project works as an enticement piece, to get people interested in the stats before having them have to deal with tables on tables of stats. Giving the data a story that is relatable to the user was important here and I think that resonated with most people who looked at it.
 
-Make it easier for your team members to get it with some professional enablement. Showing your team members that you're willing to invest in this and make space for them to build their talents will be recognized as mutually beneficial, for sure.
+### In all...
+
+It’s always fun to apply your craft to something you think is compelling at any scale. I went into this project thinking it’d be fairly easy to get all this data together and make this visualization, but even with that ease in mind, I had some trepidation with getting my hands dirty and even more trepidation after my hands were dirtied and I wanted to share the site. All that said, it all ended up going fairly well and I’m glad I was able to exercise my development prowess once again and even learn new things like how to use NodeJS and getting set up with my new favorite code editor VSCode.
+
+Check out the completed version of [NBA Top Five In]() here.
 
 👍🏿✌🏿
