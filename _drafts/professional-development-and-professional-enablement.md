@@ -16,12 +16,12 @@ It’s a silly idea, but one that allowed me to get more experience using Sketch
 
 The key questions I had to answer for this project were:
 
-    Where am I going to get NBA data?
-    Will the data be formatted the way I need it to be? 
-    If the data is not formatted the way I need it to be, how would I go about formatting it?
-    How will I rank them even after I get the data?
-    What is the interface going to look like?
-    Does this already exist?
+* Where am I going to get NBA data?
+* Will the data be formatted the way I need it to be?
+* If the data is not formatted the way I need it to be, how would I go about formatting it?
+* How will I rank them even after I get the data? 
+* What is the interface going to look like? 
+* Does this already exist?
 
 The answer to that last question is kind of… and when I say kind of, I mean yes. That said though, don’t let the product existing stop you from building it yourself! — You may find yourself solving different sets of problems than the other products with what you build or solving the existing products’ problems even better.
 
