@@ -49,6 +49,8 @@ I had a small amount of team data available and I thought it'd be fine to start 
 
 I started by just outputting the team stats I had in a table:
 
+![](/assets/2-TopFivin v0 - first draft with logos.png)
+
 With that down, I was able to iterate on that code to make it more systematic and less hard-coded.
 
 In further adding additional "rank-ables" into the data set in my rank creation functions, I found a quirk in what the data actually represented. There's a "streak" field in the Standings API data, and I came to find out it was not indicative of whether it is a wins or losses streak, where by the eyeball test, Cleveland ranked highest with "10"...losses.
@@ -61,6 +63,10 @@ Quirks like this would rear their ugly head again...
 
 I eventually got a good amount of data out of the API to display and started to make it more readable using Bootstrap for styling. This was followed up with trying to build sortability into the table. Then I found [Bootstrap Table](https://bootstrap-table.com/)). Made building the table much easier and it resolved something I thought would be clever in a quite simple way. Shout out to frameworks and stuff.
 
+Progress to this point:
+
+![](/assets/4-TopFivin v0 - added bootstraptable and minimal formatting.png)
+
 ### Needs some order (Trello)
 
 At this point, I realized I wasn't really moving towards my initial mockup with that I was doing.
@@ -69,7 +75,7 @@ This project needed some order. Once I got my hands dirty, I noticed I got to a 
 
 That said, I employed a piece of paper to start jotting down actions to clear the path to the final result: \[written gameplan\]
 
-I then translated that into cards in Trello to get in the practices of rewarding myself. See, I was getting in touch with the "accomplishies"; some gross combination of the fuzzies and feeling accomplished.
+I then translated that into cards in Trello to get in the practices of rewarding myself. See, I was getting in touch with the "accomplish-ies"; some gross combination of the fuzzies and feeling accomplished.
 
 \[trello board v1 screenshot\]
 
@@ -83,7 +89,7 @@ I never resorted back to Trello because one weekend, I was like “you know what
 
 and I realized the project was more straightforward than I anticipated and I got to work on the main view of the site:
 
-\[images\]
+![](/assets/6-TopFivin v0 - interactive view continued.png)
 
 ### Data strikes back (Rapid API)
 
@@ -93,7 +99,7 @@ The first was overtime points. I was looking at the score returned by the API I 
 
 To produce the assists, rebounds, and other per-game statistics, I actually got data for each individual game, and of course there are 1569 games in a season…at least I allowed myself to not give it an afterthought as I put the app together. Of course, there are 1230 games in a season, and the API actually had a large amount of duplicated data in it. Woe is me. To weasel out of dealing with duplicates, I had to “cleanse” the 1569 games by making a UID based on the teams that played the game and the date the game was played. This helped me get down to 1218!…
 
-Clearly 1218 is also the wrong number of games, so I scanned the dataset and did some manual footwork to realize there were 12 games missing data! Completely missing all the game stats. I was like “how sway”, but luckily with those UIDs, I was able to google those games and get the necessary stats to fill that data in. 
+Clearly 1218 is also the wrong number of games, so I scanned the dataset and did some manual footwork to realize there were 12 games missing data! Completely missing all the game stats. I was like “how sway”, but luckily with those UIDs, I was able to google those games and get the necessary stats to fill that data in.
 
 There were other quirks in the dataset, like the all-star games being included, but luckily there was some metadata for each game that let me filter those quirked games out and allowed the data to be compiled smoothly to generate the rankings data.
 
@@ -101,7 +107,11 @@ There were other quirks in the dataset, like the all-star games being included, 
 
 As more data was cleaned and available to visualize, I toyed around with the look of the site until it basically matched my mock up:
 
-\[images of progression\]
+![](/assets/7-TopFivin v0 - interactive view looking more like mockup.png)
+
+![](/assets/9-TopFivin v0 - we can show hide additional stats.png)
+
+![](/assets/screencapture-sheriffjolaoso-topfivin-2019-05-25-13_09_38.png)
 
 ### The release
 
@@ -109,7 +119,7 @@ I finally got it to a state where I thought it was shareable and sent it to a fe
 
 \[images of reviews\]
 
-I got feedback on ways to improve it as well as requests to do this for other sports and individual players. 
+I got feedback on ways to improve it as well as requests to do this for other sports and individual players.
 
 The key feedback that validated the project though was that a majority of people appreciated the simplicity of the site compared to other stat sites. I think this project works as an enticement piece, to get people interested in the stats before having them have to deal with tables on tables of stats. Giving the data a story that is relatable to the user was important here and I think that resonated with most people who looked at it.
 
