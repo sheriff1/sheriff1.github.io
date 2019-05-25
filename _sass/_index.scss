@@ -458,6 +458,12 @@ BLOG
   letter-spacing: 0.5px;
 }
 
+.post-content-container > p > img
+{
+  max-width: 100%;
+  height: auto;
+}
+
 .tag-life{
   background-color: #3e8ed4;
 }
