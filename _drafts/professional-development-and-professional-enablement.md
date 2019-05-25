@@ -117,7 +117,7 @@ As more data was cleaned and available to visualize, I toyed around with the loo
 
 I finally got it to a state where I thought it was shareable and sent it to a few friends, family, and co-workers. People gave it good reviews, which was great:
 
-\[images of reviews\]
+![](/assets/Screen Shot 2019-05-25 at 1.11.36 PM.png)
 
 I got feedback on ways to improve it as well as requests to do this for other sports and individual players.
 
