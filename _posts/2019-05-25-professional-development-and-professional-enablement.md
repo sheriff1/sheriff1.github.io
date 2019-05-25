@@ -31,11 +31,11 @@ As for the other questions, let me take you into the project…
 
 ### Getting NBA data...
 
-My general API experience was minimal, but I knew it'd be the best route to try this project as opposed to copy-pasting a state table from NBA.com... I didn’t know much about how to use an API, but luckily for this project I was able to find a very clear-cut API that had good examples I could build upon.
+My general API experience was minimal, but I knew it'd be the best route to try this project as opposed to copy-pasting a state table from NBA.com... I didn’t know much about how to use an API, but luckily for this project, I was able to find a very clear-cut API that had good examples I could build upon.
 
-RapidAPI is a repository of various APIs people can access, and I was lucky enough to find API-NBA in there. They had code snippets I could use and after installing all the node modules and such, I was quickly able to do some file outputs with JSON data that I could then use directly for the site. It was fortunately much easier than I anticipated.
+RapidAPI is a repository of various APIs people can access, and I was lucky enough to find API-NBA in there. They had code snippets I could use, and after installing all the node modules and such, I was quickly able to do some file outputs with JSON data that I could then use directly for the site. It was fortunately, much easier than I anticipated.
 
-I also realized that for the website, I didn't have to call upon the API ongoing, but instead I only needed the API to then format the data for my own use, which was great.
+I also realized that for the website, I didn't have to call upon the API ongoing, but instead, I only needed the API to then format the data for my use, which was great.
 
 ### Formatting NBA data (NodeJS, Javascript, JSON)
 
@@ -121,11 +121,11 @@ I finally got it to a state where I thought it was shareable and sent it to a fe
 
 I got feedback on ways to improve it as well as requests to do this for other sports and individual players.
 
-The key feedback that validated the project though was that a majority of people appreciated the simplicity of the site compared to other stat sites. I think this project works as an enticement piece, to get people interested in the stats before having them have to deal with tables on tables of stats. Giving the data a story that is relatable to the user was important here and I think that resonated with most people who looked at it.
+The key feedback that validated the project, though was that a majority of people appreciated the simplicity of the site compared to other stat sites. I think this project works as an enticement piece, to get people interested in the stats before having them have to deal with tables on tables of stats. Giving the data a story that is relatable to the user was important here, and I think that resonated with most people who looked at it.
 
 ### In all...
 
-It’s always fun to apply your craft to something you think is compelling at any scale. I went into this project thinking it’d be fairly easy to get all this data together and make this visualization, but even with that ease in mind, I had some trepidation with getting my hands dirty and even more trepidation after my hands were dirtied and I wanted to share the site. All that said, it all ended up going fairly well and I’m glad I was able to exercise my development prowess once again and even learn new things like how to use NodeJS and getting set up with my new favorite code editor VSCode.
+It’s always fun to apply your craft to something you think is compelling at any scale. I went into this project thinking it’d be fairly easy to get all this data together and make this visualization, but even with that ease in mind, I had some trepidation with getting my hands dirty and even more trepidation after my hands were dirtied and I wanted to share the site. All that said, it all ended up going fairly well, and I’m glad I was able to exercise my development prowess once again and even learn new things like how to use NodeJS and getting set up with my new favorite code editor VSCode.
 
 Check out the completed version of [NBA Top Five In](https://sheriffjolaoso.com/topfivin) here.
 
