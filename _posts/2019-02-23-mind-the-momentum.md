@@ -49,4 +49,4 @@ If you our your team is considering doing this (or any other practice or process
 
 And even if teams ask these questions and make changes, there isn't a guarantee that your venture into changing aspects about your project or process. With diligence though, you can guarantee that you and your team have been deliberate in making decisions on how to go forward confidently as opposed to resting on previous decision-making in what may be an ever-changing environment.
 
-✌🏿
+👍🏿✌🏿

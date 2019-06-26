@@ -41,4 +41,4 @@ And are these ghosts even the actual people that viewed my profile or stock phot
 
 All that said... LinkedIn: C'mon fam.
 
-✌🏿
+👍🏿✌🏿

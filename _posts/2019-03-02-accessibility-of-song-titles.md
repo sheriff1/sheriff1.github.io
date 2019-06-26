@@ -92,4 +92,4 @@ Not sure what drove either Spotify, Quavo, QC, or whomever to make the change in
 
 If there are any artists out there that want to team up on assuring their media is consumable by as many parties as possible through being considerate of accessibility from an ability standpoint, and various others dimensions may they be physical, social, international, or economic drop me a line. It doesn’t have to be music either! Imagine providing a consumer of your art more than one route that’s just as valuable and vivid as your primary route, thereby growing your fan base? There’s a wide range of experimental options that would be great to explore, and I’d be glad to guide you to get your art to as many people as possible.
 
-✌🏿
+👍🏿✌🏿

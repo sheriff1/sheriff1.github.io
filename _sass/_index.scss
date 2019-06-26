@@ -276,6 +276,10 @@ HOME PAGE
   max-width: 1200px;
 }
 
+.work-card{
+  border: 1px solid black;
+}
+
 .messin-with-iphone-image {
   max-height: 700px;
 }
@@ -433,6 +437,12 @@ BLOG
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  border-bottom: 1px solid lightgrey;
+  padding: 2em 1em;
+}
+
+.blog-post-index-listing:last-child{
+  border-bottom: 0;
 }
 
 .blog-post-index-listing-link{
@@ -446,6 +456,12 @@ BLOG
   padding: 0.5em 1.5em;
   font-size: 0.5em;
   letter-spacing: 0.5px;
+}
+
+.post-content-container > p > img
+{
+  max-width: 100%;
+  height: auto;
 }
 
 .tag-life{
@@ -536,6 +552,7 @@ MEDIUM BREAKPOINT FIXES - 768px (from bootstrap)
     max-height: initial;
     overflow-y: initial;
     border-left: initial;
+    padding: initial;
     border-top: 1px solid lightgrey;
   }
 
