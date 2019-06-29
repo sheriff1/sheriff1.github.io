@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+/************************************************************************
+GLOBAL
+************************************************************************/
+
+body {
+    overflow-x: hidden;
+    color: $font-black;
+}
+
+header {
+    background-color: #ffffff;
+    color: $font-black;
+    border-bottom: 1px solid #ececec;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Hind Siliguri', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    letter-spacing: -1px;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p,
+a,
+ul,
+li,
+span {
+    font-family: 'Lato', serif;
+    font-size: 15px;
+}
+
+hr {
+    margin: 0;
+}
+
+
+/************************************************************************
+HEADER
+
+HEADER REFERENCE: https://codepen.io/team/css-tricks/pen/YqaKYR
+************************************************************************/
+
+.header-name {
+    font-weight: 600;
+    font-family: 'Hind Siliguri', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    color: $font-black;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.navigation-item {
+    padding: 0 1em;
+    color: inherit;
+}
+
+
+/************************************************************************
+FOOTER
+
+FOOTER REFERENCE: https://css-tricks.com/couple-takes-sticky-footer
+************************************************************************/
+
+footer {
+    background-color: #282e31;
+    color: #F5F7FA;
+}
+
+.footer-social-icons {
+    text-decoration: none;
+    color: inherit;
+    font-size: 12px;
+}
+
+.footer-social-icons:hover {
+    text-decoration: none;
+    color: #007bff;
+}
+
+
+/************************************************************************
+UTILITIES
+************************************************************************/
+
+
+/************************************************************************
+BIG-MEDIUM BREAKPOINT FIXES - 991px
+************************************************************************/
+
+@media all and (max-width: 991px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1.25em;
+    }
+}
+
+
+/************************************************************************
+MEDIUM BREAKPOINT FIXES - 768px (from bootstrap)
+************************************************************************/
+
+@media all and (max-width: 767px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1.25em;
+    }
+}

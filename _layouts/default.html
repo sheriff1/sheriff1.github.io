@@ -22,7 +22,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
     <!--CSS-->
-
     <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri:400,600|Lato:400,700" rel="stylesheet"> {% if page.layout == "post" %}
     <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700" rel="stylesheet"> {% endif %}
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
@@ -30,14 +29,12 @@
     <link rel="stylesheet" href="/css/main.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
     <!--CSS-->
+
     <!--JS-->
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
     <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
-    <!--
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script> -->
-    <!--JS-->
 
     {% seo %}
 </head>
@@ -45,12 +42,9 @@
 <body class="site">
 
     <header>
-        <div class="under-shadow navigation py-2">
-            <a class="navigation-item" href="/">
-                <div class="header-name">
+        <div class="navigation py-2">
+            <a class="header-name navigation-item" href="/">
                     Sheriff Jolaoso
-                    <hr class="d-xl-none d-lg-none d-md-none d-sm-none" style="margin: 5px;" />
-                </div>
             </a>
             <div>
                 <a class="navigation-item" href="/#work">Work</a>
@@ -64,6 +58,7 @@
     <div class="site-content">
         {{content}}
     </div>
+
     <footer>
         <div class="navigation">
             <div>

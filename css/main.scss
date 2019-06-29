@@ -5,6 +5,5 @@
 $font-black: #40464e;
 $font-lightgrey: #D8DCDE;
 @import "normalize";
-@import "suit-utils";
-@import "index";
-@import "blog-posts";
+@import "global";
+@import "home";
