@@ -391,9 +391,10 @@ WORK PAGES - V.TECH
 }
 
 .vt-case-study-hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1em;
 }
 
 .vt-case-study-big-numbers {
