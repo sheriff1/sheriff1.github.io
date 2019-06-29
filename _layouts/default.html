@@ -1,80 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-  {% if jekyll.environment == 'production' %}
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49486232-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    {% if jekyll.environment == 'production' %}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49486232-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'UA-49486232-1');
-  </script>
-  {% endif %}
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
-  <!--CSS-->
+        gtag('config', 'UA-49486232-1');
+    </script>
+    {% endif %}
 
-  <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri:400,600|Lato:400,700" rel="stylesheet">
-  {% if page.layout == "post" %}
-    <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700" rel="stylesheet">
-  {% endif %}
-  <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="/css/main.css" type="text/css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
-  <!--CSS-->
-  <!--JS-->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-  <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
-  <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
-  <!--
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <!--CSS-->
+
+    <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri:400,600|Lato:400,700" rel="stylesheet"> {% if page.layout == "post" %}
+    <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700" rel="stylesheet"> {% endif %}
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/main.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+    <!--CSS-->
+    <!--JS-->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+    <!--
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script> -->
-  <!--JS-->
+    <!--JS-->
 
-  {% seo %}
+    {% seo %}
 </head>
 
 <body class="site">
 
-  <header>
-    <div class="under-shadow navigation u-pad-vs">
-      <a class="navigation-item" href="/">
-        <div class="header-name">
-          Sheriff Jolaoso
-          <hr class="d-xl-none d-lg-none d-md-none d-sm-none" style="margin: 5px;"/>
+    <header>
+        <div class="under-shadow navigation py-2">
+            <a class="navigation-item" href="/">
+                <div class="header-name">
+                    Sheriff Jolaoso
+                    <hr class="d-xl-none d-lg-none d-md-none d-sm-none" style="margin: 5px;" />
+                </div>
+            </a>
+            <div>
+                <a class="navigation-item" href="/#work">Work</a>
+                <a class="navigation-item" href="/assets/sheriff-jolaoso-resume.pdf" target="_blank">Resumé</a>
+                <a class="navigation-item" href="/blog">Blog</a>
+                <a class="navigation-item" href="mailto:sheriff.jolaoso@gmail.com">Email Me</a>
+            </div>
         </div>
-      </a>
-      <div>
-        <a class="navigation-item" href="/#work">Work</a>
-        <a class="navigation-item" href="/assets/sheriff-jolaoso-resume.pdf" target="_blank">Resumé</a>
-        <a class="navigation-item" href="/blog">Blog</a>
-        <a class="navigation-item" href="mailto:sheriff.jolaoso@gmail.com">Email Me</a>
-      </div>
-    </div>
-  </header>
+    </header>
 
-  <div class="site-content">
-    {{content}}
-  </div>
-  <footer>
-    <div class="navigation">
-      <div>
-        <div class="u-pad-am">
-            <a class="footer-social-icons" href="https://www.linkedin.com/in/sjolaoso/"><i class="fab fa-3x fa-linkedin"></i></a>
-            <a class="footer-social-icons" href="https://twitter.com/shrffj"><i class="fab fa-3x fa-twitter-square u-space-ls"></i></a>
-            <a class="footer-social-icons" href="mailto:sheriff.jolaoso@gmail.com"><i class="fa fa-3x fa-envelope-square u-space-ls" aria-hidden="true"></i></a>
-        </div>
-      </div>
-      <div>
-        <a class="u-space-bn navigation-item footer-social-icons" href="/blog/credits">Credits</a>
-      </div>
+    <div class="site-content">
+        {{content}}
     </div>
-  </footer>
+    <footer>
+        <div class="navigation">
+            <div>
+                <div class="p-2">
+                    <a class="footer-social-icons" href="https://www.linkedin.com/in/sjolaoso/"><i class="fab fa-3x fa-linkedin"></i></a>
+                    <a class="footer-social-icons" href="https://twitter.com/shrffj"><i class="fab fa-3x fa-twitter-square ml-2"></i></a>
+                    <a class="footer-social-icons" href="mailto:sheriff.jolaoso@gmail.com"><i class="fa fa-3x fa-envelope-square ml-2" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div>
+                <a class="m-0 navigation-item footer-social-icons" href="/blog/credits">Credits</a>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
