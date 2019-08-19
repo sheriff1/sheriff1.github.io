@@ -295,6 +295,10 @@ HOME PAGE
     max-height: 400px;
 }
 
+.home-bottom-section {
+    padding: 2em 8em;
+}
+
 
 /************************************************************************
 WORK PAGES - ALL
@@ -323,6 +327,13 @@ WORK PAGES - ALL
     padding-top: 0.5em;
     font-size: 0.85em;
     text-align: center;
+    color: #aaaaaa;
+    font-style: italic;
+}
+
+.caption-no-align {
+    padding-top: 0.5em;
+    font-size: 0.85em;
     color: #aaaaaa;
     font-style: italic;
 }
@@ -653,6 +664,9 @@ SMALL BREAKPOINT FIXES - 576px (from bootstrap)
     .hero {
         margin: 0 1em;
         font-size: .8em;
+    }
+    .home-bottom-section {
+        padding: 2em 2em;
     }
 }
 
