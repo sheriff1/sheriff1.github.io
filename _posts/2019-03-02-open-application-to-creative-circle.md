@@ -35,6 +35,8 @@ I want us to give back to the people.
 
 I want us to build meaningful things and ideas together.
 
+I want to be held accountable, because consistency & discipline are important if we want to build.
+
 I want us to push the bounds of our abilities, improve, and become better at what we do. Let's make a brand, merch, open a beef patty cart, whatever we want; let's be open to giving it a try and see where it takes us. I know my mom's Jollof recipe by heart, so we can start there.
 
 I want to goof around & celebrate together. Work hard, play hard, all dat. Even basic stuff; hit me up when you don't have anyone else to go to that movie with.
