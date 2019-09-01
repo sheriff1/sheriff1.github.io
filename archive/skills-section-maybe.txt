@@ -1,0 +1,66 @@
+<div class="home-bottom-section">
+    <h1 class="u-text-center">My Skills</h1>
+    <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-6 d-flex">
+            <section>
+                <h2 class="skills-header">Service Design</h2>
+                <p>Service design has recently become my bread-and-butter. Keenly focusing on how customers interact with not only the product, but the teams who support, onboard, sell, market, and train users on the product.</p>
+
+                <p class="mb-0">Day-to-day, I’m doing:</p>
+                <ul>
+                <li>Business case development to align customer, user, and business needs </li>
+                <li>Customer journey mapping at a micro and macro-level</li>
+                <li>Service blueprinting to highlight the true detail of what service interactions look like </li>
+                </ul>
+
+            </section>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-6 d-flex">
+            <section>
+                <h2 class="skills-header">Product Design</h2>
+                <p>With my product design work, I’ve focused on evaluating multiple options and providing interface recommendations and basis to my teams. when a set of designs become the clear option to go forth with.</p>
+
+                <p class="mb-0">When working with engineering teams, I am:</p>
+                <ul>
+                <li>Wireframing and prototyping for design communication and usability testing</li>
+                <li>Facilitating ideation & co-creating via design studios</li>
+                <li>Performing dual-track discovery and development support along side product managers and engineering teams</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-6 d-flex">
+            <section>
+                <h2 class="skills-header">Design Strategy</h2>
+                <p>Knowing design is well-intended, getting to a point where ideas are implemented thoroughly requires cross-functional orchestration that can be hard to uncover. I work to assure all considerations around strategy for product & service are identified through the lifecycle of a project.</p>
+
+                <p class="mb-0">Working with directors and team members cross-functionally, I find myself:</p>
+                <ul>
+                <li>Developing experiments for product & customer-facing teams</li>
+                <li>Structuring programs to insure durable solutions and processes are maintained</li>
+                <li>Exercising common design thinking methodologies to accomplish goals end-to-end for users and the business</li>
+                </ul>
+            </section>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-6 d-flex">
+            <section>
+                <h2 class="skills-header">Research</h2>
+                <p>The core of all of this work is research. The point in which insight can be identified through gathering information from a variety of resources. It’s knowingly a key part of any design work, and I look to lead and support research within my skill set.</p>
+
+                <p class="mb-0">To support all of my methods, I'm commonly:</p>
+                <ul>
+                <li>Interviewing & surveying customers, users, stakeholders, and others</li>
+                <li>Performing customer & business data synthesis</li>
+                <li>Synthesizing and sharing findings accordingly so stakeholders have a shared understanding of insights</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</div>
+
+.skills-header {
+    border-bottom: 1px solid $font-lightgrey;
+    background-color: aliceblue;
+    padding: 0.25em;
+}
