@@ -55,26 +55,50 @@ ags: work
 
 <hr class="u-space-hl" />
 <div class="u-pad-am case-study-content-container">
-<h2>Scalability & component design decisions</h3>
-<p>Our opportunity was already well-defined, but what additionally arose beyond the initial brief was the focus on making the portal design scalable beyond its current set of features. Both customers and internal stakeholders mentioned features they may want to include in the portal in the future. This led us to the follow considerations for the portal design:
+<h2>Developing the interface</h2>
+<p>Our opportunity was already well-defined, but what additionally arose beyond the initial brief was the focus on making the portal design scalable beyond its current set of features. </p>
+
+<p>One of the first evaluations we did was of two different metaphors for our home page. I had done comparative research with personal finance tools and transaction-based interfaces and narrowed in on a card-based interface (left) and a launchpad style interface (right) for our consideration:</p>
+
+<p class="text-center">
+    <a data-fancybox href="/assets/appfolio/launchpad-v-card.png">
+        <img class="img-fluid appfolio-case-study-img" src="/assets/appfolio/launchpad-v-card.png" alt="image from metaphor testing of prototypes"/>
+    </a>
 </p>
 
-    <div class="row u-space-vm vcenter">
-        <div class="col-lg-7 col-xl-7 col-md-6 col-sm-12">
-            <h3 class="appfolio-feature-header">Responsive</h3>
-            <p>Making the portal work well on mobile devices was a priority. At the time, users had to pinch-and-zoom if they were using the portal on a mobile device. We chose to make the site responsive, where components did not have to be redesigned or scaled poorly depending on your device’s size. This decision allowed us to focus on having to make design choices once that would work for all devices going into the future.</p>
-            <h3 class="appfolio-feature-header">Modular</h3>
-            <p>We decided to use cards as the primary content component for the portal. Cards could be used on the home page to show overviews of each subpage and then when a user navigated to a subpage, they could continue to find parceled, organized information in the same format.</p>
-            <h3 class="appfolio-feature-header">Scalable</h3>
-            <p>We wanted to assure that if additional features and content were added to the online portal, the considerations of how to introduce these features would be minimal, allowing teams to work smoother to evaluate their additions without the overhead of creating new components.</p>
-        </div>
-        <div class="col-lg-5 col-xl-5 col-md-6 col-sm-12 u-space-vm u-text-center">
-            <a data-fancybox href="/assets/appfolio/cards.png">
-                <img class="img-fluid" src="/assets/appfolio/cards.png" alt="Sample of online portal cards" />
-            </a>
-			<p class="caption">Sample of online portal cards</p>
-        </div>
-    </div>
+<p class="caption">The two home page prototypes we initially evaluated</p>
+
+<hr/>
+<p class="pt-4">What we quickly learned was that in this type of portal, users wanted the view to provide information concisely without having to do much interaction, especially since the depth of user flows in the portal were not too involved and were not performed too often.</p>
+
+<p>With this learning and our research, I did an inventory of the types of cards both customers and internal stakeholders mentioned they may want to include in the portal in the future:</p>
+
+<p class="text-center">
+    <a data-fancybox href="/assets/appfolio/lofi-cards.png">
+        <img class="img-fluid appfolio-case-study-img" src="/assets/appfolio/lofi-cards.png" alt="Sample of online portal cards in low fidelity"/>
+    </a>
+<p>
+<p class="caption">Sampling of cards based on research</p>
+</div>
+
+<hr class="u-space-hl" />
+<div class="u-pad-am case-study-content-container">
+<h2>Prototyping & evaluating concepts end-to-end</h2>
+
+<p>
+    With ideas in-hand and understanding our initial goals of maintaing successful usage and adoption of the online portal, I set out to create an interactive prototype we could use to do usability testing with. 
+</p>
+
+<p class="text-center">
+    <a data-fancybox href="/assets/appfolio/initial-prototype.png">
+        <img class="img-fluid" src="/assets/appfolio/initial-prototype.png" alt="initial prototype of online portal"/>
+    </a>
+<p>
+<p class="caption">Initial desktop and mobile prototype used for usability testing</p>
+
+<p>Through usability testing, we learned more about the nuances of the portal and waht we could introduce in our MVP that would benefit users. These features included showing a breakdown of expenses in the payment flow itself, color-coding the status of maintenance requests, and information architecture changes that would make the header and footer of the site simpler.</p>
+<p>This prototype also guided the engineering team members in developing what would become the interface. The prototype was also used in partnership with our visual design team to develop a pattern library to help assure we wouldn't have to redefine styles in the future.</p>
+
 </div>
 
 <hr class="u-space-hl" />
@@ -101,6 +125,34 @@ ags: work
 
     <p class="u-pad-tm"> Even though some of our customers expressed this sentiment, others were OK with us testing with their tenants and homeowners. We also understood that anyone who fits the profile of a renter or homeowner could evaluate our design decisions so we conducted guerilla testing of our prototype as well as formal moderated and unmoderated testing on mobile and desktop devices with various people, some of which happened to use our portal or similar portals to make payments.</p>
 </div>
+
+
+
+<hr class="u-space-hl" />
+<div class="u-pad-am case-study-content-container">
+<h2>Scalability & component design decisions</h2>
+
+<p>Going through the process of developing the interface and doing usability testing created clarity in how the team, and the business going forward, could create a scalable interface from the menu to the pages themselves. I developed the following design principles for the portal that are used today as more teams develop features and implement changes to the portal:
+</p>
+
+    <div class="row u-space-vm vcenter">
+        <div class="col-lg-7 col-xl-7 col-md-6 col-sm-12">
+            <h3 class="appfolio-feature-header">Responsive</h3>
+            <p>Making the portal work well on mobile devices was a priority. At the time, users had to pinch-and-zoom if they were using the portal on a mobile device. We chose to make the site responsive, where components did not have to be redesigned or scaled poorly depending on your device’s size. This decision allowed us to focus on having to make design choices once that would work for all devices going into the future.</p>
+            <h3 class="appfolio-feature-header">Modular</h3>
+            <p>We decided to use cards as the primary content component for the portal. Cards could be used on the home page to show overviews of each subpage and then when a user navigated to a subpage, they could continue to find parceled, organized information in the same format.</p>
+            <h3 class="appfolio-feature-header">Scalable</h3>
+            <p>We wanted to assure that if additional features and content were added to the online portal, the considerations of how to introduce these features would be minimal, allowing teams to work smoother to evaluate their additions without the overhead of creating new components.</p>
+        </div>
+        <div class="col-lg-5 col-xl-5 col-md-6 col-sm-12 u-space-vm u-text-center">
+            <a data-fancybox href="/assets/appfolio/cards.png">
+                <img class="img-fluid" src="/assets/appfolio/cards.png" alt="Sample of online portal cards in high fidelity" />
+            </a>
+			<p class="caption">Sample of online portal cards</p>
+        </div>
+    </div>
+</div>
+
 
 <hr class="u-space-hl" />
 <div class="u-pad-am case-study-content-container">

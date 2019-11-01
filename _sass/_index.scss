@@ -376,6 +376,9 @@ WORK PAGES - APPFOLIO
     border-bottom: 1px solid #007ad4;
 }
 
+.appfolio-case-study-img {
+    max-width: 70%;
+}
 
 /************************************************************************
 WORK PAGES - V.TECH
@@ -539,6 +542,9 @@ BIG-MEDIUM BREAKPOINT FIXES - 991px
         margin: 0 4em;
         font-size: .9em;
     }
+    .appfolio-case-study-img {
+        max-width: 80%;
+    }
 }
 
 
@@ -613,6 +619,10 @@ MEDIUM BREAKPOINT FIXES - 768px (from bootstrap)
         margin: 0 2em;
         font-size: .85em;
     }
+
+    .appfolio-case-study-img {
+        max-width: 90%;
+    }
 }
 
 
@@ -667,6 +677,9 @@ SMALL BREAKPOINT FIXES - 576px (from bootstrap)
     }
     .home-bottom-section {
         padding: 2em 2em;
+    }
+    .appfolio-case-study-img {
+        max-width: 100%;
     }
 }
 
